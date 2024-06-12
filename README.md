@@ -1,6 +1,6 @@
-# Learn Prompt Engineering, Developing Custom GPTs and Multi AI Agent Systems
+# Learn Cloud Native AI Powered Microservices Design and Development
 
-This repo is part of the [Certified Cloud Native Applied Generative AI Engineer](https://docs.google.com/document/d/15usu1hkrrRLRjcq_3nCTT-0ljEcgiC44iSdvdqrCprk/edit?usp=sharing) program. It covers the second quater of the course work:
+This repo is part of the [Certified Cloud Native Applied Generative AI Engineer](https://docs.google.com/document/d/15usu1hkrrRLRjcq_3nCTT-0ljEcgiC44iSdvdqrCprk/edit?usp=sharing) program. It covers the thrid quarter of the course work:
 
 ## Quarter 2: Advanced Prompt Engineering, Developing Custom GPTs and Multi AI Agent Systems
 
