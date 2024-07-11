@@ -1,5 +1,9 @@
 # What are GPTs?
 
+**[Watch: Personal AI with IQ, EQ, and AQ](https://www.facebook.com/share/r/FnWHoVjkQXKRSiRy/?mibextid=0VwfS7)**
+
+**[Watch: How to Create Custom GPT | OpenAI Tutorial](https://www.youtube.com/watch?v=0Q1AQAxpdGg)**
+
 OpenAI's custom GPTs, also known as **GPTs**, allow users to create tailored versions of ChatGPT for specific purposes. Here's how they work:
 
 1. **Creating a GPT**:
