@@ -16,7 +16,7 @@
 
 **NVIDIA NIM** is part of **NVIDIA AI Enterprise**, offering a set of **accelerated inference microservices**. These microservices allow organizations to run **AI models on NVIDIA GPUs** across various environments, including the **cloud**, **data centers**, **workstations**, and **PCs**. Here are the key points about NIM:
 
-1. **Deployment Flexibility**: NIM enables seamless deployment of AI models anywhere, whether it's on-premises or in the cloud. You can use it with industry-standard APIs.
+1. **Deployment Flexibility**: NIM enables seamless deployment of AI models anywhere, whether it's on-premises or in the cloud. You can use it with industry-standard APIs. We recommend running it on the cloud.
 
 2. **Generative AI Support**: NIM supports a wide range of AI models, including both **NVIDIA AI foundation models** and **custom models**. This makes it suitable for various generative AI tasks.
 
@@ -29,6 +29,18 @@
 If you're interested in trying it out, you can explore generative AI examples using NIM in the **NVIDIA API catalog**. Developers can get **1,000 inference credits free** on any available models to start developing their applications. 
 
 **NVIDIA NIM** is designed to work seamlessly with **Kubernetes** and **Docker**. These technologies provide the necessary infrastructure for deploying and managing containerized applications, including AI models. By leveraging Kubernetes for orchestration and Docker for containerization, NIM ensures flexibility, scalability, and efficient resource utilization. 
+
+## OS Support
+
+NVIDIA NIM officially supports Linux operating systems. While they recommend Ubuntu 20.04 or later versions, other Linux distributions may also work but are not officially supported.
+
+Here's a summary of the OS requirements for NVIDIA NIM:
+
+* **Officially Supported:** Linux (Ubuntu 20.04 or later recommended)
+* **Unofficially May Work:** Other Linux distributions (check individual NIM documentation for details)
+* **Not Supported:** Windows, macOS
+
+It's important to note that some NVIDIA NIMs, especially those for large language models (LLMs), have specific GPU requirements. Make sure to consult the individual NVIDIA NIM documentation for any specific hardware or software requirements.
 
 ## Best Laptops to Run Nvidia NIMs
 
@@ -45,8 +57,7 @@ When it comes to running NVIDIA NIM inference microservices, you'll want a lapto
 Remember to consider your specific requirements and budget when choosing a gaming laptop. Both the HP OMEN Transcend 14 and the GeForce RTX 40 Series laptops provide impressive performance for gaming and creative work!
 
 
-Remember that the choice ultimately depends on your specific requirements and budget. If you're looking for a laptop primarily for generative AI work, consider one with a powerful GPU like the Asus ROG Zephyrus M16. If you're interested in deploying NIM microservices, ensure your laptop supports NVIDIA GPUs for optimal performance. 🚀🔥⁴
-
+Remember that the choice ultimately depends on your specific requirements and budget. If you're looking for a laptop primarily for generative AI work, consider one with a powerful GPU like the Asus ROG Zephyrus M16. If you're interested in deploying NIM microservices, ensure your laptop supports NVIDIA GPUs for optimal performance.
 
 [Best Nvidia GeForce RTX gaming laptops in 2024 | Laptop Mag](https://www.laptopmag.com/best-picks/best-nvidia-geforce-rtx-gaming-laptops)
 
@@ -59,5 +70,28 @@ Remember that the choice ultimately depends on your specific requirements and bu
 [Laptops with NVIDIA GeForce RTX Graphics Cards | CyberPowerPC UK](https://www.cyberpowersystem.co.uk/category/laptops/nvidia/)
 
 [Gaming Laptop Price in Pakistan](https://www.paklap.pk/laptops-prices/gaming-laptops.html)
+
+[PRE-BUILT GAMING PC IN PAKISTAN](https://redtech.pk/gaming-pc-price-in-pakistan-pre-built-gaming-pc/)
+
+## Minimum GPU Requirement for Running Llama 3
+
+While there's no official minimum GPU requirement listed for running the Llama 3 70B model on NVIDIA NIM, user experiences and the model's size suggest a powerful GPU is necessary. Here's what we can gather:
+
+* **High Memory Requirement:** The 70B parameter size of Llama 3 70B indicates a significant memory footprint. 
+* **User Reports:**  Reports suggest users have successfully run the model on an NVIDIA RTX 4090 with 32GB of VRAM [3]. However, some users encountered limitations even with this powerful GPU.
+
+**Recommendations:**
+
+* **High-End GPU:** Consider a high-end NVIDIA GPU with at least 32GB of VRAM, such as the RTX 4090 series or newer models as they become available.
+* **Check NIM Documentation:** While there's no official minimum listed, the individual NVIDIA NIM documentation for Llama 3 70B might mention specific recommendations  ([https://catalog.ngc.nvidia.com/orgs/nim/teams/meta/containers/llama3-70b-instruct](https://catalog.ngc.nvidia.com/orgs/nim/teams/meta/containers/llama3-70b-instruct)).
+* **Community Resources:** Explore online communities like Reddit's r/ollama for user experiences and discussions on running Llama 3 70B with different GPUs ([https://www.reddit.com/r/LocalLLaMA/comments/1bk4j9t/hardware_suggestion_for_llama_2_70b/](https://www.reddit.com/r/LocalLLaMA/comments/1bk4j9t/hardware_suggestion_for_llama_2_70b/)).
+
+**Additional Considerations:**
+
+* **Performance:** Even with a powerful GPU, performance might not be optimal. Some users report lower GPU utilization with Llama 3 70B compared to smaller models.
+* **Alternatives:** Consider the 8B version of Llama 3 if you have a less powerful GPU. It might offer a better balance between performance and hardware requirements.
+
+Remember, hardware requirements can change over time. It's always best to consult the latest documentation and community resources for the most accurate information.
+
 
 
