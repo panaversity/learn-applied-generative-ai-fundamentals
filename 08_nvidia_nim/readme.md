@@ -12,6 +12,8 @@
 
 [JOIN: NVIDIA Developer Program](https://developer.nvidia.com/developer-program)
 
+[A Simple Guide to Deploying Generative AI with NVIDIA NIM](https://developer.nvidia.com/blog/a-simple-guide-to-deploying-generative-ai-with-nvidia-nim/)
+
 **NVIDIA NIM** is part of **NVIDIA AI Enterprise**, offering a set of **accelerated inference microservices**. These microservices allow organizations to run **AI models on NVIDIA GPUs** across various environments, including the **cloud**, **data centers**, **workstations**, and **PCs**. Here are the key points about NIM:
 
 1. **Deployment Flexibility**: NIM enables seamless deployment of AI models anywhere, whether it's on-premises or in the cloud. You can use it with industry-standard APIs.
