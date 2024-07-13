@@ -61,6 +61,7 @@ Compare having a conversation with Siri or Alexa to that of ChatGPT or Gemini �
 Large natively multimodal models like GPT-4o, Gemini Pro 1.5 or Claude Sonnet 3.5 are at the top end of this level and are the first of the ‘frontier’ grade AIs. They are capable of complex, multi-threaded conversations, have memory and can do some limited reasoning. 
 
 Level 2. **Reasoners**:
+
     - AI with human-level problem-solving abilities.
     - Comparable to a human with a PhD, even without access to textbooks.
     - We're currently moving toward this level.
@@ -75,6 +76,7 @@ In the same way that GPT-3.5 was at the start of level 1, the start of level 2 c
 Meanwhile, Anthropic is expected to launch Claude Opus 3.5 in the coming months — this is the big brother to the impressive Claude 3.5 Sonnet and we’re still waiting on Google’s Gemini Ultra 1.5. This is the largest version of the Gemini model family.
     
 Level 3. **Agents**:
+
     - Systems capable of taking actions on behalf of users.
     - Enables real-world, unsupervised decision-making.
     - Use cases: Driverless vehicles, autonomous robots, personal assistants.
@@ -84,6 +86,7 @@ Level 3 is when the AI models begin to develop the ability to create content or 
 There are a number of companies building agentic systems including Devin, the AI software engineer from Cognition, but these use existing models, clever prompting and set instructions rather than being something the AI can do natively on its own.
 
 Level 4. **Innovators**:
+
     - AI that aids in invention and discovery.
     - Creative problem-solving and novel solutions.
     - Pushing the boundaries of what's possible.
@@ -95,6 +98,7 @@ If you ask an AI to create a new language, without giving it specific words it w
 OpenAI has a new partnership with the Los Alamos National Laboratory to develop AI-based bioscience research. This is more immediate in the fact they want to create safe ways to use AI in a lab setting, but will also likely help formulate plans for when AI can invent its own creations.
 
 Level 5. **Organizations**:
+
     - AI that can perform work at an organizational scale.
     - Handling complex tasks across various domains.
     - Integration into business processes.
