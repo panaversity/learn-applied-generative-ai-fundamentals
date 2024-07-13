@@ -4,7 +4,7 @@ The future of AI is no longer just about powerful algorithms, it's about **agent
 
 **The Dawn of Multi-Agent Orchestration:**
 
-The groundwork for agentic AI is already being laid. Pioneering open-source frameworks like AutoGen, Crew, and Langchain's LangGraph are paving the way for multi-agent orchestration. These frameworks allow developers to build and manage teams of AI agents that can work together to achieve complex objectives. This signifies a significant leap forward, moving beyond single-purpose AI models.
+The groundwork for agentic AI is already being laid. Pioneering open-source frameworks like AutoGen, CrewAI, and Langchain's LangGraph are paving the way for multi-agent orchestration. These frameworks allow developers to build and manage teams of AI agents that can work together to achieve complex objectives. This signifies a significant leap forward, moving beyond single-purpose AI models.
 
 **The Big Players Join the Game:**
 
