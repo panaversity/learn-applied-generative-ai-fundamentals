@@ -252,8 +252,6 @@ The number of parameters in **large language models (LLMs)** can vary significan
 
 3. **Llama**: Llama models come in various versions, ranging from **7 billion to 70 billion parameters**⁴.
 
-Certainly! Here are the parameter details for **GPT-4** and **Llama 3**:
-
 4. **GPT-4**:
    - **Model**: GPT-4, developed by OpenAI.
    - **Parameters**: GPT-4 is a multimodal large language model with an impressive **1.76 trillion parameters**⁷.
@@ -274,8 +272,6 @@ The number of parameters in a large language model (LLM) represents the total co
 ### Reading Material:
 
 **[Understand LLM sizes](https://web.dev/articles/llm-sizes)**
-
-
 
 ## Generative AI vs. Deep Learning
 
