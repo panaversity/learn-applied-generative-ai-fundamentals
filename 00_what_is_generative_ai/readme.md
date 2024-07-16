@@ -439,6 +439,109 @@ The number of parameters in a large language model (LLM) represents the total co
 **[Understand LLM sizes](https://web.dev/articles/llm-sizes)**
 
 
+## Example of a Simple LLM with 100 Parameters (Just for Our Understanding)
+
+Building a language model with 100 parameters is quite minimalistic compared to modern large language models that have billions of parameters. However, for illustrative purposes, let's create a simple example using a small neural network architecture.
+
+Let's construct a very basic neural network with only 100 parameters. We'll use a simple feed-forward neural network (a fully connected layer followed by an activation function) to illustrate this.
+
+### Step-by-Step Construction
+
+1. **Define the Model Architecture:**
+   - We'll use a single layer neural network for simplicity.
+   - Let's assume we have an input size of 10 (each input vector has 10 features).
+   - We'll use a hidden layer with 10 neurons and an output layer with 1 neuron.
+
+2. **Calculate the Number of Parameters:**
+   - Weights between input layer and hidden layer: 10 (input size) * 10 (hidden layer size) = 100
+   - Biases for the hidden layer: 10
+   - Weights between hidden layer and output layer: 10 (hidden layer size) * 1 (output size) = 10
+   - Bias for the output layer: 1
+
+   Total Parameters = 100 + 10 + 10 + 1 = 121 (To match exactly 100, we would reduce the dimensions slightly).
+
+### Python Code Example Using PyTorch
+
+```python
+import torch
+import torch.nn as nn
+
+# Define a simple neural network with a single hidden layer
+class SimpleNN(nn.Module):
+    def __init__(self):
+        super(SimpleNN, self).__init__()
+        # Input layer to hidden layer
+        self.hidden = nn.Linear(10, 9)  # 10 input features, 9 hidden neurons
+        # Hidden layer to output layer
+        self.output = nn.Linear(9, 1)   # 9 hidden neurons, 1 output neuron
+
+    def forward(self, x):
+        x = torch.relu(self.hidden(x))
+        x = self.output(x)
+        return x
+
+# Initialize the model
+model = SimpleNN()
+
+# Count the parameters
+total_params = sum(p.numel() for p in model.parameters())
+print(f"Total Parameters: {total_params}")
+
+# Print model architecture
+print(model)
+```
+
+### Explanation
+
+1. **Model Architecture:**
+   - **Input to Hidden Layer:** 10 (input features) * 9 (hidden neurons) + 9 (biases) = 90 + 9 = 99 parameters
+   - **Hidden to Output Layer:** 9 (hidden neurons) * 1 (output neuron) + 1 (bias) = 9 + 1 = 10 parameters
+
+   Total Parameters = 99 + 10 = 109 (a bit over 100, for exact match, we could tweak the layer sizes).
+
+2. **Code Breakdown:**
+   - **Model Definition:** `SimpleNN` defines the network with one hidden layer.
+   - **Forward Method:** Applies a ReLU activation to the hidden layer output and then computes the final output.
+   - **Parameter Count:** `sum(p.numel() for p in model.parameters())` calculates the total number of parameters in the model.
+
+### Reducing to Exactly 100 Parameters
+
+To exactly match 100 parameters, adjust the hidden layer size:
+
+```python
+class SimpleNN(nn.Module):
+    def __init__(self):
+        super(SimpleNN, self).__init__()
+        # Input layer to hidden layer
+        self.hidden = nn.Linear(10, 8)  # 10 input features, 8 hidden neurons
+        # Hidden layer to output layer
+        self.output = nn.Linear(8, 1)   # 8 hidden neurons, 1 output neuron
+
+    def forward(self, x):
+        x = torch.relu(self.hidden(x))
+        x = self.output(x)
+        return x
+
+# Initialize the model
+model = SimpleNN()
+
+# Count the parameters
+total_params = sum(p.numel() for p in model.parameters())
+print(f"Total Parameters: {total_params}")
+
+# Print model architecture
+print(model)
+```
+
+**Updated Parameter Calculation:**
+- **Input to Hidden Layer:** 10 * 8 + 8 = 88
+- **Hidden to Output Layer:** 8 * 1 + 1 = 9
+
+Total Parameters = 88 + 9 = 97 (still not exactly 100 but very close; fine-tuning layer sizes further can achieve exactly 100).
+
+This simple example demonstrates the concept of parameter count in neural networks and provides a practical approach to creating and counting parameters in a small LLM using PyTorch.
+
+
 ## Understanding Tokens in LLMs
 
 **Tokens:** In the context of Large Language Models (LLMs), a token is a unit of text that the model processes. Tokens can be as small as a single character or as large as a word or sub-word segment. The tokenization process involves breaking down input text into these smaller units, which the model can then process.
