@@ -11,7 +11,7 @@ Generative AI refers to a subset of artificial intelligence that involves creati
 
 Currently it is not availble for Windows. Therefore, use the [web](https://chatgpt.com/) version on Windows for now.
 
-[Microsoft Copilot AI App](https://www.microsoft.com/en-us/copilot-app)
+[Install Microsoft Copilot AI App](https://www.microsoft.com/en-us/copilot-app)
 
 [ChatGPT 4o Announcement](https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/)
 
