@@ -9,7 +9,9 @@ Generative AI refers to a subset of artificial intelligence that involves creati
 
 [Install ChatGPT on Your Mobile and Desktop](https://openai.com/chatgpt/download/)
 
-Currently it is not availble for Windows. Therefore, use the [web](https://chatgpt.com/) version on Windows for now. 
+Currently it is not availble for Windows. Therefore, use the [web](https://chatgpt.com/) version on Windows for now.
+
+[Microsoft Copilot AI App](https://www.microsoft.com/en-us/copilot-app)
 
 [ChatGPT 4o Announcement](https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/)
 
