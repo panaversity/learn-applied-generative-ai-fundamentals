@@ -5,7 +5,7 @@ Generative AI refers to a subset of artificial intelligence that involves creati
 
 **Install ChatGPT**
 
-[Start](https://openai.com/chatgpt/)
+[Start ChatGPT](https://openai.com/chatgpt/)
 
 [Install ChatGPT on Your Mobile and Desktop](https://openai.com/chatgpt/download/)
 
@@ -18,6 +18,8 @@ Currently it is not availble for Windows. Therefore, use the [web](https://chatg
 [Install on Mobile](https://gemini.google.com/app/download)
 
 [On Desktop use on Web for Now](https://gemini.google.com/app)
+
+**Llama 3 Intalled Automatically with Whatsapp**
 
 
 ### Key Technologies
@@ -160,10 +162,9 @@ Large Language Models (LLMs) are advanced machine learning models trained on vas
 3. **Transformer Architecture:** The underlying architecture for most LLMs, transformers, uses self-attention mechanisms to efficiently handle long-range dependencies in text.
 
 **Examples:**
-- GPT-3 (Generative Pre-trained Transformer 3)
-- BERT (Bidirectional Encoder Representations from Transformers)
-- T5 (Text-To-Text Transfer Transformer)
-- PaLM (Pathways Language Model)
+- GPT-4 (Generative Pre-trained Transformer 4)
+- Google Gemini 
+- Meta Llama 3
 
 ### Foundation Models
 
