@@ -19,7 +19,7 @@ Currently it is not availble for Windows. Therefore, use the [web](https://chatg
 
 [On Desktop use on Web for Now](https://gemini.google.com/app)
 
-**Llama 3 Intalled Automatically with Whatsapp**
+**Llama 3 Installed Automatically with Whatsapp**
 
 
 ### Key Technologies
