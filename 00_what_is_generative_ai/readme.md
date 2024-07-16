@@ -445,70 +445,62 @@ Building a language model with 100 parameters is quite minimalistic compared to 
 
 Let's construct a very basic neural network with only 100 parameters. We'll use a simple feed-forward neural network (a fully connected layer followed by an activation function) to illustrate this.
 
-### Step-by-Step Construction
+Let's break it down into simple steps and concepts, and then provide a straightforward example.
 
-1. **Define the Model Architecture:**
-   - We'll use a single layer neural network for simplicity.
-   - Let's assume we have an input size of 10 (each input vector has 10 features).
-   - We'll use a hidden layer with 10 neurons and an output layer with 1 neuron.
+### What Does "100 Parameters" Mean?
 
-2. **Calculate the Number of Parameters:**
-   - Weights between input layer and hidden layer: 10 (input size) * 10 (hidden layer size) = 100
-   - Biases for the hidden layer: 10
-   - Weights between hidden layer and output layer: 10 (hidden layer size) * 1 (output size) = 10
-   - Bias for the output layer: 1
+In the context of machine learning and neural networks, a **parameter** is a part of the model that is learned from the training data. These parameters include **weights** and **biases**. 
 
-   Total Parameters = 100 + 10 + 10 + 1 = 121 (To match exactly 100, we would reduce the dimensions slightly).
+- **Weights:** These are the connections between neurons in different layers of the network.
+- **Biases:** These are additional parameters added to the neuron before the activation function is applied.
 
-### Python Code Example Using PyTorch
+### Simple Neural Network Example
+
+Let's build a very basic neural network with exactly 100 parameters. We'll use the concept of neurons, which are the basic units of a neural network.
+
+### Steps to Build the Model
+
+1. **Input Layer:** This is where the data enters the network. Let's say we have 10 features (e.g., 10 different measurements or attributes of something).
+
+2. **Hidden Layer:** This layer processes the input features. We'll use a hidden layer with 9 neurons.
+
+3. **Output Layer:** This layer gives us the final output. We'll have 1 neuron in the output layer.
+
+### How Parameters are Counted
+
+- **Weights between Input and Hidden Layer:** Each input feature is connected to each neuron in the hidden layer.
+  - Number of weights = 10 input features * 9 neurons = 90
+- **Biases in Hidden Layer:** Each of the 9 neurons in the hidden layer has its own bias.
+  - Number of biases = 9
+
+- **Weights between Hidden and Output Layer:** Each neuron in the hidden layer is connected to the output neuron.
+  - Number of weights = 9 neurons in hidden layer * 1 output neuron = 9
+- **Bias in Output Layer:** The single output neuron has its own bias.
+  - Number of biases = 1
+
+Total Parameters = 90 (weights) + 9 (biases) + 9 (weights) + 1 (bias) = 109
+
+To have exactly 100 parameters, let's adjust the hidden layer to have 8 neurons:
+
+- **Weights between Input and Hidden Layer:** 10 input features * 8 neurons = 80
+- **Biases in Hidden Layer:** 8 neurons = 8
+
+- **Weights between Hidden and Output Layer:** 8 neurons * 1 output neuron = 8
+- **Bias in Output Layer:** 1
+
+Total Parameters = 80 (weights) + 8 (biases) + 8 (weights) + 1 (bias) = 97
+
+We will need to adjust further, but for simplicity, let's go with this setup to illustrate.
+
+### Python Example Using PyTorch
+
+Let's implement this simple neural network using PyTorch, a popular machine learning library.
 
 ```python
 import torch
 import torch.nn as nn
 
-# Define a simple neural network with a single hidden layer
-class SimpleNN(nn.Module):
-    def __init__(self):
-        super(SimpleNN, self).__init__()
-        # Input layer to hidden layer
-        self.hidden = nn.Linear(10, 9)  # 10 input features, 9 hidden neurons
-        # Hidden layer to output layer
-        self.output = nn.Linear(9, 1)   # 9 hidden neurons, 1 output neuron
-
-    def forward(self, x):
-        x = torch.relu(self.hidden(x))
-        x = self.output(x)
-        return x
-
-# Initialize the model
-model = SimpleNN()
-
-# Count the parameters
-total_params = sum(p.numel() for p in model.parameters())
-print(f"Total Parameters: {total_params}")
-
-# Print model architecture
-print(model)
-```
-
-### Explanation
-
-1. **Model Architecture:**
-   - **Input to Hidden Layer:** 10 (input features) * 9 (hidden neurons) + 9 (biases) = 90 + 9 = 99 parameters
-   - **Hidden to Output Layer:** 9 (hidden neurons) * 1 (output neuron) + 1 (bias) = 9 + 1 = 10 parameters
-
-   Total Parameters = 99 + 10 = 109 (a bit over 100, for exact match, we could tweak the layer sizes).
-
-2. **Code Breakdown:**
-   - **Model Definition:** `SimpleNN` defines the network with one hidden layer.
-   - **Forward Method:** Applies a ReLU activation to the hidden layer output and then computes the final output.
-   - **Parameter Count:** `sum(p.numel() for p in model.parameters())` calculates the total number of parameters in the model.
-
-### Reducing to Exactly 100 Parameters
-
-To exactly match 100 parameters, adjust the hidden layer size:
-
-```python
+# Define a simple neural network with one hidden layer
 class SimpleNN(nn.Module):
     def __init__(self):
         super(SimpleNN, self).__init__()
@@ -518,8 +510,8 @@ class SimpleNN(nn.Module):
         self.output = nn.Linear(8, 1)   # 8 hidden neurons, 1 output neuron
 
     def forward(self, x):
-        x = torch.relu(self.hidden(x))
-        x = self.output(x)
+        x = torch.relu(self.hidden(x))  # Apply ReLU activation to hidden layer
+        x = self.output(x)  # Output layer
         return x
 
 # Initialize the model
@@ -533,14 +525,33 @@ print(f"Total Parameters: {total_params}")
 print(model)
 ```
 
-**Updated Parameter Calculation:**
-- **Input to Hidden Layer:** 10 * 8 + 8 = 88
-- **Hidden to Output Layer:** 8 * 1 + 1 = 9
+### Explanation of the Code
 
-Total Parameters = 88 + 9 = 97 (still not exactly 100 but very close; fine-tuning layer sizes further can achieve exactly 100).
+1. **Import Libraries:**
+   - `torch` and `torch.nn` are part of the PyTorch library.
 
-This simple example demonstrates the concept of parameter count in neural networks and provides a practical approach to creating and counting parameters in a small LLM using PyTorch.
+2. **Define the Model:**
+   - `SimpleNN` class defines our neural network.
+   - `self.hidden` creates the hidden layer with 10 inputs and 8 neurons.
+   - `self.output` creates the output layer with 8 inputs and 1 output neuron.
 
+3. **Forward Method:**
+   - This method defines how data passes through the network.
+   - `torch.relu(self.hidden(x))` applies the ReLU activation function to the hidden layer.
+   - `self.output(x)` computes the final output.
+
+4. **Initialize the Model:**
+   - `model = SimpleNN()` creates an instance of our neural network.
+
+5. **Count Parameters:**
+   - `sum(p.numel() for p in model.parameters())` calculates the total number of parameters.
+
+6. **Print Results:**
+   - The total number of parameters and the model architecture are printed.
+
+### Summary
+
+By adjusting the sizes of the layers, we built a simple neural network with approximately 100 parameters. This example illustrates how parameters are calculated in a neural network and how to implement a basic model using PyTorch.
 
 ## Understanding Tokens in LLMs
 
