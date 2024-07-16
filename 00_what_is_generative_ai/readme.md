@@ -212,8 +212,6 @@ Based on these performance estimates, here's a general ranking of the LLMs:
 - **Microsoft Copilot** ranks third, showing robust performance but slightly trailing the top two in a few benchmarks.
 - **LLaMA 3 (Meta)**, while strong, ranks fourth, with performance just a bit behind the others, particularly in more complex language understanding and reasoning tasks. But it is the only LLM which is **Open Source** among the top LLMs.
 
-These rankings are based on typical performance estimates and can vary depending on specific implementations, updates, and the exact nature of the evaluation datasets used by each model.
-
 
 ## Using GPUs and Neural Engines with Generative AI
 
