@@ -3,6 +3,23 @@
 **Definition:**
 Generative AI refers to a subset of artificial intelligence that involves creating new content, such as images, text, music, and more, rather than simply analyzing or interpreting existing data. It uses machine learning models, particularly generative models, to produce outputs that are novel and often indistinguishable from human-created content.
 
+**Install ChatGPT**
+
+[Start](https://openai.com/chatgpt/)
+
+[Install ChatGPT on Your Mobile and Desktop](https://openai.com/chatgpt/download/)
+
+Currently it is not availble for Windows. Therefore, use the [web](https://chatgpt.com/) version on Windows for now. 
+
+[ChatGPT 4o Announcement](https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free/)
+
+**Install Google Gemini**
+
+[Install on Mobile](https://gemini.google.com/app/download)
+
+[On Desktop use on Web for Now](https://gemini.google.com/app)
+
+
 ### Key Technologies
 
 1. **Generative Adversarial Networks (GANs):**
