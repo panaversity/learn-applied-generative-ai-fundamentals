@@ -1,4 +1,4 @@
-# The Rise of Agentic AI: A New Era of Intelligent Collaboration
+# The Rise of Agentic AI: A New Era of Intelligent Collaboration (AI Stack 4)
 
 The future of AI is no longer just about powerful algorithms, it's about **agentic AI**. These AI agents will be proactive, autonomous systems capable of pursuing goals and adapting to their environment. This shift marks a significant change from the current reactive AI models that rely on human input.
 

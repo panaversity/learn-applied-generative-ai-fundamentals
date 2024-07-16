@@ -1,4 +1,4 @@
-# The Next Wave of AI: Humanoids and Physical AI
+# The Next Wave of AI: Humanoids and Physical AI (AI Stack 5)
 
 #### Introduction
 As artificial intelligence continues to evolve, the next frontier is emerging in the form of humanoids and physical AI. These advanced systems will not only process information and generate responses but also interact with the physical world in human-like ways. The base framework for these humanoids is expected to be ROS 2 (Robot Operating System 2), which provides a flexible and scalable environment for developing robotic applications. Additionally, large language models (LLMs) will play a crucial role in enhancing the capabilities of these physical AI systems.
