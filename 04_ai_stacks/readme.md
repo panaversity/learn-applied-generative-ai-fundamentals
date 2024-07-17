@@ -1,12 +1,56 @@
-# AI App Development Stacks: A Detailed Overview
+# Future of Cloud Computing
+
+**Kubernetes** and **Kubernetes-powered serverless platforms** are going to be dominant forces in the future of cloud computing. Here's a breakdown of each approach and why they're gaining traction:
+
+**Native Kubernetes:**
+
+- **What it is:** Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications. It provides a platform-agnostic way to orchestrate your containerized microservices across different cloud providers or even on-premises environments.
+- **Benefits:**
+    - **Flexibility and Control:** You have full control over the underlying infrastructure, allowing for fine-grained configuration and customization.
+    - **Portability:** Your applications are portable across Kubernetes clusters, regardless of the cloud provider.
+    - **Scalability:** Kubernetes excels at scaling applications up or down dynamically based on demand.
+- **Challenges:**
+    - **Complexity:** Managing Kubernetes itself can be complex, requiring expertise in container orchestration and infrastructure management.
+    - **Operational Overhead:** Running a Kubernetes cluster adds operational overhead to your team.
+
+**Kubernetes-Powered Serverless Platforms:**
+
+- **What it is:** These platforms are built on top of Kubernetes, offering a serverless abstraction. You deploy your containerized applications, and the platform takes care of scaling, resource management, and infrastructure provisioning.
+- **Benefits:**
+    - **Simplified Development and Deployment:** Developers focus on code, not infrastructure. You deploy containerized applications with minimal configuration.
+    - **Cost Efficiency:** You only pay for the resources your applications use, leading to potentially lower costs compared to managing your own Kubernetes cluster.
+    - **Scalability:** Serverless platforms automatically scale your applications based on demand.
+- **Challenges:**
+    - **Vendor Lock-In:** You might be locked into the platform's specific features and vendor ecosystem.
+    - **Limited Control:** You have less control over the underlying infrastructure compared to native Kubernetes.
+    - **Potential Cost Issues:** Certain use cases with frequent cold starts or long-running tasks could lead to higher costs than native Kubernetes.
+
+**Choosing the Right Approach:**
+
+The best choice depends on your specific needs:
+
+- **Native Kubernetes:** If you need maximum flexibility, control, and portability across cloud environments, and have the resources to manage a Kubernetes cluster, then native Kubernetes might be the way to go.
+- **Kubernetes-Powered Serverless Platforms:** If you prioritize ease of development, rapid deployment, and cost efficiency for applications with variable workloads, a serverless platform like Azure Container Apps could be a good fit.
+
+**Future Trends:**
+
+Cloud providers are continuously innovating to bridge the gap between Kubernetes and serverless. We can expect:
+
+- **Simplified Kubernetes Management:** Tools and platforms that make managing Kubernetes easier, potentially making it more accessible to teams without deep Kubernetes expertise.
+- **Advanced Serverless Features:** Serverless platforms offering more control and customization options, potentially blurring the lines between serverless and container orchestration.
+
+By understanding the strengths and weaknesses of both approaches, you can make an informed decision about which path best suits your current and future cloud computing needs.
+
+
+## AI Stacks: A Detailed Overview
 
 There are different AI stacks suited for various development approaches. Here's a detailed breakdown of the four stacks which we focus on:
 
-Note: In the next two steps we also discuss Agentic Stack and Humaniod Robotic stack. This brings the total number of possible stacks to six.
+Note: In the next two steps we also discuss Agentic Stack and Humaniod Robotic stack. This brings the **total number of possible stacks to six**.
 
 ## 0. Local AI Microservices Development Stack 
 
-I'd be glad to explain the local AI microservices development stack you've described and its suitability for cloud-native deployments on Kubernetes and serverless platforms like Azure Container Apps:
+We will explain the local AI microservices development stack for development and its suitability for cloud-native deployments on Kubernetes and Kubernetes powered serverless platforms like Azure Container Apps (AKA):
 
 **Local Development Stack:**
 
