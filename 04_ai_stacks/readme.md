@@ -48,7 +48,7 @@ There are different AI stacks suited for various development approaches. Here's 
 
 Note: In the next two steps we also discuss Agentic Stack and Humaniod Robotic stack. This brings the **total number of possible stacks to six**.
 
-## 0. Local AI Microservices Development Stack 
+## Stack 0. Local AI Microservices Development Stack 
 
 We will explain the local AI microservices development stack for development and its suitability for cloud-native deployments on Kubernetes and Kubernetes powered serverless platforms like Azure Container Apps (AKA):
 
@@ -60,13 +60,18 @@ We will explain the local AI microservices development stack for development and
 
 - **FastAPI:** This Python framework is well-suited for building high-performance APIs, including those that power AI models. It's known for its simplicity, speed, and ease of use.
 
-- **SQLModel:** This Python library simplifies database interactions within FastAPI applications. It helps you define database models, perform CRUD operations (Create, Read, Update, Delete), and connect to a database (in this case, PostgreSQL).
+- **SQLModel:** This Python library simplifies database interactions within FastAPI applications. It helps you define database models, perform CRUD operations (Create, Read, Update, Delete), and connect to a database (in our case, PostgreSQL).
 
 - **PostgreSQL:** This is a popular open-source relational database management system (RDBMS) that can be used to store and manage data for your AI applications. It's known for its reliability, scalability, and robustness.
 
-- **Dapr:** This open-source runtime from Microsoft simplifies building microservices by providing built-in functionality for things like state management, service invocation, pub/sub messaging, and binding to external services. It can be integrated with Docker Compose for local development and Kubernetes for cloud deployments.
+- **Dapr:** This open-source runtime from Microsoft simplifies building microservices by providing built-in functionality for things like state management, service invocation, pub/sub messaging, and binding to external services. Note that for state management we use SQLModel not Dapr, but we use all other Dapr services. Dapr can be integrated with Docker Compose for local development and Kubernetes for cloud deployments.
 
 - **Kafka:** This distributed streaming platform is a good choice for handling real-time data pipelines in AI applications. It allows you to ingest, buffer, and process data streams in a scalable and fault-tolerant manner.
+
+- **Serverless AI Inference APIs:** We can use AI Serverless APIs e.g. OpenAI Chat Completion APIs or OpenAI Assistant APIs etc. In future custom GPTs might also have access through serverless APIs.
+
+- **Open Source LLM Container (Nvidia NIMs):** We can use Nvidia NIMs which are containerized microserices hosting Open Source LLMs. We can also fine tune them.
+
 
 **Cloud-Native Deployments:**
 
@@ -79,13 +84,13 @@ We will explain the local AI microservices development stack for development and
 
 - Platforms like Azure Container Apps offer a serverless abstraction on top of Kubernetes. This means you don't have to manage the underlying infrastructure (VMs, scaling), but still benefit from the scalability and flexibility of Kubernetes.
 - You can typically deploy your containerized microservices directly to these serverless platforms. However, some adjustments might be needed:
-    - **Dapr:** Azure Container Apps natively supports Dapr, you can potentially use this sidecar container approach to inject Dapr functionality into your microservices.
+    - **PostgreSQL:** You might need to use a managed PostgreSQL service offered by the cloud provider instead of running your own PostgreSQL cluster.
     - **Kafka:** You might need to use a managed Kafka service offered by the cloud provider instead of running your own Kafka cluster.
 
 **Overall Benefits:**
 
 - **Consistency:** This local development stack promotes consistent behavior from development to production by using containers and Kubernetes.
-- **Scalability:** Docker Compose and Kubernetes facilitate scaling your microservices up or down as needed.
+- **Scalability:** For local development Docker Compose is best suited because you dont require scalability for local development and for deployment Kubernetes facilitate scaling your microservices up or down as needed.
 - **Fast Iteration:** Devcontainers allows developers to quickly spin up their development environment, speeding up the development cycle.
 - **Modern Tools:** The chosen tools (FastAPI, SQLModel, Dapr) are well-suited for building and deploying modern microservices.
 
@@ -95,7 +100,7 @@ We will explain the local AI microservices development stack for development and
 
 By carefully considering these factors, you can leverage your local development stack for streamlined cloud-native deployments on Kubernetes and serverless platforms like Azure Container Apps.
 
-## 1. Serverless with OpenAI APIs
+## Stack 1. Serverless with OpenAI APIs
 
 ##### Overview
 The serverless AI stack leverages serverless computing and managed APIs to build scalable, efficient, and cost-effective AI applications. This approach is ideal for developers and companies wanting to utilize pre-built AI capabilities without managing underlying infrastructure and AI model training.
