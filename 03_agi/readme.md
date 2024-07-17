@@ -113,9 +113,11 @@ Altman has previously said we could achieve AGI this decade. If he’s correct t
 Remember, AGI represents a level of intelligence surpassing humans across all tasks. While progress is being made, achieving true AGI remains a challenging endeavor!
 
 
-## OpenAI's 'Strawberry' AI: The Future of Advanced Reasoning Unveil
+## OpenAI's 'Strawberry' AI: The Future of Advanced Reasoning Unveiled
 
 [Project Strawberry](https://www.youtube.com/watch?v=M8eGClX0zD8)
+
+[Exclusive: OpenAI working on new reasoning technology under code name ‘Strawberry’](https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-technology-under-code-name-strawberry-2024-07-12/)
 
 OpenAI's "Strawberry" project is an exciting endeavor aimed at enhancing the reasoning capabilities of artificial intelligence (AI) models. Let me break it down for you:
 
