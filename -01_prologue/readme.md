@@ -6,7 +6,17 @@
 
 **[From AlexNet to AI Factories: Nvidia's Vision for a $100 Trillion Generative AI Economy](https://www.linkedin.com/pulse/from-alexnet-ai-factories-nvidias-vision-100-trillion-schwentker-bgt7c/)**
 
+**Chip-maker Nvidia became the world's most valuable company after its share price climbed to an all-time high on June 19, 2024. It is now worth $3.34tn (£2.63tn), with the price having nearly doubled since the start of this year.**
+
+[AI frenzy makes Nvidia the world's most valuable company](https://www.bbc.com/news/articles/cyrr40x0z2mo)
+
+![nvidia price](nvidia.png "nvidia price")
+
+![top ten price](topten.png "top ten price")
+
 Nvidia is ushering in a new industrial revolution driven by generative AI - a fundamentally new way of computing. This revolution is centered around large language models and foundation models that can understand and generate content across different modalities like text, images, video, and more. It marks a shift from simply retrieving pre-recorded data to generating tailored content on-the-fly using AI.
+
+
 
 Nvidia CEO Jensen Huang has signaled that his company aims to introduce a [new version of its flagship AI chips each year](https://asia.nikkei.com/Business/Technology/Jensen-Huang-hints-Nvidia-is-aiming-for-new-AI-chip-every-year) as the world's most valuable chipmaker aims to unlock $100 trillion worth of opportunities in a "new Industrial Revolution."
 
