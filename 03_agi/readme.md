@@ -115,7 +115,7 @@ Remember, AGI represents a level of intelligence surpassing humans across all ta
 
 ## OpenAI's 'Strawberry' AI: The Future of Advanced Reasoning Unveiled
 
-[Project Strawberry](https://www.youtube.com/watch?v=M8eGClX0zD8)
+[Watch: STRAWBERRY: OpenAI's MOST POWERFULL AI Ever With Human-Level Reasoning](https://www.youtube.com/watch?v=TOFb8YMPTnE)
 
 [Exclusive: OpenAI working on new reasoning technology under code name ‘Strawberry’](https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-technology-under-code-name-strawberry-2024-07-12/)
 
