@@ -21,6 +21,10 @@ Currently it is not availble for Windows. Therefore, use the [web](https://chatg
 
 [On Desktop use on Web for Now](https://gemini.google.com/app)
 
+**[Built-in Gemini Nano in Chrome Browser](https://developer.chrome.com/docs/ai/built-in)**
+
+[How to run Gemini Nano locally in your browser](https://huggingface.co/blog/Xenova/run-gemini-nano-in-your-browser)
+
 **Llama 3 Installed Automatically with Whatsapp**
 
 
