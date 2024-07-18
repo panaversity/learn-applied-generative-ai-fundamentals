@@ -4,6 +4,10 @@ The future of AI is no longer just about powerful algorithms, it's about **agent
 
 **[Watch: The Future of Knowledge Assistants: Jerry Liu](https://www.youtube.com/watch?v=zeAyuLc_f3Q)**
 
+**[Watch: AI Agents Explained: How This Changes Everything](https://www.youtube.com/watch?v=obFilwqWpDI)**
+
+**[Watch: AI Pioneer Shows The Power of AI AGENTS - "The Future Is Agentic"](https://www.youtube.com/watch?v=ZYf9V2fSFwU)**
+
 **The Dawn of Multi-Agent Orchestration:**
 
 The groundwork for agentic AI is already being laid. Pioneering open-source frameworks like AutoGen, CrewAI, and Langchain's LangGraph are paving the way for multi-agent orchestration. These frameworks allow developers to build and manage teams of AI agents that can work together to achieve complex objectives. This signifies a significant leap forward, moving beyond single-purpose AI models.
