@@ -1,4 +1,16 @@
-# Getting Started
+# Prologue
+
+## The $100 Trillion Opportunity
+
+**[Watch: The $100 Trillion AI Industrial Revolution by NVIDIA's Jensen Huang](https://www.youtube.com/watch?v=e5Zol4RYq2o)**
+
+**[From AlexNet to AI Factories: Nvidia's Vision for a $100 Trillion Generative AI Economy](https://www.linkedin.com/pulse/from-alexnet-ai-factories-nvidias-vision-100-trillion-schwentker-bgt7c/)**
+
+Nvidia is ushering in a new industrial revolution driven by generative AI - a fundamentally new way of computing. This revolution is centered around large language models and foundation models that can understand and generate content across different modalities like text, images, video, and more. It marks a shift from simply retrieving pre-recorded data to generating tailored content on-the-fly using AI.
+
+Nvidia CEO Jensen Huang has signaled that his company aims to introduce a [new version of its flagship AI chips each year](https://asia.nikkei.com/Business/Technology/Jensen-Huang-hints-Nvidia-is-aiming-for-new-AI-chip-every-year) as the world's most valuable chipmaker aims to unlock $100 trillion worth of opportunities in a "new Industrial Revolution."
+
+## Ask Question: FAQ GPT
 
 [Panaversity FAQ GPT](https://chatgpt.com/g/g-8pZgUnd82-panaversity-faq-gpt)
 
