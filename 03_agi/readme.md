@@ -23,7 +23,7 @@
 
 ### Current State and Challenges
 
-As of now, AGI does not exist. Current AI systems, including advanced models like OpenAI's GPT-4, are examples of narrow AI. They excel at specific tasks they were trained on but lack the generalized cognitive abilities of AGI. Some key challenges in achieving AGI include:
+As of now, AGI does not exist. Current AI systems, including advanced models like OpenAI's GPT-4o (Generative Pre-trained Transformer 4 Omini), are examples of narrow AI. They excel at specific tasks they were trained on but lack the generalized cognitive abilities of AGI. Some key challenges in achieving AGI include:
 
 - **Computational Power:** AGI will require immense computational resources to process and integrate vast amounts of data in real time.
 - **Algorithmic Complexity:** Developing algorithms that can replicate human-like understanding, learning, and adaptability is a significant challenge.
