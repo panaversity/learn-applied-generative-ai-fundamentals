@@ -8,3 +8,6 @@ Resources:
 
 https://www.skool.com/ai-automation-agency-hub-8466/video-how-to-export-and-analyze-custom-gpt-transcripts
 
+To Get Resources from the source subscribe to:
+
+https://www.skool.com/ai-automation-agency-hub-8466

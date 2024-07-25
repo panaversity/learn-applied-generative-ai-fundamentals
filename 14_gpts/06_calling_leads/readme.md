@@ -8,4 +8,8 @@ Resources:
 
 https://www.skool.com/ai-automation-agency-hub-8466/video-how-to-build-ai-calling-bots-to-book-appointments
 
+To Get Resources from the source subscribe to:
+
+https://www.skool.com/ai-automation-agency-hub-8466
+
 
