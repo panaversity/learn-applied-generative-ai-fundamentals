@@ -21,7 +21,14 @@ https://docs.google.com/document/d/15usu1hkrrRLRjcq_3nCTT-0ljEcgiC44iSdvdqrCprk/
 Use the `git_to_pdf_converter` code to convert relevant GitHub repositories into PDFs. This code is provided in this repository and can be used locally with Docker and Poetry.
 ### **Upload Documents**
 Once the PDFs are generated, upload them to your custom GPT. Ensure that the GPT is configured to prioritize information from these documents.
-The instructions for the GPT are included in the instructions.txt file in this directory.
+
+### ***Configure GPT Instructions***
+Provide proper instructions to your custom GPT as follows:
+- Document Priority
+- Avoid Hallucination
+- Avoid Irrelevant Information
+
+The full instructions for the GPT are included in the instructions.txt file in this directory.
 
 
 
