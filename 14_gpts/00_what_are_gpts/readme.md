@@ -1,45 +1,54 @@
-# What are GPTs?
+# Creating a Custom GPT
 
-**[Watch: Personal AI with IQ, EQ, and AQ](https://www.facebook.com/share/r/FnWHoVjkQXKRSiRy/?mibextid=0VwfS7)**
+Detailed guide on creating a custom GPT with OpenAI:
 
-**[Watch: How to Create Custom GPT | OpenAI Tutorial](https://www.youtube.com/watch?v=0Q1AQAxpdGg)**
+**Prerequisites:**
 
-OpenAI's custom GPTs, also known as **GPTs**, allow users to create tailored versions of ChatGPT for specific purposes. Here's how they work:
+* An OpenAI account with a ChatGPT Plus or Enterprise subscription (Custom GPTs are not available on free plans).
 
-1. **Creating a GPT**:
-   - You can head to the [GPT editor](https://chatgpt.com/gpts/editor) or select "My GPTs" to create one.
-   - In the "Create" tab, you can message the GPT Builder to help you build a new GPT.
+**Steps:**
 
-2. **Purpose and Customization**:
-   - GPTs let you customize ChatGPT by combining instructions, extra knowledge, and specific skills.
-   - You can tailor how it communicates and provide datasets it can pull from.
-   - For example, you could create a GPT to teach math, design stickers, or assist with specific tasks at work or home.
+1. **Access the GPT Builder:** Navigate to the GPT builder through two options:
+   - Visit [https://help.openai.com/en/articles/8554397-creating-a-gpt](https://help.openai.com/en/articles/8554397-creating-a-gpt) directly.
+   - If you're already logged in to ChatGPT, click on your username and then select "My GPTs". There, you'll find the option to "Create a GPT".
 
-3. **Community-Driven Innovation**:
-   - OpenAI believes that the most incredible GPTs will come from the community.
-   - Whether you're an educator, coach, or just someone who loves building helpful tools, you can create GPTs without coding skills.
-   - The GPT Store, launching soon, will feature verified builders' creations, categorized by productivity, education, and more.
+2. **Interact with the GPT Builder:** The GPT Builder uses a conversational interface. Briefly describe the purpose of your custom GPT. 
 
-4. **Privacy and Safety**:
-   - Your chats with GPTs are not shared with builders.
-   - If a GPT uses third-party APIs, you choose whether data can be sent to those APIs.
-   - Builders can customize their GPTs while respecting privacy controls¹.
+3. **Provide Core Details (Create Tab):** 
+   - **Name and Description:** Craft a clear and descriptive name for your GPT and a brief explanation of its function.
 
-Remember, GPTs empower you to create personalized AI models for specific tasks, making them more useful in your daily life!
+4. **Configure Your GPT (Configure Tab):** This tab allows for further customization. Here's what you can adjust:
+   - **Profile Picture:** Upload your own image or use OpenAI's DALLE-2 to generate one that reflects your GPT's purpose. 
+   - **Additional Instructions:** Here's where you refine your GPT's behavior and capabilities. Provide detailed instructions and guidelines on:
+      - How your GPT should respond and interact.
+      - Specific tasks it should be able to perform.
+      - Unwanted behaviors to avoid. 
 
-## Google Gems
+5. **Fine-tune with Conversation Starters:** Conversation starters are prompts that guide your GPT's responses in specific situations. You can add prompts or remove existing ones based on your needs.
 
-Google Gems, a feature within Google's Gemini AI, is quite similar to OpenAI's custom GPTs. Both Gems and custom GPTs aim to provide users with customizable chatbot experiences tailored to specific needs and preferences¹². Here are the key points of comparison:
+**Sharing and Publishing (Optional):**
 
-1. **Customization:**
-    - **Google Gems:** Users can create personalized chatbot iterations with distinct personalities. These Gems can be tailored for specific tasks, such as acting as a gym companion, coding collaborator, or creative writing mentor.
-    - **OpenAI Custom GPTs:** Users can create customized chatbots using OpenAI's GPT models, specifying instructions directly or through conversation with the model owner.
+- By default, your custom GPT is private and only accessible to you. 
+- In the top right corner, you can choose sharing options:
+   - **Anyone with the Link:** Anyone with a ChatGPT subscription who has the link can access your GPT.
+   - **Public:** Publish your GPT to the GPT Store (coming soon), making it available to everyone.
 
-2. **Functionality:**
-    - Both Gems and custom GPTs allow users to design AI assistants capable of performing various tasks while exhibiting unique characteristics.
+**Additional Tips:**
 
-3. **Availability:**
-    - Gems will soon be available to subscribers of Gemini Advanced.
-    - Custom GPTs are accessible through OpenAI's platform.
+- **Leverage Examples:** Explore existing GPTs in the GPT Store (once available) for inspiration and to see how others have structured their custom models. 
+- **Start Simple:** Begin with a focused purpose for your GPT and gradually add complexity as you refine it.
+- **Iterate and Improve:**  The more you interact with your GPT and provide feedback, the better it will learn and adapt to your requirements.
 
-In summary, both Google Gems and OpenAI custom GPTs democratize advanced AI by enabling users to create AI tools uniquely suited to their tasks without extensive technical knowledge¹². However, the choice between them depends on individual preferences and requirements. 🌟
+By following these steps and using the GPT Builder's features, you can create a custom OpenAI GPT tailored to your specific needs and interests.
+
+## Tutorials
+
+Here are some tutorials that provide examples of creating custom GPTs with OpenAI:
+
+* **Video Tutorial: How to Create Custom GPTs in 5 Minutes (OpenAI GPTs Tutorial for Beginners)** ([YouTube](youtube.com)): This video offers a concise walkthrough, guiding you through creating a "Smith's Solar Sales Assistant" GPT. It demonstrates defining the GPT's purpose, instructions, and even integrating a custom action for calculations.
+
+* **Blog Post: How to Make Custom ChatGPT Models: 5 Easy Steps to Personalized GPTs** ([DataCamp](datacamp.com)): This blog delves into the five core steps of building a custom GPT. While not directly providing examples, it offers a clear breakdown of the process, making it easier to follow along with other example-focused tutorials.
+
+* **Additional Resources:** While not directly tutorials, exploring existing GPTs in the OpenAI GPT Store (once available) can serve as valuable examples. You'll be able to see how others have structured their GPTs for various purposes, giving you inspiration and ideas for your own creations.
+
+Remember, the key to effective custom GPT creation lies in clearly defining its purpose and providing specific instructions and examples. The tutorials above will equip you with the steps and some illustrative approaches to get you started.
