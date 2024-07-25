@@ -59,3 +59,11 @@ Here are some tutorials that provide examples of creating custom GPTs with OpenA
 * **Additional Resources:** While not directly tutorials, exploring existing GPTs in the OpenAI GPT Store (once available) can serve as valuable examples. You'll be able to see how others have structured their GPTs for various purposes, giving you inspiration and ideas for your own creations.
 
 Remember, the key to effective custom GPT creation lies in clearly defining its purpose and providing specific instructions and examples. The tutorials above will equip you with the steps and some illustrative approaches to get you started.
+
+References:
+
+[How to Create Custom GPT | OpenAI Tutorial](https://www.youtube.com/watch?v=0Q1AQAxpdGg)
+
+[Creating a GPT](https://help.openai.com/en/articles/8554397-creating-a-gpt)
+
+[OpenAI’s custom GPT Store is now open to all for free](https://www.theverge.com/2024/5/13/24155582/openai-custom-gpt-store-available-free-subscribers)
