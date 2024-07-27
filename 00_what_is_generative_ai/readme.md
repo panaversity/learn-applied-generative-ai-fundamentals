@@ -180,7 +180,7 @@ These are typical performance ranges for the LLMs in question, based on publicly
    - **HellaSwag:** ~83-85
    - **WinoGrande:** ~83-85
 
-4. **LLaMA 3 (Meta):**
+4. **LLaMA 3.1 (Meta):**
    - **GLUE:** ~88-89
    - **SuperGLUE:** ~87
    - **SQuAD:** ~91 (F1), ~87 (EM)
