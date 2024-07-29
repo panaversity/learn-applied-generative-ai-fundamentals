@@ -4,7 +4,7 @@ Detailed guide on creating a custom GPT with OpenAI:
 
 **Prerequisites:**
 
-* An OpenAI account with a ChatGPT Plus or Enterprise subscription (Custom GPTs are not available on free plans).
+* An OpenAI account. Free users have limited access to Custom GPTs. A ChatGPT Plus subscription ($20/month) provides enhanced access compared to free users, while an Enterprise subscription offers the highest level of access and benefits.
 
 **Steps:**
 
