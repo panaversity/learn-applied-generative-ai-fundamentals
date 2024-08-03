@@ -22,6 +22,8 @@ Essentially, it's a significant step forward in making AI interactions feel more
 
 ## NVIDIA's Digital Human: James
 
+[New NVIDIA Digital Human Technologies Enhance Customer Interactions Across Industriesi](https://blogs.nvidia.com/blog/digital-humans-siggraph-2024/)
+
 [NVIDIA CEO Jensen Huang introduces 'James' a digital human that you'll be able to interact with](https://www.tweaktown.com/news/99685/nvidia-ceo-jensen-huang-introduces-james-digital-human-that-youll-be-able-to-interact-with/index.html)
 
 
