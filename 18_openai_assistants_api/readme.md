@@ -36,6 +36,10 @@ Assistants API Video Course:
 
 https://www.youtube.com/watch?v=qHPonmSX4Ms
 
+Tutorial:
+
+https://www.datacamp.com/tutorial/open-ai-assistants-api-tutorial
+
 
 Project 1:
 
