@@ -27,6 +27,11 @@ OpenAI Assistants API Quickstart with Next.js:
 https://github.com/openai/openai-assistants-quickstart
 
 
+Tools:
+
+https://platform.openai.com/docs/assistants/tools
+
+
 Project 1:
 
 https://www.youtube.com/watch?v=Uk5f3ajkfSs&t=9s
