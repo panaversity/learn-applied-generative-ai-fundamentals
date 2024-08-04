@@ -32,6 +32,11 @@ Tools:
 https://platform.openai.com/docs/assistants/tools
 
 
+Assistants API Video Course:
+
+https://www.youtube.com/watch?v=qHPonmSX4Ms
+
+
 Project 1:
 
 https://www.youtube.com/watch?v=Uk5f3ajkfSs&t=9s
