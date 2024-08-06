@@ -4,6 +4,8 @@
 
 [Watch: Docker Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=pg19Z8LL06w)
 
+[FULLSTACK TODO APP with FASTAPI by Rehan](https://www.youtube.com/playlist?list=PLxYHe2aLO4DCzc0QYT3ysH9BApFwmkKYT)
+
 [FastAPI Documentation](https://fastapi.tiangolo.com/)
 
 [FastAPI in Containers - Docker](https://fastapi.tiangolo.com/deployment/docker/)
