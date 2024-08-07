@@ -28,18 +28,20 @@ We will build the core part of (Sophia GPT) here:
 
 2. Now in VS-Code `onboarding-service` folder their's a .env.example file. Rename it to .env
 
-3. Now let's setup the environment variables
+3. Now let's setup the environment variables. 
 
-- Email Service Variables:
+- We will use Gmail Service for these Variables:
 
   - SMTP_USER
   - SMTP_PASSWORD
 
 - ONBOARDING_SERVER_URL=
 
-- Stripe Credentials:
+- Stripe will be setup for Payment Gateway:
   - STRIPE_SECRET_KEY
   - STRIPE_WEBHOOK_SECRET
+
+Follow each of the following A, B, C to complete this setup.
 
 ### A. GET - Email Service Variables:
 
@@ -109,6 +111,8 @@ Nex to API Keys tab there's a Webhooks Tab. Create a New Webhook or click on Add
 
 In main.py lifespan function add anything to logging(print) statement to restart server and load env vars.
 
-And you are all setup. Now Create your Own GPT following this Guide
+And you are all setup. It's time to Create your Own Custom GPT. 
+
+Here are the Sarah Staff GPT config details:
 
 [Sarah GPT Config Guide](./gpt-config.md)
