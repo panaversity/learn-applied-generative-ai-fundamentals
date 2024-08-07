@@ -1,0 +1,68 @@
+name: template-onboarding-action
+
+services:
+  onboarding:
+    build:
+      context: ./onboarding-service
+      dockerfile: Dockerfile.dev
+    container_name: OnboardingServiceCont
+    volumes:
+      - ./onboarding-service:/code
+    depends_on:
+      - postgres_onboarding_db
+    ports:
+      - "9010:9010"
+
+  postgres_onboarding_db:
+    image: postgres:latest
+    restart: always
+    container_name: PostgresOnboardingCont
+    environment:
+      - POSTGRES_USER=ziakhan
+      - POSTGRES_PASSWORD=my_password
+      - POSTGRES_DB=mydatabase
+    ports:
+      - "5490:5432"
+    volumes:
+      - postgres_onboarding_db:/var/lib/postgresql/data
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    environment:
+      TUNNEL_URL: http://onboarding:9010
+    command: "tunnel --no-autoupdate"
+    volumes:
+      - ./cloudflared:/etc/cloudflared
+    depends_on:
+      - onboarding
+      - pgadmin
+      - postgres_onboarding_db
+
+  pgadmin:
+    image: dpage/pgadmin4:8.6
+    restart: always
+    container_name: PgAdmin4Cont
+    ports:
+      - "8010:80"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=mjunaid@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=SuperSecret
+      - PGPASSFILE=/pgadmin-config/.pgpass
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+      - ./pgadmin-config/servers.json:/pgadmin4/servers.json
+      - ./pgadmin-config/.pgpass:/pgpass
+    depends_on:
+      - postgres_onboarding_db
+
+volumes:
+  pgadmin:
+    driver: local
+  postgres_onboarding_db:
+    driver: local
+  cloudflared:
+    driver: local
+
+networks:
+  default:
+    driver: bridge

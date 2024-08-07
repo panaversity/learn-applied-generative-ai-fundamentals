@@ -1,0 +1,14 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "PostgresOnboardingDB",
+      "Group": "Servers",
+      "Host": "postgres_onboarding_db",
+      "Port": 5432,
+      "MaintenanceDB": "mydatabase",
+      "Username": "ziakhan",
+      "SSLMode": "prefer",
+      "PassFile": "/pgpass"
+    }
+  }
+}
