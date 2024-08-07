@@ -1,16 +1,20 @@
 # Assistants API
 
+Custom GPTs vs Assistants
+
+[GPTs vs Assistants](https://help.openai.com/en/articles/8673914-gpts-vs-assistants)
+
 Assistants API Overview
 
 https://platform.openai.com/docs/assistants/overview
 
+Code:
+
+https://community.openai.com/t/using-an-assistant-v2-with-streaming-and-python/726494/5
+
 Assistants API Quickstart 
 
 https://platform.openai.com/docs/assistants/quickstart
-
-Custom GPTs vs Assistants
-
-[GPTs vs Assistants](https://help.openai.com/en/articles/8673914-gpts-vs-assistants)
 
 
 Assistants API Deep dive 
