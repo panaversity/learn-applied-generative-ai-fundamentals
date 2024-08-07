@@ -36,6 +36,10 @@ Tools:
 https://platform.openai.com/docs/assistants/tools
 
 
+Introducing Structured Outputs in the API:
+
+https://openai.com/index/introducing-structured-outputs-in-the-api/
+
 Assistants API Video Course:
 
 https://www.youtube.com/watch?v=qHPonmSX4Ms
