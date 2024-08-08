@@ -36,6 +36,8 @@ The potential applications of compound AI systems are vast and span across vario
 **In essence, compound AI systems mark a paradigm shift in AI development, promising to deliver more sophisticated, reliable, and effective solutions to a wide range of challenges.**
 
 
+## LLMs -> Compound AI Systems -> AI Agents
+
 **We are witnessing a shift from LLMs to compound AI systems, and eventually, to [AI agents](https://www.youtube.com/watch?v=F8NKVhkZZWI).**
 
 Here's a breakdown of this evolution:
@@ -50,7 +52,42 @@ Here's a breakdown of this evolution:
 
 **This progression is driven by the increasing complexity of the problems we want AI to solve.** As we move towards more sophisticated applications, we need AI systems that can understand, reason, and act in the world, not just generate text.
 
-**Would you like to delve deeper into a specific area, such as the challenges of building AI agents or potential applications for compound AI systems?** 
+
+## RAG, APIs, Web Search, Web Access: Essential Tools for Compound AI Systems
+
+These components are crucial building blocks for constructing sophisticated compound AI systems.
+
+### How they contribute:
+
+* **RAG (Retrieval Augmented Generation):**
+  * Enhances LLMs by providing access to external knowledge sources.
+  * Improves factuality, relevance, and reduces hallucinations. 
+  * Serves as a bridge between the model's knowledge and the real world.
+
+* **APIs:**
+  * Enable integration of various AI models and services.
+  * Facilitate communication and data exchange between different components.
+  * Allow access to external databases, tools, and platforms.
+
+* **Web Search and Web Access:**
+  * Provide access to a vast amount of information and data.
+  * Enable real-time updates and adaptation to the changing world.
+  * Support information retrieval and knowledge acquisition.
+
+### How they work together:
+* **RAG** can leverage **APIs** to access external knowledge sources and **web search** results.
+* **Web access** provides the raw data, which can be processed and structured using **APIs** before being fed into a **RAG** system.
+* The combined power of these tools enables compound AI systems to access, process, and utilize information effectively, leading to more intelligent and informative outputs.
+
+### Example:
+Consider a medical diagnosis AI system. It might use:
+* **RAG** to access medical literature and patient records.
+* **APIs** to integrate with imaging analysis tools and patient data systems.
+* **Web search** to find the latest research on a specific disease.
+
+By combining these elements, the system can provide accurate and up-to-date diagnoses.
+
+
 
 
 
