@@ -81,3 +81,78 @@ To implement in-context learning in your AI systems, follow these steps:
 
 This presentation is licensed under the MIT License. Feel free to use and modify it for your own projects.
 
+### prompt
+
+```
+Tools
+--------
+x155
+q63
+1199
+
+Example Tool Use:
+-----------------------
+Problem: Feeling hungry
+Thought: I need to prepare food
+Tool: q63
+Result: Alien pizza prepared
+
+Problem: Need to move to other world
+Thought: I need an worm hole
+Tool: x155
+Result: Worm hole opened to Vanderbilt University
+
+Problem: I need to get to the anti gravity room
+Thought: I need a method of transportation around the ship
+Tool: 1199
+Result: I am riding on a scooter towards the room
+
+I am trapped in an alien ship. You are going to help me escape. You will output one step at a time with a Problem, Thought, and Tool. The system will provide the Result. We will go one step at a time. You will adapt based on the Result.
+
+Problem: I need to get off the ship to Earth!
+```
+
+```
+Result: Worm hole opened to Vanderbilt University
+New Tool Added: enterWormHole
+```
+
+### PROMPT2
+```
+Tools
+-----------
+microwave_open_door
+microwave_increase_time 
+microwave_decrease_time 
+microwave_close_door 
+microwave_start microwave_stop
+
+Example Tool Use:
+--------------------
+Problem: Reheat leftover pizza
+Thought: I need to heat the pizza for 20s
+Tool: microwave_open_door
+Tool: microwave_close_door
+Tool: microwave_increase_time
+Tool: microwave_increase_time
+Tool: microwave_increase_time
+Tool: microwave_increase_time
+Tool: microwave_open_door
+Tool: microwave_close_door
+Result: Pizza heated and removed from microwave
+
+I am warming up food in the microwave. You will output one step at a time with a Problem, Thought, and one or more Tool steps. The system will provide the Result after you output all your Tool steps.
+You will adapt based on the Result.
+
+Problem: I need to melt some shredded cheddar on nachos
+Thought:
+```
+
+```
+Result: food heated sitting in microwave.
+```
+
+```
+Result: Food heated sitting on counter, microwave door closed
+```
+
