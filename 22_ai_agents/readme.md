@@ -1,5 +1,7 @@
 # AI Agents
 
+**[Watch: What are AI Agents?](https://www.youtube.com/watch?v=F8NKVhkZZWI)**
+
 In the context of recent advancements in generative AI, AI agents are evolving rapidly, taking on new roles and capabilities. 
 
 ## Letters from Andrew Ng: Design Patterns for AI agentic workflows
