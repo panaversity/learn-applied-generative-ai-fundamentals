@@ -1,8 +1,12 @@
 # Compound AI Systems: A New Frontier in AI
 
-[What Are Compound AI Systems?](https://www.databricks.com/glossary/compound-ai-systems)
-
 [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)
+
+[Watch: The Future of AI: Unleashing the Power of Compound Systems](https://www.youtube.com/watch?v=5QIpc6hKaKg)
+
+[Watch: The Shift from Large Language Models(LLMs) to Compound AI Systems](https://www.youtube.com/watch?v=IaMOZq1O7JI)
+
+[What Are Compound AI Systems?](https://www.databricks.com/glossary/compound-ai-systems)
 
 [Why Compound AI Systems is the Future of Complex Problem-Solving](https://ashishjaiman.medium.com/why-a-compound-ai-systems-is-the-future-of-complex-problem-solving-bd7be16ed57f)
 
