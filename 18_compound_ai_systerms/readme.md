@@ -35,6 +35,25 @@ The potential applications of compound AI systems are vast and span across vario
 
 **In essence, compound AI systems mark a paradigm shift in AI development, promising to deliver more sophisticated, reliable, and effective solutions to a wide range of challenges.**
 
+
+**We are witnessing a shift from LLMs to compound AI systems, and eventually, to AI agents.**
+
+Here's a breakdown of this evolution:
+
+### From LLMs to Compound AI Systems
+* **LLMs** are incredibly powerful at generating text, but they often lack real-world grounding and can be prone to hallucinations.
+* **Compound AI systems** address these limitations by combining LLMs with other AI components like knowledge graphs, reasoning engines, and perception modules. This creates more robust and reliable systems capable of handling complex tasks.
+
+### From Compound AI Systems to AI Agents
+* **AI agents** take this concept a step further by giving AI systems the ability to act autonomously in the real world or simulated environments. They can set goals, plan actions, and learn from their experiences. 
+* **Compound AI systems** form the core of many AI agents, providing the intelligence and decision-making capabilities.
+
+**This progression is driven by the increasing complexity of the problems we want AI to solve.** As we move towards more sophisticated applications, we need AI systems that can understand, reason, and act in the world, not just generate text.
+
+**Would you like to delve deeper into a specific area, such as the challenges of building AI agents or potential applications for compound AI systems?** 
+
+
+
 ## OpenAI Custom GPT as a Platform and Building Block
 
 **OpenAI Custom GPT can be considered both a platform and a building block for a compound AI system.**
