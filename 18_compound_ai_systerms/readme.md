@@ -36,7 +36,7 @@ The potential applications of compound AI systems are vast and span across vario
 **In essence, compound AI systems mark a paradigm shift in AI development, promising to deliver more sophisticated, reliable, and effective solutions to a wide range of challenges.**
 
 
-**We are witnessing a shift from LLMs to compound AI systems, and eventually, to AI agents.**
+**We are witnessing a shift from LLMs to compound AI systems, and eventually, to [AI agents](https://www.youtube.com/watch?v=F8NKVhkZZWI).**
 
 Here's a breakdown of this evolution:
 
@@ -44,7 +44,7 @@ Here's a breakdown of this evolution:
 * **LLMs** are incredibly powerful at generating text, but they often lack real-world grounding and can be prone to hallucinations.
 * **Compound AI systems** address these limitations by combining LLMs with other AI components like knowledge graphs, reasoning engines, and perception modules. This creates more robust and reliable systems capable of handling complex tasks.
 
-### From Compound AI Systems to AI Agents
+### From Compound AI Systems to [AI Agents](https://www.youtube.com/watch?v=F8NKVhkZZWI)
 * **AI agents** take this concept a step further by giving AI systems the ability to act autonomously in the real world or simulated environments. They can set goals, plan actions, and learn from their experiences. 
 * **Compound AI systems** form the core of many AI agents, providing the intelligence and decision-making capabilities.
 
