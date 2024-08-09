@@ -42,6 +42,8 @@ The potential applications of compound AI systems are vast and span across vario
 
 **We are witnessing a shift from LLMs to compound AI systems, and eventually, to [AI agents](https://www.youtube.com/watch?v=F8NKVhkZZWI).**
 
+![From LLMs to Compound AI Systems to AI Agents](./llm_cais_agent.png)
+
 Here's a breakdown of this evolution:
 
 ### From LLMs to Compound AI Systems
