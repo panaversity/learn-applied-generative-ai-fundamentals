@@ -6,18 +6,16 @@ Here we will take the Zapier + Custom GPT Combination to build an implementation
 
 [Preview Demo Chat](https://chatgpt.com/share/8be02022-300b-472c-9b2c-0fb9a4afc628)
 
-## Key Value
+Key Value :**Personal Travel Expense Accountant Assistant.**
 
-**Personal Travel Expense Accountant Assistant.**
+## Setup Guide
 
 We will build it in 4 iterations.
 
-- MultiModal GPT capable of saving Expenses to Sheet.
-- Giving GPT Memory
-- Ensuring the Data Normalization (No Duplicates etc.)
-- Persona, Reflection and Analysis (Find Instructions matters most?)
-
-## Setup Guide
+- A Build a MultiModal GPT capable of saving Expenses to Sheet.
+- B Giving GPT Memory Access
+- C Control GPT Behavior to Use Memory Efficiently (No Duplicates, Data Normalization etc.)
+- D Persona, Reflection and Analysis (Find Why Instructions matters most?)
 
 Let's Start Building it
 
@@ -25,9 +23,12 @@ Let's Start Building it
 
 1. Signup at [Zapier](https://zapier.com/). 
 2. Create a Custom GPT
+    
     a. Name it
+    
     b. Import this in Actions Import from URl Option:
     `https://actions.zapier.com/gpt/api/v1/dynamic/openapi.json?tools=meta`
+    
     c. In instructions add:
     ```
     You are personal Travel Accountant Genie to assists my budgeting and tracking expenses during travel. 
@@ -70,7 +71,7 @@ Right now our GPT can only Log the Expense to Sheet. So let's give it  memory of
 
 Awesome now give your GPT the prompt to `Get all Expense Records`.
 
-### C. Ensuring the Data Normalization (No Duplicates)
+### C. Control GPT Behavior to Use Memory Efficiently
 
 Now we have given the Memory Access to GPT but still it add duplicate values. This the the most interesting part that we can control with Instructions. 
 
