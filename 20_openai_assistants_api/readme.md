@@ -16,6 +16,10 @@ Assistants API Quickstart
 
 https://platform.openai.com/docs/assistants/quickstart
 
+Assistants API (v2) FAQ
+
+https://help.openai.com/en/articles/8550641-assistants-api-v2-faq
+
 
 Assistants API Deep dive 
 
