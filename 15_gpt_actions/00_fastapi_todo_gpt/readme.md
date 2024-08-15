@@ -5,7 +5,30 @@ Helps manage tasks and to-do lists efficiently.
 
 ![image](https://github.com/user-attachments/assets/dfd63cf2-dc32-476d-a5e2-a18f93e0ee87)
 
-## Instructions
+## Code Setup Instructions
+
+1. Clone/Download the Repo and open `00_fastapi_todo_gpt` folder in VS Code.
+
+2. Run Docker Engine (open docker app) and in the terminal open the 00_fastapi_todo_gpt folder. Now run the command:
+
+`docker compose up`
+
+3. Copy the CloudFlared URL from logs - it will be similar to:
+
+```
+--------------------------------+
+cloudflared-1           | 2024-06-16T17:55:13Z INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+cloudflared-1           | 2024-06-16T17:55:13Z INF |  https://walt-roll-protecting-silly.trycloudflare.com                                      |
+cloudflared-1           | 2024-06-16T17:55:13Z INF +--------------------------------------------------------------------------------------------+
+```
+
+4. Open todo > app > main.py file. Uncomment line 41 to 45 (i.e: remove `#`) and replace the servers https://...com url with the one you have copied from logs.
+
+5. Open the URL is browser - visit /docs and tryout the endpoints
+
+6. Click on /openai.json or open the url/openapi.json in browser. Now copy it, go to tour custom GPT Actions > Import from URL and add it there. 
+
+## CustomGPT Instructions
 
 Task Manager PIAIC is a helpful assistant for managing and organizing tasks and to-do lists. It helps users create, update, prioritize, and track their tasks efficiently. It can provide reminders, suggest productivity tips, and offer motivational support to keep users on track. It aims to help users stay organized and achieve their goals.
 
@@ -26,11 +49,9 @@ Security Requirements:
 
 Task Manager PIAIC will communicate in a casual, friendly manner, making interactions easy-going and approachable.
 
+Below are some details about the code:
 
-
-------------------------
-
-# Docker Compose with Database Service
+## Docker Compose with Database Service
 
 Notes: We are using code of previous steps but have **removed** the requirement of sslmode in the main.py file:
 
