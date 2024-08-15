@@ -1,4 +1,4 @@
-# Prompt Engineering
+# GenAI Foundations and Prompt Engineering
 
 ## Text Books
 
