@@ -27,3 +27,5 @@ We will cover chapters from our two textbooks:
 6. Chapter 7 of [Generative AI Foundations in Python](https://www.amazon.com/Generative-Foundations-Python-techniques-challenges/dp/1835460828/ref=sr_1_6)
 
 7. Chapters 3-6 of [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
+
+8. Chapter 10 of [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
