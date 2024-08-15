@@ -17,8 +17,9 @@ This project is a full-stack Todo application built using FastAPI for the backen
 5. [API Documentation](#api-documentation)
 6. [Using the Application](#using-the-application)
 7. [Deploying with Cloudflare Tunnel](#deploying-with-cloudflare-tunnel)
-8. [Troubleshooting](#troubleshooting)
-9. [Contributing](#contributing)
+8. [Project Testing](#project-testing)
+9. [Troubleshooting](#troubleshooting)
+10. [Contributing](#contributing)
 
 
 ## Project Overview
@@ -183,6 +184,25 @@ To make your application accessible from the internet:
    Here’s a screenshot of the Task Manager Assistant GPT:
 
    ![Task Manager Assistant GPT](./assets/gpt.PNG)
+
+## Project Testing
+We will perform all CRUD operations through our custom GPT and then check all changes on our frontend page
+   1. Initialize Todo List with empty bucket
+   - ![Task Manager Assistant GPT](./assets/testing1.PNG)
+   - ![Task Manager Assistant GPT](./assets/testing1.1.PNG)
+   2. Add Todo - we added "Todo task 1" from CUI and can see manipulation occur at GUI
+   - ![Task Manager Assistant GPT](./assets/testing2.1.PNG)
+   - ![Task Manager Assistant GPT](./assets/testing2.2.PNG)
+   3. Update Todo - Add another Todo and make changes in it
+   - ![Task Manager Assistant GPT](./assets/testing3.PNG)
+   - ![Task Manager Assistant GPT](./assets/testing3.1.PNG)
+   - ![Task Manager Assistant GPT](./assets/testing3.2.PNG)
+   - ![Task Manager Assistant GPT](./assets/testing3.3.PNG)
+   4. Delete Todo - Delete "Todo task 3" todo
+   - ![Task Manager Assistant GPT](./assets/testing4.1.PNG)
+   - ![Task Manager Assistant GPT](./assets/testing4.2.PNG)
+   5. Get Todo - Show all todos
+   - ![Task Manager Assistant GPT](./assets/testing5.PNG)
 
 ## Troubleshooting
 
