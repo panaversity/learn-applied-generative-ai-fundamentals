@@ -47,6 +47,8 @@ This command performs the following actions:
 
 With both containers running, you can now proceed to access the OpenWebUI interface.
 
+![Containers](containers.png "Containers")
+
 ## Step 2: Access the OpenWebUI Interface
 
 Once both containers are running, you can access the OpenWebUI interface through your web browser. Simply navigate to:
@@ -56,6 +58,8 @@ http://localhost:3000
 ```
 
 Here, you can interact with the LLM powered by Ollama through a user-friendly web interface.
+
+![Web UI](web_ui.png "Web UI")
 
 ## Step 3: Download the Llama Model in the Ollama Container
 
@@ -77,6 +81,8 @@ To download the Llama 3.1 model within the Ollama container, follow these steps:
 
 4. **Verify the Download**: You can verify that the model has been successfully downloaded by checking the container logs or listing the contents of the model directory inside the container.
 
+![Pull LLM](pull_llm.png "Pull LLM")
+
 ## Step 4: Verify the LLM is Running
 
 To ensure the LLM is running correctly, you can check the logs of the Ollama container:
@@ -87,7 +93,11 @@ docker logs ollama
 
 You should see the model initialization and any requests being processed. This will confirm that your LLM is up and running smoothly.
 
-## Step 5: Stop the Containers
+### Step 5: Model Setting
+
+![Model Setting](model_seeting.png "Model Setting")
+
+## Step 6: Stop the Containers
 
 When you're done using the LLM, you can stop and remove the containers with the following commands:
 
