@@ -113,7 +113,22 @@ These commands will stop and remove both the Ollama and OpenWebUI containers, cl
 - **Port Conflicts**: If ports `11434` or `3000` are already in use, you can change the host port mappings (e.g., `-p 11435:11434` or `-p 3001:8080`).
 - **Container Logs**: Check logs for any errors using `docker logs <container-name>`.
 
+## Important Note
+
+If you are having memory issue on your machine please use this service:
+
+https://www.docker.com/play-with-docker/
+
+## Challenge Assignment
+
+Please run Llama 3.1 8B on Google Colab
+
+
 ## Conclusion
 
 Congratulations! You have successfully set up and run a local LLM using Docker images of Ollama and OpenWebUI. Enjoy experimenting with your model locally!
+
+
+
+
 
