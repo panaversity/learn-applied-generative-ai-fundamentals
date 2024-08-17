@@ -1,8 +1,6 @@
-
-
 # Local LLM Deployment with Ollama and OpenWebUI
 
-This guide provides step-by-step instructions for running a local language model (LLM) using Docker images of Ollama and OpenWebUI. By the end of this guide, you will have a fully functional LLM running locally on your machine.
+This guide provides step-by-step instructions for running a local language model (LLM) i.e. Llama 3.1 8B using Docker images of Ollama and OpenWebUI. By the end of this guide, you will have a fully functional LLM running locally on your machine.
 
 ## Prerequisites
 
