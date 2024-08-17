@@ -36,12 +36,15 @@ async def lifespan(app: FastAPI)-> AsyncGenerator[None, None]:
     create_db_and_tables()
     yield
 
-app = FastAPI(lifespan=lifespan, title="Hello World API with DB", 
-    version="0.0.1",
-    servers=[{
-            "url": "http://127.0.0.1:8000", # ADD NGROK URL Here Before Creating GPT Action
-            "description": "Development Server"
-        } ])
+app = FastAPI(lifespan=lifespan, title="Hello World API with DB",
+              version="0.0.1",
+            #   servers=[{
+            #       # ADD Cloudflared URL Here Before Creating GPT Action
+            #       "url": "https://luxembourg-souls-else-guild.trycloudflare.com",
+            #       "description": "Development Server"
+            #   }]
+              )
+
 
 def get_session():
     with Session(engine) as session:
