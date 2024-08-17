@@ -79,6 +79,12 @@ To download the Llama 3.1 model within the Ollama container, follow these steps:
 
    This command will initiate the download of the Llama 3.1 model into the container.
 
+   Note: If you PC hardware is weak you can run the following model:
+
+   ```bash
+   ollama run phi
+   ```
+
 4. **Verify the Download**: You can verify that the model has been successfully downloaded by checking the container logs or listing the contents of the model directory inside the container.
 
 ![Pull LLM](pull_llm.png "Pull LLM")
