@@ -60,6 +60,8 @@ And there you have it—a deep dive into the world of Transformers, all without 
 
 ## Now Let us Understand it
 
+[Transformers: The best idea in AI | Andrej Karpathy and Lex Fridman](https://www.youtube.com/watch?v=9uw3F6rndnA)
+
 [Transformer Neural Networks, ChatGPT's foundation, Clearly Explained!!!](https://www.youtube.com/watch?v=zxQyTK8quyY)
 
 [The Animated Transformer](https://prvnsmpth.github.io/animated-transformer/)
