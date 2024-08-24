@@ -70,7 +70,12 @@ Transformers are powerful because they can understand and generate text that’s
 **Transformer models typically use two distinct neural networks: an encoder and a decoder.**
 
 * **Encoder:** This network processes the input sequence, breaking it down into a sequence of vectors that capture the context and meaning of the input.
+
+**[Watch: Transformer models: Encoders](https://www.youtube.com/watch?v=MUqNwgPjJvQ)**
+
 * **Decoder:** This network generates the output sequence, using the encoded representation from the encoder and its own internal state to produce the desired output.
+
+**[Watch: Transformer models: Decoders](https://www.youtube.com/watch?v=d_ixlCubqQw)**
 
 The encoder and decoder are connected through an attention mechanism, which allows the decoder to focus on different parts of the encoded input sequence as needed. This attention mechanism is a key component of Transformer models, enabling them to capture long-range dependencies in the input and output sequences.
 
