@@ -142,8 +142,10 @@ By following these steps, you can train a transformer model for various NLP task
 
 # Now Let us Understand in Depth
 
-[Transformers: The best idea in AI | Andrej Karpathy and Lex Fridman](https://www.youtube.com/watch?v=9uw3F6rndnA)
+[Watch: Transformers: The best idea in AI | Andrej Karpathy and Lex Fridman](https://www.youtube.com/watch?v=9uw3F6rndnA)
 
-[Transformer Neural Networks, ChatGPT's foundation, Clearly Explained!!!](https://www.youtube.com/watch?v=zxQyTK8quyY)
+[Watch: Transformer Neural Networks, ChatGPT's foundation, Clearly Explained!!!](https://www.youtube.com/watch?v=zxQyTK8quyY)
+
+[How Transformers Work: A Detailed Exploration of Transformer Architecture](https://www.datacamp.com/tutorial/how-transformers-work)
 
 [The Animated Transformer](https://prvnsmpth.github.io/animated-transformer/)
