@@ -1,4 +1,4 @@
-# Transformers
+# Transformers: The Best Idea in AI
 
 Imagine you're at a party, and you're trying to figure out the hottest topic in the room by listening to snippets of conversations. Everyone is talking at once, but you need to figure out what the main idea is without hearing every word perfectly. A Transformer model does something similar when it processes text.
 
