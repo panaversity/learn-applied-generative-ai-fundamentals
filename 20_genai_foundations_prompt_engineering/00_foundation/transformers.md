@@ -67,6 +67,14 @@ Transformers are powerful because they can understand and generate text that’s
 3. **Encoder:** The encoder processes the embedded sequence and extracts important information. It breaks down the sentence into smaller parts and understands the relationships between them.
 4. **Decoder:** The decoder generates a new sequence of words based on the information extracted by the encoder. It uses the encoder's output to create a coherent and meaningful sentence.
 
+**Transformer models typically use two distinct neural networks: an encoder and a decoder.**
+
+* **Encoder:** This network processes the input sequence, breaking it down into a sequence of vectors that capture the context and meaning of the input.
+* **Decoder:** This network generates the output sequence, using the encoded representation from the encoder and its own internal state to produce the desired output.
+
+The encoder and decoder are connected through an attention mechanism, which allows the decoder to focus on different parts of the encoded input sequence as needed. This attention mechanism is a key component of Transformer models, enabling them to capture long-range dependencies in the input and output sequences.
+
+
 **Key components of a transformer:**
 
 * **Self-attention:** This mechanism allows the transformer to weigh the importance of different words in the input sequence. For example, in the sentence "The cat sat on the mat," the transformer might pay more attention to the words "cat" and "mat" than to the word "the."
