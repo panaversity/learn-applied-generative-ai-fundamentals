@@ -61,6 +61,32 @@ During training, the neural network adjusts these weights to minimize the error 
 
 **In essence, weights are the key to a neural network's ability to learn and generalize from data.** By adjusting the weights, the network can learn complex patterns and relationships in the data.
 
+## Forward and Backward Propagation in Neural Networks
+
+Neural networks learn by adjusting their weights to minimize the difference between their predicted outputs and the actual outputs. This process involves two main steps: **forward propagation** and **backward propagation**.
+
+### Forward Propagation
+
+* **Input:** The input data is presented to the network.
+* **Calculation:** The input data is passed through the network layer by layer. At each layer, the weighted sum of the inputs is calculated, and an activation function is applied to determine the output.
+* **Output:** The final output of the network is produced.
+
+### Backward Propagation
+
+* **Error Calculation:** The difference between the predicted output and the actual output (error) is calculated.
+* **Gradient Calculation:** The gradients of the error with respect to the weights are calculated. This tells us how much each weight contributes to the error.
+* **Weight Update:** The weights are updated using an optimization algorithm, such as gradient descent, to minimize the error.
+
+**In essence, forward propagation is the process of making a prediction, and backward propagation is the process of learning from the prediction's mistakes.**
+
+**Here's a simplified example:**
+
+Imagine a simple neural network with one input neuron, one hidden neuron, and one output neuron.
+
+1. **Forward propagation:** The input is multiplied by the weight of the connection between the input and hidden neuron, and the result is passed through an activation function. The output of the hidden neuron is then multiplied by the weight of the connection between the hidden and output neuron, and the result is passed through another activation function to produce the final output.
+2. **Backward propagation:** The error between the predicted output and the actual output is calculated. The gradients of the error with respect to the weights are calculated. The weights are updated using an optimization algorithm to minimize the error.
+
+This process is repeated many times with different training examples until the network learns to make accurate predictions.
 
 
 ## GANs, Diffusers, and Transformer Models
