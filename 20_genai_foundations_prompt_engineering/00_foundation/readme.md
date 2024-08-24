@@ -38,6 +38,29 @@ Activation functions introduce non-linearity into the network, allowing it to le
 
 **In summary, neural networks are powerful tools that can learn from data and perform complex tasks. They have revolutionized various fields, including computer vision, natural language processing, and robotics.**
 
+## Weights in Neural Networks
+
+**Weights** in neural networks are numerical values that determine the strength of the connections between neurons. They are essentially parameters that the network learns during the training process.
+
+**Think of weights as the "volume" of a connection.** A higher weight means a stronger connection, while a lower weight means a weaker connection. When a neuron receives input from other neurons, the weighted sum of these inputs is calculated to determine the neuron's activation.
+
+**Here's a simplified example:**
+
+Imagine a simple neural network with two input neurons (A and B) and one output neuron (C). The connections between these neurons have weights:
+
+* Weight of A to C: W_AC
+* Weight of B to C: W_BC
+
+If the inputs to A and B are X_A and X_B, respectively, then the activation of neuron C is calculated as:
+
+```
+Activation_C = W_AC * X_A + W_BC * X_B
+```
+
+During training, the neural network adjusts these weights to minimize the error between its predicted output and the correct output. This is achieved using algorithms like backpropagation.
+
+**In essence, weights are the key to a neural network's ability to learn and generalize from data.** By adjusting the weights, the network can learn complex patterns and relationships in the data.
+
 
 
 ## GANs, Diffusers, and Transformer Models
