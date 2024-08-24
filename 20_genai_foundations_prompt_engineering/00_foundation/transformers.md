@@ -74,6 +74,8 @@ Transformers are powerful because they can understand and generate text that’s
 
 The encoder and decoder are connected through an attention mechanism, which allows the decoder to focus on different parts of the encoded input sequence as needed. This attention mechanism is a key component of Transformer models, enabling them to capture long-range dependencies in the input and output sequences.
 
+**[Watch: Transformer models: Encoder-Decoders](https://www.youtube.com/watch?v=0_4KEb08xrE)**
+
 
 **Key components of a transformer:**
 
