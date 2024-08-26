@@ -19,14 +19,13 @@ Now, imagine each friend can wear different hats (literally, Multi-Headed Attent
 After all this attention and communication, each friend gets down to work using their Feedforward Network. Think of it like them turning all that gathered information into actual output—sort of like writing their part of the group report.
 
 ### **Step 5: Encoding and Decoding—The Project Workflow**
-Finally, there’s the Encoder-Decoder structure (if you’re looking at a full Transformer model). The Encoders are like the brainy members who gather all the research, while the Decoders are the eloquent ones who turn this research into the final report or presentation. In simpler models, like BERT, you might just have encoders because the goal is to understand the input fully.
+Finally, there’s the Encoder-Decoder structure (if you’re looking at a full Transformer model). The Encoders are like the brainy members who gather all the research, while the Decoders are the eloquent ones who turn this research into the final report or presentation. 
 
 ### **Where to Learn More?**
 To get a good grasp of the Transformer model, check out these resources:
 
-1. **"The Illustrated Transformer" by Jay Alammar**: This visual guide breaks down the Transformer model step-by-step with intuitive illustrations.
-2. **Coursera’s Deep Learning Specialization by Andrew Ng**: There’s a section dedicated to sequence models that introduces the Transformer.
-3. **The original paper, “Attention is All You Need”**: Once you’ve got the basics, take a look at the original Transformer paper to see how it all started—just don’t be surprised if it feels like reading Shakespeare at first!
+1. **[The Illustrated Transformer" by Jay Alammar](https://jalammar.github.io/illustrated-transformer/)**: This visual guide breaks down the Transformer model step-by-step with intuitive illustrations.
+2. **The original paper, “Attention is All You Need”**: Once you’ve got the basics, take a look at the original Transformer paper to see how it all started—just don’t be surprised if it feels like reading Shakespeare at first!
 
 By combining these playful analogies with these learning resources, you'll go from scratching your head to nodding along like a Transformer expert in no time! 😄
 
