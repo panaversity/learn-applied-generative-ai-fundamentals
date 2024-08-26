@@ -15,9 +15,8 @@ We will cover chapters from our two textbooks:
 ## Learning Sequence
 
 1. Chapter 1 (Understanding Generative AI: An Introduction) of [Generative AI Foundations in Python](https://www.amazon.com/Generative-Foundations-Python-techniques-challenges/dp/1835460828/ref=sr_1_6)
-  *  GAN References:
-      * [GAN](https://miro.medium.com/v2/resize:fit:1400/1*YWM0LmH0HLktBpZRyL_9jw.gif)
-      * [GAN working steps](https://chatgpt.com/share/5e34a1f2-3fab-41f8-a657-383bcf382af3)
+
+** Study [00_foundation](https://github.com/panaversity/learn-applied-generative-ai-fundamentals/tree/main/20_genai_foundations_prompt_engineering/00_foundation) Sub Step in Detail**
   
   
       
