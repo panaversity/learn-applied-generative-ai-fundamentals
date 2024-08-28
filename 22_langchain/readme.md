@@ -1,6 +1,6 @@
 # Langchain
 
-Our objective is to become world class experts in Langchain. Ideally we should learn it by running it on Google Colab with a model installed. This will allow all our students to learn for free. 
+Our objective is to become world class experts in Langchain. Ideally we should learn it by running it on Google Colab with a model installed. This will allow all our students to learn for free. However, we will start by using Google Gemini APIs becuase it is easy to use and almost free. Check out the [pricing](https://ai.google.dev/pricing).
 
 
 [Introduction](https://python.langchain.com/v0.2/docs/introduction/)
