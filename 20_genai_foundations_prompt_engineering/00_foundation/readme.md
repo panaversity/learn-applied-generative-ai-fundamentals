@@ -13,6 +13,22 @@
 
 ![neural network](nn.png "a neural network")
 
+#### **Example: Handwritten Digit Recognition (MNIST Dataset)**
+
+One of the classic examples of using neural networks in traditional ML is the MNIST dataset, where the task is to classify handwritten digits (0-9).
+
+**Steps Involved:**
+
+1. **Input Layer:** Each digit image (28x28 pixels) is flattened into a vector of 784 features (one for each pixel).
+2. **Hidden Layer:** A single hidden layer of, say, 128 neurons, applies a non-linear activation function like ReLU (Rectified Linear Unit) to the weighted inputs.
+3. **Output Layer:** The output layer has 10 neurons, one for each digit class. The softmax activation function is applied to provide a probability distribution across the classes.
+
+**Training:** The network is trained using labeled examples of handwritten digits. The weights are adjusted through backpropagation and gradient descent to minimize the classification error.
+
+**Output:** Given a new image of a digit, the network predicts which digit (0-9) it most likely represents.
+
+![animation](animation.gif)
+
 ### Types of Neural Networks
 
 * **Feedforward Neural Networks:** The simplest type, where information flows in one direction from the input to the output layer.
