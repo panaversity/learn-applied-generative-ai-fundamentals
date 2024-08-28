@@ -30,14 +30,7 @@ We will cover chapters from our two textbooks:
 
 ## Learning Sequence
 
-1. Chapter 1 (Understanding Generative AI: An Introduction) of [Generative AI Foundations in Python](https://www.amazon.com/Generative-Foundations-Python-techniques-challenges/dp/1835460828/ref=sr_1_6)
 
-
-  
-  
-      
-
-3. Chapter 2 (Introduction to Large Language Models for Text Generation) of [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
 
 4. Chapter 2 (Surveying GenAI Types and Modes: An Overview of GANs, Diffusers, and Transformers) and Chapter 3 (Tracing the Foundations of Natural Language Processing and the Impact of the Transformer) of [Generative AI Foundations in Python](https://www.amazon.com/Generative-Foundations-Python-techniques-challenges/dp/1835460828/ref=sr_1_6)
 
