@@ -4,3 +4,5 @@
 
 2. Chapter 7 (Mastering the Fundamentals of Prompt Engineering) of [Generative AI Foundations in Python](https://www.amazon.com/Generative-Foundations-Python-techniques-challenges/dp/1835460828/ref=sr_1_6)
 
+3. [Large Multimodal Model Prompting with Gemini Course](https://www.deeplearning.ai/short-courses/large-multimodal-model-prompting-with-gemini/)
+
