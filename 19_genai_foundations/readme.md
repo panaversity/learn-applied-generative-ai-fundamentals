@@ -1,4 +1,10 @@
-# GenAI Foundations and Prompt Engineering
+# Generative AI Foundations
+
+Study sub topics 00_neural_networks, 01_descriminative_ai, and 02_generative_ai
+
+Study Chapter 1 (Understanding Generative AI: An Introduction) of [Generative AI Foundations in Python](https://www.amazon.com/Generative-Foundations-Python-techniques-challenges/dp/1835460828/ref=sr_1_6)
+
+Study Chapter 2 (Introduction to Large Language Models for Text Generation) of [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
 
 ## Text Books
 
@@ -12,11 +18,21 @@ We will cover chapters from our two textbooks:
 
 [Book Code](https://github.com/PacktPublishing/Generative-AI-Foundations-in-Python)
 
+
+
+
+
+
+
+
+
+# To be deleted
+
 ## Learning Sequence
 
 1. Chapter 1 (Understanding Generative AI: An Introduction) of [Generative AI Foundations in Python](https://www.amazon.com/Generative-Foundations-Python-techniques-challenges/dp/1835460828/ref=sr_1_6)
 
-** Study [00_foundation](https://github.com/panaversity/learn-applied-generative-ai-fundamentals/tree/main/20_genai_foundations_prompt_engineering/00_foundation) Sub Step in Detail**
+
   
   
       
