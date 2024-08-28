@@ -1,0 +1,22 @@
+# Langchain
+
+Our objective is to become world class experts in Langchain. Ideally we should learn it by running it on Google Colab with a model installed. This will allow all our students to learn for free. 
+
+
+[Introduction](https://python.langchain.com/v0.2/docs/introduction/)
+
+[Tutorials](https://python.langchain.com/v0.2/docs/tutorials/)
+
+Chapter 3 (Standard Practices for Text Generation with ChatGPT) of [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
+
+Chapter 4 (Advanced Techniques for Text Generation with LangChain) of [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
+
+Chapter 5 (Vector Databases with FAISS and Pinecone) of [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/) 
+
+Chapter 6 (Autonomous Agents with Memory and Tools) of [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
+
+Chapter 10 (Building AI-Powered Applications) of [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
+
+Chapter 5 (Fine-Tuning Generative Models for Specific Tasks) of [Generative AI Foundations in Python](https://www.amazon.com/Generative-Foundations-Python-techniques-challenges/dp/1835460828/ref=sr_1_6) 
+
+Chapter 6 (Understanding Domain Adaptation for Large Language Models) of [Generative AI Foundations in Python](https://www.amazon.com/Generative-Foundations-Python-techniques-challenges/dp/1835460828/ref=sr_1_6)
