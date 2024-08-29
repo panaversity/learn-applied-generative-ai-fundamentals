@@ -2,6 +2,8 @@
 
 Imagine you're at a party, and you're trying to figure out the hottest topic in the room by listening to snippets of conversations. Everyone is talking at once, but you need to figure out what the main idea is without hearing every word perfectly. A Transformer model does something similar when it processes text.
 
+![Transformers Concepts Simplified](transformer_concepts.png "Transformers Concepts Simplified")
+
 ## The Easiest Way to Understand the Transformer Model
 
 Understanding the Transformer model can feel like trying to decode an alien language at first, but don’t worry—let’s break it down into digestible pieces with a few playful analogies to help it stick!
