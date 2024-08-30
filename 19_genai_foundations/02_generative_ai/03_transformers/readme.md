@@ -4,6 +4,10 @@ Imagine you're at a party, and you're trying to figure out the hottest topic in 
 
 ![Transformers Concepts Simplified](transformer_concepts.png "Transformers Concepts Simplified")
 
+- Try [OpenAI Tokenizer](https://platform.openai.com/tokenizer) to understand how text is broken down & tokenized by an LLM.
+
+- [Visualize Word Embeddings](https://projector.tensorflow.org/) and see how words are represented in multi-dimensional space
+
 ## The Easiest Way to Understand the Transformer Model
 
 Understanding the Transformer model can feel like trying to decode an alien language at first, but don’t worry—let’s break it down into digestible pieces with a few playful analogies to help it stick!
