@@ -39,6 +39,19 @@ As the demand for generative AI applications continues to rise, having an effici
 2. **NLTK**  
    The Natural Language Toolkit (NLTK) supports a wide range of natural language processing tasks, making it an essential part of the stack for preprocessing and handling text data before and after generative tasks.
 
+## ROUGE Calculator
+
+As we also plan on evaluating the quality of generated text against reference texts, you would need a **ROUGE calculator**. The ROUGE (Recall-Oriented Understudy for Gisting Evaluation) metric, especially useful for tasks like summarization and translation, measures how well the generated text matches the reference text in terms of overlap in n-grams, word sequences, and word pairs.
+
+Tools like `ROUGECalculator` automate the process of calculating these scores, typically providing results for:
+- **ROUGE-N**: Overlap of n-grams between generated and reference text.
+- **ROUGE-L**: Longest common subsequence comparison between the texts.
+- **ROUGE-W**: Weighted longest common subsequence.
+
+You can either use existing ROUGE libraries such as the one available in Hugging Face’s `datasets` library, or build your own utility using Python.
+
+Incorporating a ROUGE calculator into your stack would help you effectively measure and benchmark the performance of your generative models, making it a critical component for thorough evaluation.
+
 ### Conclusion
 Our Generative API Prototyping Stack integrates powerful tools for developing, testing, and evaluating generative AI applications. With an emphasis on flexibility and scalability, this stack is designed to cater to both local and cloud environments, making it suitable for a wide range of developers. By incorporating cutting-edge models and evaluation techniques, this stack ensures that generative AI applications meet high performance and quality standards.
 
