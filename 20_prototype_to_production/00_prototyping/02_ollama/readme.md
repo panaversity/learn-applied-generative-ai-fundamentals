@@ -45,10 +45,10 @@ Before using Ollama in Google Colab, you need to set it up on your local machine
 
    ```bash
    docker pull ollama/ollama:latest
-   docker run -d -p 5000:5000 ollama/ollama
+   docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
    ```
 
-   - This command pulls the latest Ollama Docker image and runs it on port 5000.
+   - This command pulls the latest Ollama Docker image and runs it on port 11434.
 
 #### Using Ngrok to Expose Local Ollama Instance to Google Colab
 
@@ -61,15 +61,42 @@ To interact with Ollama from Google Colab, you need to expose your local Ollama 
    - Start Ngrok to tunnel your local Ollama instance.
 
    ```bash
-   ngrok http 5000
+   ngrok http --log stderr 11434 --host-header localhost:11434
    ```
 
-   - This command will provide a public URL that forwards to your local Ollama instance on port 5000.
+   - This command will provide a public URL that forwards to your local Ollama instance on port 11434.
 
 3. **Copy the Public URL**:
+```bash
+t=2024-09-05T18:46:58+0500 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:11434 url=https://99fd-129.ngrok-free.app
+```
    - Ngrok will output a public URL like `http://abcd1234.ngrok.io`. Copy this URL; you’ll need it in Google Colab.
 
-### 3. Interacting with Ollama in Google Colab
+### 3: Download the Llama Model in the Ollama Container
+
+To download the Llama 3.1 model within the Ollama container, follow these steps:
+
+1. **Open Docker Dashboard**: Navigate to your Docker Dashboard or use the command line.
+2. **Access the Ollama Container**:
+   - Find the `ollama` container from the list of running containers.
+   - Click on the container to open the details.
+   - Go to the `Exec` tab (or use `docker exec` via terminal).
+3. **Run the Model Download Command**:
+   - In the command input field, type the following command and execute it:
+   
+   ```bash
+   ollama run llama3.1
+   ```
+
+   This command will initiate the download of the Llama 3.1 model into the container.
+
+   Note: If you PC hardware is weak you can run the following model:
+
+   ```bash
+   ollama run tinyllama
+   ```
+
+### 4. Interacting with Ollama in Google Colab
 
 Now that Ollama is running locally and exposed via Ngrok, you can interact with it from Google Colab.
 
@@ -87,20 +114,35 @@ In your Google Colab notebook:
 2. **Set Up the Connection**:
    - Use the Ngrok URL to connect Colab to your local Ollama instance.
 
-   ```python
-   import requests
+```python
+import requests
 
-   # Replace this URL with your Ngrok URL
-   ollama_url = "http://abcd1234.ngrok.io"
+# Replace this URL with your Ngrok URL
+ollama_url = "https://99fd-104-28-212-129.ngrok-free.app"
 
-   def query_ollama(prompt):
-       response = requests.post(f"{ollama_url}/api/generate", json={"prompt": prompt})
-       return response.json()
+def query_ollama(prompt, model="tinyllama"):
+   headers = {
+      "ngrok-skip-browser-warning": "true"  # This header bypasses the Ngrok browser warning
+   }
+   data = {
+      "prompt": prompt,
+      "model": model,
+      "stream": False  # Disable streaming for a simple response
+   }
+   
+   # Sending the request to generate a completion from the model
+   response = requests.post(f"{ollama_url}/api/generate", json=data, headers=headers)
+   
+   # If the response was successful, return the generated text
+   if response.status_code == 200:
+      return response.json().get("response", "No response found")
+   else:
+      return f"Error: {response.status_code}, {response.text}"
 
-   # Test the connection
-   response = query_ollama("What is Ollama?")
-   print(response)
-   ```
+# Test the connection with a simple Hello World prompt
+response = query_ollama("Greet me in 3 words!")
+print(response)
+```
 
 #### Running API Calls from Colab
 
@@ -108,30 +150,76 @@ You can now send API requests to your Ollama instance directly from Google Colab
 
 ```python
 # Generate text from a prompt
-prompt = "Write a story about a robot exploring Mars."
+prompt = "Write a story about a robot exploring Mars within 50 words."
 result = query_ollama(prompt)
 print(result)
 ```
 
-### 4. Advanced Usage
+### 5. Advanced Usage
 
 #### Customizing Ollama Models
 
 Ollama allows you to customize and fine-tune models. You can pass additional parameters in your API request to adjust the model's behavior:
 
 ```python
-def query_ollama_custom(prompt, temperature=0.7, max_tokens=100):
-    payload = {
-        "prompt": prompt,
-        "temperature": temperature,
-        "max_tokens": max_tokens
+def query_ollama_custom(prompt, model="tinyllama", temperature=0.7, max_tokens=100):
+    headers = {
+        "ngrok-skip-browser-warning": "true"  # This header bypasses the Ngrok browser warning
     }
-    response = requests.post(f"{ollama_url}/api/generate", json=payload)
-    return response.json()
+    data = {
+        "prompt": prompt,
+        "model": model,
+        "temperature": temperature,
+        "max_tokens": max_tokens,
+        "stream": False  # Disable streaming for a simple response
+    }
+    
+    # Sending the request to generate a completion from the model
+    response = requests.post(f"{ollama_url}/api/generate", json=data, headers=headers)
+    
+    # If the response was successful, return the generated text
+    if response.status_code == 200:
+        return response.json().get("response", "No response found")
+    else:
+        return f"Error: {response.status_code}, {response.text}"
 
-# Example with custom settings
-custom_result = query_ollama_custom("Describe a futuristic city.", temperature=0.8, max_tokens=150)
-print(custom_result)
+# Test the connection with a simple Hello World prompt
+custom_result = query_ollama_custom("Describe a futuristic city.", temperature=0.8, max_tokens=50)
+print(response)
+```
+
+#### Streaming API Response
+
+```python
+def query_ollama_streaming(prompt, model="tinyllama"):
+    headers = {
+        "ngrok-skip-browser-warning": "true"  # This header bypasses the Ngrok browser warning
+    }
+    data = {
+        "prompt": prompt,
+        "model": model, 
+        "stream": True
+    }
+    
+    # Stream the request to handle the sequence of JSON objects
+    response = requests.post(f"{ollama_url}/api/generate", json=data, headers=headers)
+    
+    # Extract the text response
+    text_response = ""
+    for line in response.iter_lines():
+        if line:
+            try:
+                json_data = json.loads(line)
+                if "response" in json_data:
+                    text_response += json_data["response"]
+                    print(f"Partial response: {text_response}")
+            except json.JSONDecodeError as e:
+                print(f"Error decoding JSON: {e}")
+    return text_response
+
+# Test the connection
+response_text = query_ollama("What is Generative AI?")
+print(response_text)
 ```
 
 #### Chaining API Calls for Complex Tasks
@@ -150,7 +238,7 @@ story = query_ollama(story_prompt)["text"]
 print(story)
 ```
 
-### 5. Conclusion
+### 6. Conclusion
 
 While Ollama is typically run locally, using Google Colab in conjunction with tools like Ngrok allows you to interact with Ollama remotely. This setup provides the best of both worlds: local control over your models and the convenience of cloud-based development. Whether you’re generating text, fine-tuning models, or creating complex workflows, this approach gives you the flexibility to experiment and iterate quickly.
 
