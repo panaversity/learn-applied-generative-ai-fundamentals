@@ -136,3 +136,13 @@ To copy files from Google Drive back to Colab, use a similar cp command:
 - /content/target_directory is the path to the target directory in Colab.
 
 These commands will allow you to easily copy and retrieve files between Colab and Google Drive using the terminal.
+
+# Conclusion
+
+In this guide, we've covered the basics of using shell commands in Google Colab, accessing a runtime terminal, and transferring files between Google Drive and Colab. With these skills, you'll be well-equipped to tackle a wide range of tasks in Google Colab. For further learning, we recommend exploring the official Google Colab documentation and seeking out additional resources on Linux shell commands and terminal usage.
+
+### Additional Resources
+
+- [Google Colab Documentation](https://colab.research.google.com/notebooks/intro.ipynb)
+- [Linux Shell Commands Tutorial](https://www.tutorialspoint.com/unix/index.htm)
+- [Terminal Usage Guide:](https://www.gnu.org/software/bash/manual/bash.html)
