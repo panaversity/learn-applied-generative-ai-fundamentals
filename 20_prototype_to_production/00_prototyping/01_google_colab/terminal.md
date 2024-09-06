@@ -139,7 +139,13 @@ These commands will allow you to easily copy and retrieve files between Colab an
 
 # Conclusion
 
-In this guide, we've covered the basics of using shell commands in Google Colab, accessing a runtime terminal, and transferring files between Google Drive and Colab. With these skills, you'll be well-equipped to tackle a wide range of tasks in Google Colab. For further learning, we recommend exploring the official Google Colab documentation and seeking out additional resources on Linux shell commands and terminal usage.
+n this guide, we've covered the basics of using shell commands in Google Colab, accessing a runtime terminal, and transferring files between Google Drive and Colab. Here's a quick summary of the key takeaways:
+
+- You can use a wide range of Linux shell commands in Google Colab's code cells by prefixing them with !.
+- You can access a runtime terminal in Google Colab's free version by installing the colab-xterm package.
+- You can transfer files between Google Colab and Google Drive using terminal commands like cp and mv.
+
+With these skills, you'll be well-equipped to tackle a wide range of tasks in Google Colab. For further learning, we recommend exploring the official Google Colab documentation and seeking out additional resources on Linux shell commands and terminal usage.
 
 ### Additional Resources
 
