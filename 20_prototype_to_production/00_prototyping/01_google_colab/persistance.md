@@ -57,11 +57,11 @@ Here's a breakdown of how this works:
 
 2. Unique Identifier: Colab assigns a unique identifier to the notebook. This identifier is used to distinguish it from other notebooks and to link it to the corresponding data in Google Drive.
 
-   ![Two Files with same name at google drive](Two_files_with_same_name_at_drive.PNG 'Two Files with same name at google drive')
+   ![Two Files with same name at google drive](images/Two_files_with_same_name_at_drive.PNG 'Two Files with same name at google drive')
 
 3. Storage: The notebook's .ipynb file is saved in your Google Drive with a filename that includes this unique identifier. For example, it might be named something like notebook_1234567890.ipynb.
 
-   ![Fisrt file Image](File_one.PNG)
-   ![Second file Image](File_two.PNG)
+   ![Fisrt file Image](images/File_one.PNG)
+   ![Second file Image](images/File_two.PNG)
 
 4. Access: When you open the notebook in Colab, it fetches the file from your Google Drive using the unique identifier and loads it into the notebook environment.
