@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Google Colab is a powerful platform for data science, software development, and general computing tasks. This guide provides an overview of the Linux shell commands available in Google Colab, as well as tips for accessing a runtime terminal, transferring files between Google Drive and Colab, and more. Whether you're a seasoned user or just getting started, this guide will help you unlock the full potential of Google Colab.
+Google Colab is a powerful platform for Generative AI, data science, software development, and general computing tasks. It also provides a platfrom for generating code using Genini and is integrated with the LLM. This guide provides an overview of the Linux shell commands available in Google Colab, as well as tips for accessing a runtime terminal, transferring files between Google Drive and Colab, and more. Whether you're a seasoned user or just getting started, this guide will help you unlock the full potential of Google Colab.
 
 
 Google Colab runs on a **Linux-based operating system**, specifically a variant of **Ubuntu**. As of recent updates, Colab is typically running on **Ubuntu 20.04 LTS (Focal Fossa)**, although the exact version may vary as Google periodically updates the backend infrastructure.
