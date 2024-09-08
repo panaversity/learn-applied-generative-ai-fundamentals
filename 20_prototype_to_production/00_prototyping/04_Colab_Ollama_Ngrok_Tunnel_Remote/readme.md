@@ -99,11 +99,19 @@ Now that your Colab instance is running Ollama and exposed via Ngrok, you can co
        ```bash
        brew install ollama
        ```
+     - For Windows:
+       You can install the ollama setup from [here](https://ollama.com/download/windows).
+      
 
    - Set the Ngrok app URL for local terminal connection:
-     ```bash
-     export OLLAMA_HOST="[ngrok app url here]"
-     ```
+     -For macOS:
+        ```bash
+        export OLLAMA_HOST="[ngrok app url here]"
+        ```
+     -For Windows:
+        ```bash
+       set OLLAMA_HOST="[ngrok app url here]"
+        ```
 
 ### 2. Run Ollama Commands
 
