@@ -9,3 +9,5 @@ https://www.linkedin.com/pulse/how-use-google-gemini-api-colab-piyush-saluja-yak
 https://colab.research.google.com/github/google/generative-ai-docs/blob/main/site/en/tutorials/quickstart_colab.ipynb
 
 [Will the New GEMINI PDF Feature Replace RAG?](https://www.youtube.com/watch?v=SrXjuNRTOcI)
+
+https://developers.googleblog.com/en/gemini-15-flash-updates-google-ai-studio-gemini-api/
