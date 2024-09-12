@@ -99,11 +99,40 @@ Now that your Colab instance is running Ollama and exposed via Ngrok, you can co
        ```bash
        brew install ollama
        ```
+     - For Windows OS, download from [here](https://ollama.com/download/OllamaSetup.exe)
 
    - Set the Ngrok app URL for local terminal connection:
      ```bash
-     export OLLAMA_HOST="[ngrok app url here]"
+     export OLLAMA_HOST="[ngrok app url]"
      ```
+   - Set the Ngrok app URL for local terminal connection on **Windows OS**:
+
+        1. **Edit Environment Variables**  
+           - Press the Windows button and type "environment variables" to display a list of options.  
+           - Select **Edit the system environment variables**.
+
+        2. **Add New Variable**  
+            - Click the **Environment Variables** button.  
+            - Click the **New** button under either **User variables** or **System variables**.
+
+        3. **Set Variable Name and Value**  
+            - In the **Variable name** field, enter `OLLAMA_HOST`.  
+            - In the **Variable value** field, enter the Ngrok app URL, for example:
+
+                `https://c46f-34-125-8-152.ngrok-free.app`  
+
+            *Note: Use Ngrok static Domain for a one-time setup.*
+
+        4. **Verify Environment Variable**  
+            - Press the Windows button, type **CMD**, and select **Command Prompt**.  
+            - Enter the following command to check if the variable exists:
+
+                ```bash
+                echo %OLLAMA_HOST%
+                ```
+            If set, the variable value will be displayed.
+
+            ![Env output](image-5.PNG)
 
 ### 2. Run Ollama Commands
 
