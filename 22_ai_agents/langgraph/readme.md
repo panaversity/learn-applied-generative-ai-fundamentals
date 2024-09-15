@@ -1,6 +1,18 @@
 # LangGraph
 
+## The LangChain Academy Course to Learn from
+
+https://academy.langchain.com/courses/intro-to-langgraph
+
+The LangGraph learning notebooks are in langchain-academy-course directory
+
+## Other Courses and Resources
+
+## Deep Learning Course
+
 [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
+
+## References:
 
 [LangGraph 101: it's better than LangChain](https://www.youtube.com/watch?v=qaWOwbFw3cs)
 
