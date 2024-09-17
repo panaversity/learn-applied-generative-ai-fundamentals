@@ -2,6 +2,34 @@
 
 [Let’s Get Agentic: LangChain and LlamaIndex Talk AI Agents](https://thenewstack.io/lets-get-agentic-langchain-and-llamaindex-talk-ai-agents/)
 
+The modern history of AI agents has seen rapid advancements, particularly with the development of large language models (LLMs) and frameworks designed to enhance their capabilities. Here's an overview leading up to the OpenAI Assistant API, AutoGen, CrewAI, and LangGraph:
+
+### 2010s: The Rise of Deep Learning and LLMs
+- **Deep Learning**: The 2010s marked the rise of deep learning, significantly improving AI models' performance in various tasks, including image recognition and natural language processing (NLP).
+- **Large Language Models**: Models like OpenAI's GPT-2 and GPT-3 demonstrated the potential of LLMs to generate human-like text, paving the way for more sophisticated AI agents.
+
+### Early 2020s: Emergence of Advanced AI Agents
+- **Conversational Agents**: The success of LLMs led to the development of conversational agents, such as chatbots and virtual assistants, capable of understanding and generating natural language.
+- **OpenAI Assistant API**: OpenAI introduced the Assistant API, allowing developers to integrate powerful language models into their applications, enabling more interactive and intelligent AI agents¹.
+
+### Mid 2020s: Advancements in AI Agent Frameworks
+- **AutoGen**: AutoGen specializes in conversational agents, providing a high-level abstraction over multi-agent collaboration. It leverages the OpenAI Assistant API to enhance agents with advanced capabilities, such as code interpretation and file access².
+- **CrewAI**: CrewAI combines AutoGen’s autonomy with a structured, role-playing approach, facilitating sophisticated agent interactions. It balances autonomy with structured processes, making it ideal for both development and production phases¹.
+- **LangChain and LangGraph**: LangChain introduced LangGraph, a framework designed to build and manage AI agents using graph-based workflows. LangGraph allows for highly controllable and low-level interactions, making it ideal for complex, multi-step processes¹.
+
+### Key Features of Modern AI Agent Frameworks and LangGraph
+- **Controlled Flow**: Frameworks like LangGraph enable developers to define a clear flow of execution, creating state machines where LLMs act as reasoning engines.
+- **Human-in-the-Loop**: These frameworks like LangGraph support human-in-the-loop interactions, ensuring that AI agents can be guided and corrected by human operators when necessary¹.
+- **Production-Ready**: Designed for production environments, these frameworks provide the reliability and control needed for real-world applications. LangGraph is production ready.
+
+These advancements represent a significant evolution in the field of AI agents, offering powerful tools for building sophisticated and reliable AI-driven applications. 
+
+Source: Conversation with Copilot, 9/17/2024
+(1) An Overview of Multi Agent Frameworks: Autogen, CrewAI and LangGraph. https://sajalsharma.com/posts/overview-multi-agent-fameworks/.
+(2) Agent Backed by OpenAI Assistant API | AutoGen - GitHub Pages. https://microsoft.github.io/autogen/docs/topics/openai-assistant/gpt_assistant_agent/.
+(3) The History of OpenAI: Sam Altman Pioneering AI Without Musk. https://www.business2community.com/statistics-pages/history-of-openai.
+(4) Announcing Azure OpenAI Service Assistants Preview Refresh. https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/announcing-azure-openai-service-assistants-public-preview/ba-p/4143217.
+
 ## The LangChain Academy Course to Learn from
 
 https://academy.langchain.com/courses/intro-to-langgraph
