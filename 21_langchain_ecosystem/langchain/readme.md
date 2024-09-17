@@ -3,9 +3,11 @@
 Our objective is to become world class experts in Langchain. Ideally we should learn it by running it on Google Colab with a model installed. This will allow all our students to learn for free. However, we will start by using Google Gemini APIs becuase it is easy to use and almost free. Check out the [pricing](https://ai.google.dev/pricing).
 
 
-[Introduction](https://python.langchain.com/v0.2/docs/introduction/)
+[Introduction](https://python.langchain.com/docs/introduction/)
 
-[Tutorials](https://python.langchain.com/v0.2/docs/tutorials/)
+[Tutorials](https://python.langchain.com/docs/tutorials/)
+
+## Additional Reading Material
 
 Chapter 3 (Standard Practices for Text Generation with ChatGPT) of [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
 
