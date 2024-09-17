@@ -7,6 +7,10 @@ Our objective is to become world class experts in Langchain. Ideally we should l
 
 [Tutorials](https://python.langchain.com/docs/tutorials/)
 
+[Conceptual guide](https://python.langchain.com/docs/concepts/)
+
+Note: We will not be using version 0.2 but moved to 0.3 and above.
+
 ## Additional Reading Material
 
 Chapter 3 (Standard Practices for Text Generation with ChatGPT) of [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
