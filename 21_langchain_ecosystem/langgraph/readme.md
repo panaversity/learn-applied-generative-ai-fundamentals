@@ -2,6 +2,20 @@
 
 [Let’s Get Agentic: LangChain and LlamaIndex Talk AI Agents](https://thenewstack.io/lets-get-agentic-langchain-and-llamaindex-talk-ai-agents/)
 
+AI agents are software programs that can autonomously perform tasks on behalf of users or other systems. They interact with their environment, collect data, and use that data to make decisions and take actions to achieve specific goals¹². These agents can be used in various applications, from customer service chatbots to complex data analysis tools.
+
+LangGraph is indeed a good tool for developing AI agents, especially research agents. It integrates seamlessly with LangChain V3, allowing developers to create sophisticated agents capable of delivering detailed, multi-step responses by leveraging multiple information sources⁴⁵. LangGraph's graph-based approach offers greater flexibility, transparency, and customizability compared to traditional frameworks⁴.
+
+Source: Conversation with Copilot, 9/17/2024
+(1) What Are AI Agents? - IBM. https://www.ibm.com/think/topics/ai-agents.
+(2) What are AI Agents?- Agents in Artificial Intelligence Explained - AWS. https://aws.amazon.com/what-is/ai-agents/.
+(3) Using LangGraph to build better AI Agents - Geeky Gadgets. https://www.geeky-gadgets.com/using-langgraph-to-build-ai-agents/.
+(4) Building Local AI Agents: A Guide to LangGraph, AI Agents, and Ollama. https://blog.paperspace.com/building-local-ai-agents-a-guide-to-langgraph-ai-agents-and-ollama/.
+(5) What are AI agents? A comprehensive guide - Zapier. https://zapier.com/blog/ai-agent/.
+(6) A Practical Guide to Building AI Agents With LangGraph. https://adasci.org/a-practical-guide-to-building-ai-agents-with-langgraph/.
+
+## The Modern History of AI Agents
+
 The modern history of AI agents has seen rapid advancements, particularly with the development of large language models (LLMs) and frameworks designed to enhance their capabilities. Here's an overview leading up to the OpenAI Assistant API, AutoGen, CrewAI, and LangGraph:
 
 ### 2010s: The Rise of Deep Learning and LLMs
