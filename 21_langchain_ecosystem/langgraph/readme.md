@@ -1,5 +1,7 @@
 # LangGraph
 
+[Let’s Get Agentic: LangChain and LlamaIndex Talk AI Agents](https://thenewstack.io/lets-get-agentic-langchain-and-llamaindex-talk-ai-agents/)
+
 ## The LangChain Academy Course to Learn from
 
 https://academy.langchain.com/courses/intro-to-langgraph
