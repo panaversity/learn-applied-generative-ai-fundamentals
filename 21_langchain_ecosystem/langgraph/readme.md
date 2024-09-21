@@ -1,4 +1,10 @@
-# LangGraph
+# AI Agents and LangGraph
+
+[Report: What Are AI Agents?](https://www.oreilly.com/library/view/what-are-ai/9781098159726/)
+
+[What are AI Agents? By AWS](https://aws.amazon.com/what-is/ai-agents/)
+
+[What are AI agents? By IBM](https://www.ibm.com/think/topics/ai-agents)
 
 [Let’s Get Agentic: LangChain and LlamaIndex Talk AI Agents](https://thenewstack.io/lets-get-agentic-langchain-and-llamaindex-talk-ai-agents/)
 
