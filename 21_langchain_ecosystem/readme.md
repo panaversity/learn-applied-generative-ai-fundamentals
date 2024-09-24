@@ -2,6 +2,13 @@
 
 The LangChain ecosystem is a comprehensive framework designed to simplify the development of applications powered by large language models (LLMs). It consists of several interconnected components that work together to facilitate the creation, deployment, and management of LLM-driven applications. Here’s a detailed look at the different parts and layers of the LangChain ecosystem:
 
+In LangChain, **"chain"** refers to a sequence of operations or components linked together to perform complex tasks using language models. These chains can involve multiple steps, such as:
+- **Prompt Chains:** Combining prompts to create structured interactions with language models.
+- **Data Retrieval Chains:** Fetching and processing data from different sources to use in responses.
+- **Decision Chains:** Making decisions based on the output of the language model.
+- **API Chains:** Interacting with external APIs and using their results in a workflow.
+By chaining these components together, LangChain enables the creation of sophisticated applications that leverage the power of language models in a structured, modular way.
+
 ### Core Components
 
 1. **LangChain Framework**:
