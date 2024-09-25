@@ -4,7 +4,7 @@
 
 https://academy.langchain.com/courses/intro-to-langgraph
 
-The LangGraph learning notebooks are in course-notebooks directory
+The LangGraph learning notebooks are in course-notebooks directory. We are using Google Models for learning langgraph.
 
 ## Introduction
 

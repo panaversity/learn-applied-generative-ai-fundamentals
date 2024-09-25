@@ -10,6 +10,11 @@
 
 [Let’s Get Agentic: LangChain and LlamaIndex Talk AI Agents](https://thenewstack.io/lets-get-agentic-langchain-and-llamaindex-talk-ai-agents/)
 
+
+[What are AI agents? By Harrison Chase CEO LangChain](https://blog.langchain.dev/what-is-an-agent/)
+
+[Not an AI Agent, Agentic Systems, Autonomous AI Agents](https://x.com/AndrewYNg/status/1801295202788983136)
+
 AI agents are software programs that can autonomously perform tasks on behalf of users or other systems. They interact with their environment, collect data, and use that data to make decisions and take actions to achieve specific goals¹². These agents can be used in various applications, from customer service chatbots to complex data analysis tools.
 
 LangGraph is indeed a good tool for developing AI agents, especially research agents. It integrates seamlessly with LangChain V3, allowing developers to create sophisticated agents capable of delivering detailed, multi-step responses by leveraging multiple information sources⁴⁵. LangGraph's graph-based approach offers greater flexibility, transparency, and customizability compared to traditional frameworks⁴.
