@@ -3,6 +3,9 @@
 Our objective is to become world class experts in Langchain. Ideally we should learn it by running it on Google Colab with a model installed. This will allow all our students to learn for free. However, we will start by using Google Gemini APIs becuase it is easy to use and almost free. Check out the [pricing](https://ai.google.dev/pricing).
 
 
+[Short Course: LangChain for LLM Application Development](https://www.deeplearning.ai/short-courses/langchain-for-llm-application-development/)
+
+
 [Introduction](https://python.langchain.com/docs/introduction/)
 
 [Tutorials](https://python.langchain.com/docs/tutorials/)

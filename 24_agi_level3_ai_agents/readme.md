@@ -44,3 +44,5 @@ In order to understand AI Agents [Level 3] we must have a firm grasp at reasoner
 [The Intelligence Age](https://ia.samaltman.com/)
 
 [Sam Altman catapults past founder mode into ‘god mode’ with latest AI post](https://techcrunch.com/2024/09/23/sam-altman-catapults-past-founder-mode-into-god-mode-with-latest-ai-post/)
+
+[GenAI Agents: Comprehensive Repository for Development and Implementation](https://github.com/NirDiamant/GenAI_Agents)
