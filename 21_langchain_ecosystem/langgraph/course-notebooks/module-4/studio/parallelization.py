@@ -2,17 +2,17 @@ import operator
 from typing import Annotated
 from typing_extensions import TypedDict
 
-from langchain_core.documents import Document
 from langchain_core.messages import HumanMessage, SystemMessage
 
 from langchain_community.document_loaders import WikipediaLoader
 from langchain_community.tools.tavily_search import TavilySearchResults
 
-from langchain_openai import ChatOpenAI
 
 from langgraph.graph import StateGraph, START, END
+from langgraph.graph.state import CompiledStateGraph
+from langchain_google_genai import ChatGoogleGenerativeAI
 
-llm = ChatOpenAI(model="gpt-4o", temperature=0) 
+llm: ChatGoogleGenerativeAI = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 
 class State(TypedDict):
     question: str
@@ -75,7 +75,7 @@ def generate_answer(state):
     return {"answer": answer}
 
 # Add nodes
-builder = StateGraph(State)
+builder: StateGraph = StateGraph(State)
 
 # Initialize each node with node_secret 
 builder.add_node("search_web",search_web)
@@ -88,4 +88,4 @@ builder.add_edge(START, "search_web")
 builder.add_edge("search_wikipedia", "generate_answer")
 builder.add_edge("search_web", "generate_answer")
 builder.add_edge("generate_answer", END)
-graph = builder.compile()
+graph: CompiledStateGraph = builder.compile()

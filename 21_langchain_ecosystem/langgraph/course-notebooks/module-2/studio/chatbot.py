@@ -3,8 +3,10 @@ from langgraph.graph import MessagesState
 from langgraph.graph import StateGraph, START, END
 
 # We will use this model for both the conversation and the summarization
-from langchain_openai import ChatOpenAI
-model = ChatOpenAI(model="gpt-4o", temperature=0) 
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langgraph.graph.state import CompiledStateGraph
+
+model: ChatGoogleGenerativeAI = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
 
 # State class to store messages and summary
 class State(MessagesState):
@@ -72,7 +74,7 @@ def summarize_conversation(state: State):
     return {"summary": response.content, "messages": delete_messages}
 
 # Define a new graph
-workflow = StateGraph(State)
+workflow: StateGraph = StateGraph(State)
 workflow.add_node("conversation", call_model)
 workflow.add_node(summarize_conversation)
 
@@ -82,4 +84,4 @@ workflow.add_conditional_edges("conversation", should_continue)
 workflow.add_edge("summarize_conversation", END)
 
 # Compile
-graph = workflow.compile()
+graph: CompiledStateGraph = workflow.compile()

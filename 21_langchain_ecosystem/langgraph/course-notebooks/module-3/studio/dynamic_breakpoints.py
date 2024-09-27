@@ -1,6 +1,7 @@
 from typing_extensions import TypedDict
 from langgraph.errors import NodeInterrupt
 from langgraph.graph import START, END, StateGraph
+from langgraph.graph.state import CompiledStateGraph
 
 class State(TypedDict):
     input: str
@@ -21,7 +22,7 @@ def step_3(state: State) -> State:
     print("---Step 3---")
     return state
 
-builder = StateGraph(State)
+builder: StateGraph = StateGraph(State)
 builder.add_node("step_1", step_1)
 builder.add_node("step_2", step_2)
 builder.add_node("step_3", step_3)
@@ -30,4 +31,4 @@ builder.add_edge("step_1", "step_2")
 builder.add_edge("step_2", "step_3")
 builder.add_edge("step_3", END)
 
-graph = builder.compile()
+graph: CompiledStateGraph = builder.compile()

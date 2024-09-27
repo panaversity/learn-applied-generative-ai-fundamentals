@@ -4,7 +4,10 @@
     "agent": "./agent.py:graph",
     "dynamic_breakpoints": "./dynamic_breakpoints.py:graph"
   },
-  "env": "./.env",
+  "env": [
+    "LANGCHAIN_API_KEY",
+    "GOOGLE_API_KEY"
+  ],
   "python_version": "3.11",
   "dependencies": [
     "."
