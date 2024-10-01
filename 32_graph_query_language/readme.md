@@ -136,5 +136,29 @@ Source: Conversation with Copilot, 10/1/2024
 (5) Information technology — Database languages — GQL - ISO. https://www.iso.org/standard/76120.html.
 (6) [2211.10962] PG-Schema: Schemas for Property Graphs - arXiv.org. https://arxiv.org/abs/2211.10962.
 
+## GQL Relevance in the age of Generative AI
+
+The GQL standard remains highly relevant and useful even in the age of generative AI and large language models (LLMs). Here are a few reasons why:
+
+### Enhanced Data Management
+- **Structured Data Handling**: GQL excels at managing complex, interconnected data structures, which is crucial for applications that require detailed data relationships, such as social networks, recommendation systems, and knowledge graphs.
+- **Efficient Queries**: GQL's ability to perform complex queries efficiently can complement the unstructured data processing capabilities of LLMs, providing a robust backend for AI applications.
+
+### Integration with AI
+- **Knowledge Graphs**: GQL can be used to build and query knowledge graphs, which are essential for enhancing the contextual understanding of LLMs. These graphs can store vast amounts of structured information that LLMs can leverage to improve their responses.
+- **Data Enrichment**: By integrating GQL with AI models, you can enrich the data stored in property graphs with insights derived from AI, leading to more intelligent and context-aware applications.
+
+### Real-World Applications
+- **Recommendation Systems**: Combining GQL with AI can enhance recommendation systems by leveraging both structured graph data and unstructured user behavior data.
+- **Fraud Detection**: In financial services, GQL can help map out complex transaction networks, while AI can analyze patterns to detect fraudulent activities.
+
+### Future-Proofing
+- **Standardization**: As an ISO standard, GQL provides a consistent and reliable way to manage graph data, ensuring compatibility and interoperability across different systems and platforms.
+- **Scalability**: GQL's design allows it to scale with the growing complexity and size of data, making it a future-proof choice for data management.
+
+In summary, GQL and generative AI/LLMs can complement each other, with GQL providing a structured, efficient way to manage and query data, and AI models offering advanced data processing and analysis capabilities. This synergy can lead to more powerful and intelligent applications.
+
+
+
 
 
