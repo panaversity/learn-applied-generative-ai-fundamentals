@@ -6,6 +6,12 @@ https://groq.com/
 
 [Groq and Llama Partnership](https://groq.com/meta-and-groq-continue-to-build-open-source-developer-ecosystem-as-llama-3-2-launches/)
 
+“I’m really excited to see Groq’s ultra-low-latency inference for cloud deployments of the Llama 3.1 models. This is an awesome example of how our commitment to open source is driving innovation and progress in AI…”
+
+Mark Zuckerberg
+
+Founder & CEO, Meta
+
 **Groq, Inc.** is an American technology company specializing in artificial intelligence (AI) and semiconductor technology. Founded in 2016 by former Google engineers, Groq develops AI accelerators known as the **Language Processing Unit (LPU)**. These LPUs are designed to enhance the performance of AI workloads, such as large language models, image classification, and predictive analysis².
 
 Groq's technology is known for its speed, efficiency, and scalability, making it a competitive player in the AI inference market. They offer both cloud and on-premises solutions for various AI applications¹.
