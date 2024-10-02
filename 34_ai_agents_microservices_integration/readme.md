@@ -1,4 +1,4 @@
-# We Build AI Agents using Langgraph, do we use Micoservices in this Architecture?
+# We Build AI Agents using Langgraph, should we use Micoservices in this Architecture?
 
 LangGraph is a powerful framework for building AI agents, and it can indeed be integrated with microservices to enhance scalability and modularity. While LangGraph itself focuses on defining the flow and state of AI agents using nodes and edges, microservices can be used to handle specific tasks or services within this architecture.
 
