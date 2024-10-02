@@ -18,7 +18,7 @@ Integrating microservices with LangGraph can significantly enhance the flexibili
 
 ### 2. **Communication**
    - **API Calls**: Use RESTful APIs or gRPC for communication between LangGraph nodes and microservices. This allows for seamless integration and data exchange.
-   - **Message Queues**: Implement message queues (e.g., RabbitMQ, Kafka) to handle asynchronous communication and ensure reliability.
+   - **Message Queues**: Implement message queues (e.g., **Kafka**) to handle asynchronous communication and ensure reliability.
 
 ### 3. **Scalability**
    - **Horizontal Scaling**: Microservices can be scaled independently based on demand. For instance, if your NLP service is heavily used, you can scale it without affecting other services.
@@ -60,7 +60,7 @@ Integrating AI agents with microservices can offer many benefits, such as scalab
 
 5. **Security Concerns**: Each microservice can be a potential attack vector, increasing the overall security risk. Proper security measures need to be implemented to protect the system³.
 
-Despite these challenges, the benefits of integrating AI agents with microservices often outweigh the downsides, especially for large-scale, complex applications. If you have any specific concerns or scenarios in mind, feel free to share!
+Despite these challenges, the benefits of integrating AI agents with microservices often outweigh the downsides, especially for large-scale, complex applications. 
 
 Source: Conversation with Copilot, 10/2/2024
 (1) The disadvantages vs. benefits of microservices - Red Hat Developer. https://developers.redhat.com/articles/2022/01/25/disadvantages-microservices.
