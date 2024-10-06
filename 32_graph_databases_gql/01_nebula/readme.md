@@ -30,4 +30,18 @@ Using a graph database like Nebula Graph, with its full support for the GQL stan
 
 Nebula Graph is indeed one of the leading graph databases that has made significant strides in supporting the GQL standard. However, it's important to note that other databases like Neo4j and Amazon Neptune are also actively working towards full GQL compliance. While Nebula Graph may currently offer robust support, it's always good to keep an eye on developments from other major players in the field.
 
-Are you working on a specific project that requires GQL, or are you exploring the capabilities of graph databases in general?
+## Important Note:
+
+For us the most important thing is the support of Graph Schema's in the database like this example:
+
+### Creating a Graph
+To create a new graph, you can define the graph schema and then instantiate it. For example:
+
+```gql
+CREATE GRAPH TYPE socialNetworkSchema (
+  Person (name STRING, age INT),
+  Friend (since DATE)
+);
+
+CREATE GRAPH socialNetwork OF TYPE socialNetworkSchema;
+```
