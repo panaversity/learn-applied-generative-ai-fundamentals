@@ -1,4 +1,4 @@
-# The Graph Databases and The GQL Standard
+# The Knowledge Graphs, Graph Databases, and The GQL Standard
 
 **What Are Graph Databases?**
 
