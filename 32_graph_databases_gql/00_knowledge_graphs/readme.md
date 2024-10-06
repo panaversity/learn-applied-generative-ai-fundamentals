@@ -9,6 +9,12 @@ A knowledge graph is a structured representation of information that captures en
 
 This graph-based structure allows for a flexible and interconnected way to model complex real-world information. Knowledge graphs can encompass vast amounts of data and are often used to integrate information from multiple sources, providing a unified view of knowledge.
 
+[Knowledge Graphs Tutorial](https://medium.com/@nimritakoul01/knowledge-graphs-f51adb293401)
+
+[Using a Knowledge Graph to Implement a RAG Application](https://www.datacamp.com/tutorial/knowledge-graph-rag)
+
+[How to Build Knowledge Graphs With LLMs (python tutorial)](https://www.youtube.com/watch?v=tcHIDCGu6Yw)
+
 **Key Features of Knowledge Graphs:**
 
 1. **Semantic Relationships:** They capture not just data but the meaning behind it, enabling machines to understand context.
