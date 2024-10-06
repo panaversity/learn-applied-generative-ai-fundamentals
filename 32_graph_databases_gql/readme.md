@@ -8,6 +8,10 @@ Graph databases are specialized database systems designed to store, manage, and 
 - **Edges**: Represent relationships or connections between nodes, such as "friend of," "located at," or "purchased."
 - **Properties**: Additional information or attributes associated with nodes and edges.
 
+## Database Ranking:
+
+https://db-engines.com/en/ranking/graph+dbms
+
 **Key Features:**
 
 - **Flexible Schema**: Easily adapt to changes in data structures without the need for complex migrations.
