@@ -28,7 +28,7 @@ AI agents are software programs that can autonomously perform tasks on behalf of
 
 ![langgraph](langgraph.png "Motivation for Langgraph")
 
-## Langraph Balances Reliability with Control**
+<h1 style="text-align:center;">Langraph Balances Reliability with Control</h1>
 
 ![pillars](pillars.png "Pillars of Langgraph")
 
