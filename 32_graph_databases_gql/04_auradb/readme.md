@@ -8,6 +8,10 @@ https://neo4j.com/docs/cypher-manual/current/introduction/cypher-aura/
 
 [Tutorial](https://medium.com/@nebulagraph/understanding-gql-an-comprehensive-overview-of-the-standard-graph-query-language-927db394d3f3)
 
+[Discovering Neo4j AuraDB Free](https://www.youtube.com/watch?v=QOu5VAsCAoA)
+
+[Watch: Neo4j User Guides - Discovering Neo4j AuraDB Free](https://www.youtube.com/watch?v=gV_rdZw5bDs)
+
 [Pricing](https://neo4j.com/pricing/)
 
 ## Important Note:
