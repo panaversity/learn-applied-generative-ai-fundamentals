@@ -8,6 +8,8 @@ https://neo4j.com/docs/cypher-manual/current/introduction/cypher-aura/
 
 [Tutorial](https://medium.com/@nebulagraph/understanding-gql-an-comprehensive-overview-of-the-standard-graph-query-language-927db394d3f3)
 
+[Pricing](https://neo4j.com/pricing/)
+
 ## Important Note:
 
 For us the most important thing is the support of Graph Schema's in the database like this example:
