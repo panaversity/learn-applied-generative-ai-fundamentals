@@ -8,7 +8,7 @@
 
 ## Open AI o1: The Relationship between Knowldege Graphs, LLMs, and AI Agents
 
-The relationship between knowledge graphs, large language models (LLMs), and AI agents is integral to the development of advanced artificial intelligence systems. These three components can be interconnected to enhance understanding, reasoning, and autonomous decision-making in AI applications. Here's how they relate:
+The relationship between knowledge graphs, large language models (LLMs), and AI agents is integral to the development of **advanced artificial intelligence systems**. These three components can be interconnected to enhance understanding, reasoning, and autonomous decision-making in AI applications. Here's how they relate:
 
 ### **1. Knowledge Graphs**
 
