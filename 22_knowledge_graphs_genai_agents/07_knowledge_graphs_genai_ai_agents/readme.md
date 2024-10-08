@@ -336,3 +336,43 @@ Source: Conversation with Copilot, 10/8/2024
 (3) The Role of Enterprise Knowledge Graphs in LLMs. https://www.analyticsvidhya.com/blog/2023/11/the-role-of-enterprise-knowledge-graphs-in-llms/.
 (4) [2407.04363] AriGraph: Learning Knowledge Graph World Models with .... https://arxiv.org/abs/2407.04363.
 (5) Leveraging the Power of Knowledge Graphs: Enhancing Large Language .... https://www.wisecube.ai/blog/leveraging-the-power-of-knowledge-graphs-enhancing-large-language-models-with-structured-knowledge/.
+
+## Microsoft Copilot: Generating a Knowledge Graph
+
+When asking a large language model (LLM) to generate a knowledge graph, it's important to provide a clear and structured prompt. Here’s a general syntax you can use:
+
+1. **Define the Entities and Relationships**: Clearly specify the entities and the types of relationships you want to extract.
+2. **Use a Structured Format**: JSON is a common format for representing knowledge graphs due to its readability and ease of parsing.
+
+Here’s an example prompt:
+
+```json
+{
+  "task": "Generate a knowledge graph",
+  "text": "Albert Einstein was a theoretical physicist who developed the theory of relativity. He was born in Ulm, Germany, in 1879.",
+  "entities": ["Person", "Location", "Date"],
+  "relationships": ["born_in", "developed"],
+  "output_format": {
+    "entities": [
+      {"type": "Person", "name": "Albert Einstein"},
+      {"type": "Location", "name": "Ulm, Germany"},
+      {"type": "Date", "name": "1879"}
+    ],
+    "relationships": [
+      {"type": "born_in", "source": "Albert Einstein", "target": "Ulm, Germany"},
+      {"type": "developed", "source": "Albert Einstein", "target": "theory of relativity"}
+    ]
+  }
+}
+```
+
+This prompt specifies the task, provides the text to analyze, lists the types of entities and relationships to extract, and defines the desired output format¹².
+
+Would you like more details on any specific part of this process?
+
+Source: Conversation with Copilot, 10/8/2024
+(1) Constructing a knowledge graph from text with Large Language Models (LLMs). https://dianaow.com/posts/knowledge-graph-llm.
+(2) Unifying LLMs & Knowledge Graphs for GenAI: Use Cases & Best Practices. https://neo4j.com/blog/unifying-llm-knowledge-graph/.
+(3) LLM Prompt Engineering Techniques for Knowledge Graph Integration. https://www.visual-design.net/post/llm-prompt-engineering-techniques-for-knowledge-graph.
+(4) Generate-on-Graph: Treat LLM as both Agent and KG in Incomplete .... https://arxiv.org/abs/2404.14741.
+(5) Generate-on-Graph: Treat LLM as both Agent and KG for - arXiv.org. https://arxiv.org/html/2404.14741v3.
