@@ -11,6 +11,8 @@ This graph-based structure allows for a flexible and interconnected way to model
 
 [Knowledge Graphs Tutorial](https://medium.com/@nimritakoul01/knowledge-graphs-f51adb293401)
 
+[Why Neo4j for Knowledge Graphs](https://neo4j.com/use-cases/knowledge-graph/)
+
 [Using a Knowledge Graph to Implement a RAG Application](https://www.datacamp.com/tutorial/knowledge-graph-rag)
 
 [How to Build Knowledge Graphs With LLMs (python tutorial)](https://www.youtube.com/watch?v=tcHIDCGu6Yw)
