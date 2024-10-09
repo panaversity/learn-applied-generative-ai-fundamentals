@@ -6,6 +6,10 @@
 
 [Watch: The Future of Knowledge Graphs in a World of LLMs](https://www.youtube.com/watch?v=ww99npDh4cg)
 
+[Course: Neo4j & LLM Fundamentals](https://graphacademy.neo4j.com/courses/llm-fundamentals/)
+
+[Course: Neo4j for GenAI](https://neo4j.com/generativeai/)
+
 ## Open AI o1: The Relationship between Knowldege Graphs, LLMs, and AI Agents
 
 The relationship between knowledge graphs, large language models (LLMs), and AI agents is integral to the development of **advanced artificial intelligence systems**. These three components can be interconnected to enhance understanding, reasoning, and autonomous decision-making in AI applications. Here's how they relate:

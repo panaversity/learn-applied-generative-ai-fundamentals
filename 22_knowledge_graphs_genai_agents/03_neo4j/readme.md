@@ -2,6 +2,8 @@
 
 https://neo4j.com/docs/getting-started/
 
+[Course: Neo4j Fundamentals](https://graphacademy.neo4j.com/courses/neo4j-fundamentals/)
+
 [Neo4j GQL conformance](https://neo4j.com/docs/cypher-manual/current/appendix/gql-conformance/)
 
 Attend Conference on November 7, 2024
