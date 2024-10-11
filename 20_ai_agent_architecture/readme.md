@@ -1,8 +1,7 @@
-# AI Agents Architecture
+# **Designing an Advanced AI Architecture with Vertical LLM Agents, Knowledge Graphs, and Orchestration Frameworks**
 
 [Why Vertical LLM Agents Are The New $1 Billion SaaS Opportunities](https://www.youtube.com/watch?v=eBVi_sLaYsc)
 
-# **Designing an Advanced AI Architecture with Vertical LLM Agents, Knowledge Graphs, and Orchestration Frameworks**
 
 ---
 
