@@ -1,4 +1,10 @@
-# Understanding GQL
+# GQL
+
+## Tools and Editor
+
+https://ldbcouncil.org/pages/opengql-announce/
+
+## Understanding GQL
 
 
 [Busy Developer's Guide to Graph Query Language (GQL)](https://www.newardassociates.com/presentations/BusyDevsGuide/GQL.html)
