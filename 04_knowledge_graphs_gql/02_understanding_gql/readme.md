@@ -8,6 +8,8 @@ Additional Reference:
 
 https://www.youtube.com/watch?v=RoebDzkbn9c
 
+https://www.linkedin.com/pulse/graph-patterns-project-subgraphs-alastair-green-weeme/
+
 ## Understanding GQL
 
 
