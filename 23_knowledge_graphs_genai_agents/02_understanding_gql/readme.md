@@ -1,5 +1,8 @@
 # Understanding GQL
 
+
+[Busy Developer's Guide to Graph Query Language (GQL)](https://www.newardassociates.com/presentations/BusyDevsGuide/GQL.html)
+
 [Understanding GQL: A Comprehensive Overview of the Standard Graph Query Language](https://www.nebula-graph.io/posts/An_Comprehensive_Overview_of_the_Standard_Graph_Query_Language)
 
 [Technical Preview of NebulaGraph Enterprise Latest Version](https://medium.com/@nebulagraph/technical-preview-of-nebulagraph-enterprise-v5-0-e9db0d520832)
@@ -24,3 +27,7 @@ https://blog.csdn.net/qq_46197858/article/details/137958311
 GQL Standard:
 
 https://www.gqlstandards.org/
+
+All Languages:
+
+https://www.puppygraph.com/blog/graph-query-language
