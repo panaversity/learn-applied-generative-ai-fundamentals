@@ -4,6 +4,10 @@
 
 https://ldbcouncil.org/pages/opengql-announce/
 
+Additional Reference:
+
+https://www.youtube.com/watch?v=RoebDzkbn9c
+
 ## Understanding GQL
 
 
