@@ -10,6 +10,8 @@ https://www.youtube.com/watch?v=RoebDzkbn9c
 
 https://www.linkedin.com/pulse/graph-patterns-project-subgraphs-alastair-green-weeme/
 
+https://www.nebula-graph.io/posts/technical_preview_nebulagraph_enterprise_v5.0
+
 ## Understanding GQL
 
 
