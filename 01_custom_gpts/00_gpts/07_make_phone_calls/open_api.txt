@@ -1,0 +1,21 @@
+{ "openapi": "3.1.0", "info": { "title": "Bland AI Phone Call", "description": "Makes an AI phone
+call", "version": "v1.0.0" }, "servers": [ { "url": "https://api.bland.ai" } ], "paths": { "/call": { "post": {
+"description": "Initiates a phone call.", "operationId": "InitiateCall", "parameters": [],
+"requestBody": { "content": { "application/json": { "schema": { "$ref":
+"#/components/schemas/InitiateCallRequestSchema" } } }, "required": true }, "deprecated": false,
+"security": [ { "apiKey": [] } ] } }, "/logs": { "post": { "description": "Gets the transcript of a phone
+call.", "operationId": "GetTranscript", "parameters": [], "requestBody": { "content": {
+"application/json": { "schema": { "$ref": "#/components/schemas/GetTranscriptRequestSchema"
+} } }, "required": true }, "deprecated": false, "security": [ { "apiKey": [] } ] } } }, "components": {
+"schemas": { "InitiateCallRequestSchema": { "properties": { "phone_number": { "type": "string",
+"title": "phone_number", "description": "Phone number to call" }, "task": { "type": "string", "title":
+"task", "description": "Purpose / objective of the phone call" }, "request_data": { "type": "object",
+"description": "When you want your AI to know a specific fact - like the caller's name or other
+relevant context.", "additionalProperties": { "type": "object" } }, "voice_id": { "type": "number",
+"title": "voice_id", "description": "The integer voice id of the voice that you want to use" },
+"reduce_latency": { "type": "boolean", "title": "reduce_latency", "description": "Whether or not to
+reduce latency, should always be true" } }, "type": "object", "required": [ "phone_number", "task",
+"voice_id", "reduce_latency" ], "title": "InitiateCallRequestSchema" },
+"GetTranscriptRequestSchema": { "properties": { "call_id": { "type": "string", "title": "call_id",
+"description": "ID of phone call" } }, "type": "object", "required": [ "call_id" ], "title":
+"GetTranscriptRequestSchema" } } }, "securitySchemes": { "apiKey": { "type": "apiKey" } } }

@@ -1,0 +1,40 @@
+version: '3.8'
+name: helloworld
+services:
+  api:
+    build:
+      context: ./todo
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./todo:/code  # Sync local development directory with the container
+    depends_on:
+        - postgres_db
+    ports:
+      - "8000:8000"  # Expose container port 8000 to host port 8000
+  postgres_db:
+    image: postgres:latest  # Use the official PostgreSQL image
+    restart: always
+    container_name: PostgresCont
+    environment:
+        - POSTGRES_USER=ziakhan
+        - POSTGRES_PASSWORD=my_password
+        - POSTGRES_DB=mydatabase
+    ports:
+        - '5433:5432'
+    volumes:
+        - postgres_db:/var/lib/postgresql/data
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    environment:
+      TUNNEL_URL: http://api:8000
+    command: "tunnel --no-autoupdate"
+    volumes:
+      - ./cloudflared:/etc/cloudflared
+    depends_on:
+      - api
+volumes:
+  postgres_db:
+    driver: local
+networks:
+  default:
+    driver: bridge

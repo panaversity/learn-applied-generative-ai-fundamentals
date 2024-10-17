@@ -1,6 +1,8 @@
 # Prompt Engineering
 
-[Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
+[Prompt Engineering Guide Website](https://www.promptingguide.ai/)
+
+[Prompt Engineering Guide Repository](https://github.com/dair-ai/Prompt-Engineering-Guide)
 
 
 ## Additional Reading
