@@ -1,4 +1,18 @@
-# Understanding GQL
+# GQL
+
+## Tools and Editor
+
+https://ldbcouncil.org/pages/opengql-announce/
+
+Additional Reference:
+
+https://www.youtube.com/watch?v=RoebDzkbn9c
+
+https://www.linkedin.com/pulse/graph-patterns-project-subgraphs-alastair-green-weeme/
+
+https://www.nebula-graph.io/posts/technical_preview_nebulagraph_enterprise_v5.0
+
+## Understanding GQL
 
 
 [Busy Developer's Guide to Graph Query Language (GQL)](https://www.newardassociates.com/presentations/BusyDevsGuide/GQL.html)
