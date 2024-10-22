@@ -1,10 +1,20 @@
-# EduSmart Schema 
+# GQL DDL, DML, and DQL
 
-Learning Resource:
+Learning Resources:
 
-https://www.milowski.com/journal/entry/2024-06-26T12:00:00-07:00/
+[GQL: Schemas and Types](https://www.milowski.com/journal/entry/2024-06-26T12:00:00-07:00/)
 
-https://jtc1info.org/wp-content/uploads/2024/04/2024-Article-39075-Database-Language-GQL.docx.pdf
+[Short Explaination of GQL](https://jtc1info.org/wp-content/uploads/2024/04/2024-Article-39075-Database-Language-GQL.docx.pdf)
+
+[ISO GQL Pattern Language](https://tugraph-db.readthedocs.io/en/latest/8.query/2.gql.html)
+
+[GQL Editor](https://opengql.github.io/editor/)
+
+[Neo4j AuraDB](https://neo4j.com/cloud/)
+
+[Build applications with Neo4j and Python](https://neo4j.com/docs/python-manual/current/)
+
+[Python Project Management](https://github.com/astral-sh/uv)
 
 In GQL (Graph Query Language), the ISO standard syntax 
 for comments is the same as in many other programming 

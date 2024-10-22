@@ -69,3 +69,6 @@ Some key features of Canvas include:
 
 [Prompt Engineering Guide Website](https://github.com/dair-ai/Prompt-Engineering-Guide)
 
+## NotebookLM
+
+[NotebookLM](https://notebooklm.google/)
