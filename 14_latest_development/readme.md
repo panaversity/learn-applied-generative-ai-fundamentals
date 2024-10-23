@@ -33,6 +33,26 @@ Artifacts are designed to help bring your ideas and projects to life more effici
 
 [15 Powerful Claude Artifacts Use Cases You Should Try](https://www.youtube.com/watch?v=UA2W4xTqQzs)
 
+## OpenAI Canvas
+
+**OpenAI Canvas** is a new feature integrated into ChatGPT designed to enhance the writing and coding experience. It provides a dynamic interface that allows users to interact with AI in real-time, offering immediate feedback and suggestions. This makes it easier to collaborate on complex projects, as you can make specific changes to your content or code directly within the Canvas window.
+
+Some key features of Canvas include:
+- **Real-time interaction**: Work alongside ChatGPT without switching between different applications.
+- **Interactive feedback**: Get suggestions and corrections on the spot.
+- **Collaborative workspaces**: Ideal for team projects with multiple users.
+- **Tracked changes**: See what changes have been made, with added information highlighted in green and deleted sections in red.
+
+[What is the canvas feature in ChatGPT and how do I use it?](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it)
+
+[Introducing canvas](https://openai.com/index/introducing-canvas/)
+
+## ChatGPT Canvas vs. Claude Artifacts: An In-Depth Comparison
+
+https://allthings.how/chatgpt-canvas-vs-claude-artifacts-how-do-they-differ/
+
+https://appscribed.com/chatgpt-canvas-vs-claude-artifacts-comparison/
+
 ## OpenAI o1 Model
 
 The ChatGPT o1 series is OpenAI's latest AI model family. It includes two key models: o1-preview, which is the flagship model designed for deep reasoning and problem-solving, and o1-mini, a smaller, more efficient model optimized for code generation. These models mark a significant advancement in AI technology.
@@ -49,19 +69,7 @@ Similar to how a human may think for a long time before responding to a difficul
 
 [The OpenAI Team Finally Reveals The BEST OpenAI o1 Use Cases](https://www.youtube.com/watch?v=9cPcwmOZwOo)
 
-## OpenAI Canvas
 
-**OpenAI Canvas** is a new feature integrated into ChatGPT designed to enhance the writing and coding experience. It provides a dynamic interface that allows users to interact with AI in real-time, offering immediate feedback and suggestions. This makes it easier to collaborate on complex projects, as you can make specific changes to your content or code directly within the Canvas window.
-
-Some key features of Canvas include:
-- **Real-time interaction**: Work alongside ChatGPT without switching between different applications.
-- **Interactive feedback**: Get suggestions and corrections on the spot.
-- **Collaborative workspaces**: Ideal for team projects with multiple users.
-- **Tracked changes**: See what changes have been made, with added information highlighted in green and deleted sections in red.
-
-[What is the canvas feature in ChatGPT and how do I use it?](https://help.openai.com/en/articles/9930697-what-is-the-canvas-feature-in-chatgpt-and-how-do-i-use-it)
-
-[Introducing canvas](https://openai.com/index/introducing-canvas/)
 
 ## Prompt Engineering Guide
 
