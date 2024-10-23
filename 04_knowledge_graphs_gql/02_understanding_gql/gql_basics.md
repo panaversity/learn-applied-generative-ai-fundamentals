@@ -4,6 +4,8 @@ Learning Resources:
 
 [GQL: Schemas and Types](https://www.milowski.com/journal/entry/2024-06-26T12:00:00-07:00/)
 
+[Draw Graph Diagrams](https://arrows.app/)
+
 [Short Explaination of GQL](https://jtc1info.org/wp-content/uploads/2024/04/2024-Article-39075-Database-Language-GQL.docx.pdf)
 
 [ISO GQL Pattern Language](https://tugraph-db.readthedocs.io/en/latest/8.query/2.gql.html)
