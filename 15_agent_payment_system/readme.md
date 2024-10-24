@@ -1,4 +1,4 @@
-# Agent Economy
+# Agent Payment Systems: AI Meets Blockchain
 
 [Skyfire](https://www.skyfire.xyz/)
 
