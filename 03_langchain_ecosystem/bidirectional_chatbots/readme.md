@@ -41,6 +41,19 @@ In fields like education, chatbots are being designed to engage users in meaning
 - Context preservation
 - Natural conversation flow
 
+## Message Types
+
+- User messages (right-aligned, blue background)
+- AI messages (left-aligned, white background)
+- Timestamps and sender icons for each message
+
+## Bidirectional Q&A Flow
+
+- AI can proactively ask questions (randomly simulated in this demo)
+- Tracks when waiting for user response to AI questions
+- Different input placeholder text based on context
+
+
 ## Question Management
 
 - AI actively asks questions to gather context
