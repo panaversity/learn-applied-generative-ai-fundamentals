@@ -1,5 +1,11 @@
 # Latest Development in AI
 
+[Marc Andreessen says AI model makers are in ‘a race to the bottom’](https://techcrunch.com/2024/10/22/marc-andreessen-says-ai-model-makers-are-in-a-race-to-the-bottom-and-its-not-god-for-business/)
+
+This means most of the money is going to be made in Vertical LLM Agents
+
+[Elon Musk wants to purchase 300,000 Blackwell B200 Nvidia AI GPUs — Hardware upgrades to improve X's Grok AI bot](https://www.tomshardware.com/pc-components/gpus/elon-musk-wants-to-purchase-300000-blackwell-b200-nvidia-ai-gpus-hardware-upgrades-to-improve-xs-grok-ai-bot)
+
 ## Claude.ai Artifacts
 
 **Claude.ai Artifacts** are a feature within the Claude.ai platform that enhances collaboration and creativity. Here’s a quick overview:
@@ -53,7 +59,12 @@ https://allthings.how/chatgpt-canvas-vs-claude-artifacts-how-do-they-differ/
 
 https://appscribed.com/chatgpt-canvas-vs-claude-artifacts-comparison/
 
-## OpenAI o1 Model
+## OpenAI o1 Model: “System Two Thinking”
+
+[OpenAI scientist Noam Brown stuns TED AI Conference: ’20 seconds of thinking worth 100,000x more data’](https://venturebeat.com/ai/openai-noam-brown-stuns-ted-ai-conference-20-seconds-of-thinking-worth-100000x-more-data/)
+
+Brown, a central figure in OpenAI’s research endeavors, was quick to emphasize that while scaling models has been a critical factor in AI’s progress, it’s time for a paradigm shift. He pointed to the need for AI to move beyond sheer data processing and into what he referred to as “system two thinking”—a slower, more deliberate form of reasoning that mirrors how humans approach complex problems.
+
 
 The ChatGPT o1 series is OpenAI's latest AI model family. It includes two key models: o1-preview, which is the flagship model designed for deep reasoning and problem-solving, and o1-mini, a smaller, more efficient model optimized for code generation. These models mark a significant advancement in AI technology.
 
