@@ -79,5 +79,3 @@ Here are some key patterns and considerations for implementing hybrid UIs:
 - GitHub Copilot Chat: Conversation + code editor
 - Notion AI: Integrates AI chat with document editing
 
-
-
