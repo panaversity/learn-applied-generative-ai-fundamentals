@@ -32,9 +32,6 @@ A user might ask, "What's your favorite movie?" and AI could respond with a ques
 
 In fields like education, chatbots are being designed to engage users in meaningful dialogues, which includes asking probing questions to facilitate learning.
 
-## Agentic AI Frameworks 
-
-These frameworks, like LangGraph, AutoGen, and AI agent orchestration systems, are moving toward interactions where the AI is capable of proactively asking clarifying or follow-up questions. This enhances collaboration with the user by ensuring that the AI has sufficient context to provide better responses. LangChain’s tools for building AI agents are already designed to iterate based on user input, making it feasible for bidirectional Q&A exchanges.
 
 ## Best Practices Bidirectional Q&A Chatbots
 
