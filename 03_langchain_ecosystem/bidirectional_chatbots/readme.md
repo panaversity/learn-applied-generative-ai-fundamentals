@@ -6,7 +6,9 @@ Our interfaces will allow both parties to ask questions, such as for educational
 
 We will be designing chatbots that can simulate human-like conversations by employing techniques like intent recognition, context maintenance, and dialogue management. These chatbots are designed to provide a more engaging and interactive user experience.
 
-Agentic AI Frameworks: These frameworks, like LangGraph, AutoGen, and AI agent orchestration systems, are moving toward interactions where the AI is capable of proactively asking clarifying or follow-up questions. This enhances collaboration with the user by ensuring that the AI has sufficient context to provide better responses. LangChain’s tools for building AI agents are already designed to iterate based on user input, making it feasible for bidirectional Q&A exchanges.
+**Agentic AI Frameworks** 
+
+These frameworks, like LangGraph, AutoGen, and AI agent orchestration systems, are moving toward interactions where the AI is capable of proactively asking clarifying or follow-up questions. This enhances collaboration with the user by ensuring that the AI has sufficient context to provide better responses. LangChain’s tools for building AI agents are already designed to iterate based on user input, making it feasible for bidirectional Q&A exchanges.
 
 [Exploring Bi-Directional Context for Improved Chatbot Response Generation Using Deep Reinforcement Learning](https://www.mdpi.com/2076-3417/13/8/5041)
 
