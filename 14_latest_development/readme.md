@@ -1,12 +1,33 @@
 # Latest Development in AI
 
-[Marc Andreessen says AI model makers are in ‘a race to the bottom’](https://techcrunch.com/2024/10/22/marc-andreessen-says-ai-model-makers-are-in-a-race-to-the-bottom-and-its-not-god-for-business/)
+[2025 is the year of AI Agents. It's time to start Freelancing](https://www.youtube.com/watch?v=vak5tygpG_A)
 
-This means most of the money is going to be made in Vertical LLM Agents
+[Agentic AI Named Top Tech Trend for 2025. Agentic AI will be the top tech trend for 2025, according to research firm Gartner. The term describes autonomous machine "agents" that move beyond query-and-response generative chatbots to do enterprise-related tasks without human guidance](https://www.gartner.com/en/articles/top-technology-trends-2025)
+
+[Marc Andreessen says AI model makers are in ‘a race to the bottom’](https://techcrunch.com/2024/10/22/marc-andreessen-says-ai-model-makers-are-in-a-race-to-the-bottom-and-its-not-god-for-business/)
 
 [Elon Musk wants to purchase 300,000 Blackwell B200 Nvidia AI GPUs — Hardware upgrades to improve X's Grok AI bot](https://www.tomshardware.com/pc-components/gpus/elon-musk-wants-to-purchase-300000-blackwell-b200-nvidia-ai-gpus-hardware-upgrades-to-improve-xs-grok-ai-bot)
 
-[Agentic AI Named Top Tech Trend for 2025. Agentic AI will be the top tech trend for 2025, according to research firm Gartner. The term describes autonomous machine "agents" that move beyond query-and-response generative chatbots to do enterprise-related tasks without human guidance](https://www.gartner.com/en/articles/top-technology-trends-2025)
+This means most of the money is going to be made in Vertical LLM Agents
+
+
+## OpenAI o1 Model: “System Two Thinking”
+
+[OpenAI scientist Noam Brown stuns TED AI Conference: ’20 seconds of thinking worth 100,000x more data’](https://venturebeat.com/ai/openai-noam-brown-stuns-ted-ai-conference-20-seconds-of-thinking-worth-100000x-more-data/)
+
+Brown, a central figure in OpenAI’s research endeavors, was quick to emphasize that while scaling models has been a critical factor in AI’s progress, it’s time for a paradigm shift. He pointed to the need for AI to move beyond sheer data processing and into what he referred to as “system two thinking”—a slower, more deliberate form of reasoning that mirrors how humans approach complex problems.
+
+The ChatGPT o1 series is OpenAI's latest AI model family. It includes two key models: o1-preview, which is the flagship model designed for deep reasoning and problem-solving, and o1-mini, a smaller, more efficient model optimized for code generation. These models mark a significant advancement in AI technology.
+
+**Chain of Thought**
+
+Similar to how a human may think for a long time before responding to a difficult question, o1 uses a chain of thought when attempting to solve a problem. Through reinforcement learning, o1 learns to hone its chain of thought and refine the strategies it uses. It learns to recognize and correct its mistakes. It learns to break down tricky steps into simpler ones. It learns to try a different approach when the current one isn’t working. This process dramatically improves the model’s ability to reason. To illustrate this leap forward, we showcase the chain of thought from o1-preview on several difficult problems below.
+
+[The OpenAI Team Finally Reveals The BEST OpenAI o1 Use Cases](https://www.youtube.com/watch?v=9cPcwmOZwOo)
+
+
+## Hybrid UI for AI
+
 
 ## Claude.ai Artifacts
 
@@ -60,20 +81,6 @@ Some key features of Canvas include:
 https://allthings.how/chatgpt-canvas-vs-claude-artifacts-how-do-they-differ/
 
 https://appscribed.com/chatgpt-canvas-vs-claude-artifacts-comparison/
-
-## OpenAI o1 Model: “System Two Thinking”
-
-[OpenAI scientist Noam Brown stuns TED AI Conference: ’20 seconds of thinking worth 100,000x more data’](https://venturebeat.com/ai/openai-noam-brown-stuns-ted-ai-conference-20-seconds-of-thinking-worth-100000x-more-data/)
-
-Brown, a central figure in OpenAI’s research endeavors, was quick to emphasize that while scaling models has been a critical factor in AI’s progress, it’s time for a paradigm shift. He pointed to the need for AI to move beyond sheer data processing and into what he referred to as “system two thinking”—a slower, more deliberate form of reasoning that mirrors how humans approach complex problems.
-
-The ChatGPT o1 series is OpenAI's latest AI model family. It includes two key models: o1-preview, which is the flagship model designed for deep reasoning and problem-solving, and o1-mini, a smaller, more efficient model optimized for code generation. These models mark a significant advancement in AI technology.
-
-**Chain of Thought**
-
-Similar to how a human may think for a long time before responding to a difficult question, o1 uses a chain of thought when attempting to solve a problem. Through reinforcement learning, o1 learns to hone its chain of thought and refine the strategies it uses. It learns to recognize and correct its mistakes. It learns to break down tricky steps into simpler ones. It learns to try a different approach when the current one isn’t working. This process dramatically improves the model’s ability to reason. To illustrate this leap forward, we showcase the chain of thought from o1-preview on several difficult problems below.
-
-[The OpenAI Team Finally Reveals The BEST OpenAI o1 Use Cases](https://www.youtube.com/watch?v=9cPcwmOZwOo)
 
 
 
