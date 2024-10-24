@@ -32,9 +32,9 @@ This hybrid approach is transforming how we interact with AI, making it more eng
 
 ## Developing Hybrid UI For Your AI Agent
 
-[Next.js](https://nextjs.org/docs)
+**[Open Canvas by LangChain](https://github.com/langchain-ai/open-canvas)**
 
-[Open Canvas](https://github.com/langchain-ai/open-canvas)
+[Next.js Documentation](https://nextjs.org/docs)
 
 [Watch: Open Canvas Introduction](https://www.youtube.com/watch?v=TaL7Vfz85vk)
 
