@@ -65,18 +65,11 @@ https://appscribed.com/chatgpt-canvas-vs-claude-artifacts-comparison/
 
 Brown, a central figure in OpenAI’s research endeavors, was quick to emphasize that while scaling models has been a critical factor in AI’s progress, it’s time for a paradigm shift. He pointed to the need for AI to move beyond sheer data processing and into what he referred to as “system two thinking”—a slower, more deliberate form of reasoning that mirrors how humans approach complex problems.
 
-
 The ChatGPT o1 series is OpenAI's latest AI model family. It includes two key models: o1-preview, which is the flagship model designed for deep reasoning and problem-solving, and o1-mini, a smaller, more efficient model optimized for code generation. These models mark a significant advancement in AI technology.
 
 **Chain of Thought**
 
 Similar to how a human may think for a long time before responding to a difficult question, o1 uses a chain of thought when attempting to solve a problem. Through reinforcement learning, o1 learns to hone its chain of thought and refine the strategies it uses. It learns to recognize and correct its mistakes. It learns to break down tricky steps into simpler ones. It learns to try a different approach when the current one isn’t working. This process dramatically improves the model’s ability to reason. To illustrate this leap forward, we showcase the chain of thought from o1-preview on several difficult problems below.
-
-[OpenAI o1 explained: Everything you need to know](https://www.techtarget.com/whatis/feature/OpenAI-o1-explained-Everything-you-need-to-know)
-
-[o1 Hub](https://openai.com/o1/)
-
-[Learning to Reason with LLMs](https://openai.com/index/learning-to-reason-with-llms/)
 
 [The OpenAI Team Finally Reveals The BEST OpenAI o1 Use Cases](https://www.youtube.com/watch?v=9cPcwmOZwOo)
 
