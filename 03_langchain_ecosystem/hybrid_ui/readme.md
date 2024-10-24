@@ -52,3 +52,30 @@ Additional References:
 
 [Open Artifacts](https://github.com/13point5/open-artifacts)
 
+
+Here are some key patterns and considerations for implementing hybrid UIs:
+
+1. Modal Context Switching:
+- Toggle between conversation and graphical modes seamlessly
+- Maintain context between modes (like the side panel)
+- Keep the chat visible while using graphical tools
+
+2. State Management:
+- Track both conversation history and graphical state
+- Handle transitions between different interaction modes
+- Preserve user progress across mode switches
+
+3. UI Integration Patterns:
+- Inline previews of graphical content in chat
+- Floating/docked panels for tools
+- Contextual toolbars that appear when needed
+- Drag-and-drop between modes
+
+4. Other Real-World Examples:
+- Figma's commenting system: Combines chat with design tools
+- Miro's collaboration features: Chat + whiteboard
+- GitHub Copilot Chat: Conversation + code editor
+- Notion AI: Integrates AI chat with document editing
+
+
+
