@@ -2,6 +2,8 @@
 
 [Claude.ai Artifacts](https://support.anthropic.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them) and [OpenAI Canvas](https://openai.com/index/introducing-canvas/) exemplify a hybrid UI approach, merging conversational and graphical user interfaces to enhance user interaction. We will using this Hybrid UI approach to build our AI Agent frontends. 
 
+[Simple Canvas/artifact Example](https://claude.site/artifacts/7b323d27-63f9-4d55-8160-b70a3b3cd89f)
+
 **Claude.ai Artifacts** combines chat-based interactions with interactive, visual elements.
 
 Example: A user might ask Claude to create a vocabulary quiz. The conversation flows naturally, but the output is an interactive quiz, blending text-based and visual interactions seamlessly.
