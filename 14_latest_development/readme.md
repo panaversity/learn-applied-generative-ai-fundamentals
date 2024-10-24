@@ -6,6 +6,8 @@ This means most of the money is going to be made in Vertical LLM Agents
 
 [Elon Musk wants to purchase 300,000 Blackwell B200 Nvidia AI GPUs — Hardware upgrades to improve X's Grok AI bot](https://www.tomshardware.com/pc-components/gpus/elon-musk-wants-to-purchase-300000-blackwell-b200-nvidia-ai-gpus-hardware-upgrades-to-improve-xs-grok-ai-bot)
 
+[Agentic AI Named Top Tech Trend for 2025. Agentic AI will be the top tech trend for 2025, according to research firm Gartner. The term describes autonomous machine "agents" that move beyond query-and-response generative chatbots to do enterprise-related tasks without human guidance](https://www.gartner.com/en/articles/top-technology-trends-2025)
+
 ## Claude.ai Artifacts
 
 **Claude.ai Artifacts** are a feature within the Claude.ai platform that enhances collaboration and creativity. Here’s a quick overview:
