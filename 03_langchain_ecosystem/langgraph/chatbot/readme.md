@@ -30,7 +30,7 @@ First understand [Open Canvas](https://github.com/langchain-ai/open-canvas) code
 
 ## Project 1: Sending Messages from LangGraph to Client
 
-![Project 1 Image](/static/m1-chatbot.png)
+![Project 1 Image](static/m1-chatbot.png)
 
 **Function/Class:**
 To send a message from LangGraph (AI workflow) back to the client, we can use a function or class designed for message transmission. This function will handle the communication between the AI workflow and the client interface, ensuring that messages are properly formatted and delivered.
@@ -43,7 +43,7 @@ To send a message from LangGraph (AI workflow) back to the client, we can use a 
 
 ## Project 2: AI Asks Question from Human - Linear Interrupt
 
-![Project 2 Image](/static/m2-chatbot.png)
+![Project 2 Image](static/m2-chatbot.png)
 
 **Description:**
 In this module, the AI asks a question from the human user in a linear fashion. This means that the AI will wait for the user's response before proceeding to the next step. This linear interrupt ensures a clear and straightforward interaction flow.
@@ -54,7 +54,7 @@ In this module, the AI asks a question from the human user in a linear fashion. 
 
 ## Project 3: AI Asks Questions from Human in a Loop - Dynamic Interrupt
 
-![Project 3 Image](/static/m3-chatbot.png)
+![Project 3 Image](static/m3-chatbot.png)
 
 **Description:**
 This module allows the AI to ask questions from the human user in a loop, creating a dynamic interrupt. The AI can continue to ask questions based on the user's responses, allowing for a more interactive and adaptive conversation.
@@ -66,7 +66,7 @@ This module allows the AI to ask questions from the human user in a loop, creati
 
 ## Project 4: Both User & AI Can Ask Questions
 
-![Project 4 Image](/static/m4-chatbot.png)
+![Project 4 Image](static/m4-chatbot.png)
 
 **Description:**
 In this module, both the user and the AI can ask questions. The interaction flow is as follows:
@@ -83,7 +83,7 @@ In this module, both the user and the AI can ask questions. The interaction flow
 
 ## Project 5: Open Canvas & TextBox
 
-![Project 5 Image](/static/m5-chatbot-canvas.png)
+![Project 5 Image](static/m5-chatbot-canvas.png)
 
 **Description:**
 This module addresses how to differentiate between user inputs from the Canvas and the TextBox. The proposal is to have fields in the state, such as `Source` (canvas/textbox) in STATE, which are updated accordingly. This allows the system to:
