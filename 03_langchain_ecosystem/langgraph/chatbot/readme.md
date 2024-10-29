@@ -20,10 +20,13 @@ We will learn to build chatbots from the following tutorial:
 
 [Part 7: Time Travel](https://langchain-ai.github.io/langgraph/tutorials/introduction/#part-7-time-travel)
 
-[Part 8: Learn Open Canvas](https://github.com/langchain-ai/open-canvas)
+Part 8: Agentic AI Memories:
 
-[Part 9: Using LangGraph and Graphiti](https://help.getzep.com/graphiti/graphiti/lang-graph-agent)
+- A. [Understand Memory Concepts](https://langchain-ai.github.io/langgraph/concepts/memory/)
+- B. [Try LangGraph Memory Agent Template](https://github.com/langchain-ai/memory-agent)
+- C. [Part 9: Using LangGraph and Graphiti](https://help.getzep.com/graphiti/graphiti/lang-graph-agent)
 
+[Part 9: Learn Open Canvas](https://github.com/langchain-ai/open-canvas)
 
 ## Chatbot Projects
 
@@ -107,3 +110,7 @@ This module addresses how to differentiate between user inputs from the Canvas a
 - What state management strategies can be used to handle different input sources?- Update the state accordingly based on the input source.
 - If the input is from the TextBox, send it to the generation process.
 - If the input is from the Canvas, use the Canvas artifact to extract, save, and continue the interaction.
+
+## Module 6: Build a Customer Support Agentic AI System for your Vertical
+
+Understand this [Customer Support Multi Agent System](https://langchain-ai.github.io/langgraph/tutorials/customer-support/customer-support/) and Modify for your Vertical.
