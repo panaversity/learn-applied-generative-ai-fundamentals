@@ -29,7 +29,7 @@ We will learn to build chatbots from the following tutorial:
 
 ## Module 0: Build a Basic Chatbot Client UI using Open Canvas
 
- Build a [Open Canvas]((https://github.com/langchain-ai/open-canvas)) based basic web chatbot and integrate it with what you have learned in the above tutorials.
+ Build a [Open Canvas](https://github.com/langchain-ai/open-canvas) based basic web chatbot and integrate it with what you have learned in the above tutorials.
 
 ## Module 1: Sending Messages from LangGraph to Client
 
