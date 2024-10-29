@@ -22,9 +22,9 @@ We will learn to build chatbots from the following tutorial:
 
 Part 8: Agentic AI Memories:
 
-- A. [Understand Memory Concepts](https://langchain-ai.github.io/langgraph/concepts/memory/)
-- B. [Try LangGraph Memory Agent Template](https://github.com/langchain-ai/memory-agent)
-- C. [Part 9: Using LangGraph and Graphiti](https://help.getzep.com/graphiti/graphiti/lang-graph-agent)
+- A [Understand Memory Concepts](https://langchain-ai.github.io/langgraph/concepts/memory/)
+- B [Try LangGraph Memory Agent Template](https://github.com/langchain-ai/memory-agent)
+- C [Using LangGraph and Graphiti](https://help.getzep.com/graphiti/graphiti/lang-graph-agent)
 
 [Part 9: Learn Open Canvas](https://github.com/langchain-ai/open-canvas)
 
