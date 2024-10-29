@@ -20,11 +20,13 @@ We will learn to build chatbots from the following tutorial:
 
 [Part 7: Time Travel](https://langchain-ai.github.io/langgraph/tutorials/introduction/#part-7-time-travel)
 
+[Part 8: Using LangGraph and Graphiti](https://help.getzep.com/graphiti/graphiti/lang-graph-agent)
+
 ## Chatbot Projects
 
 ## Project 0: Build a Basic Chatbot Client UI using Open Canvas
 
-First understand [Open Canvas](https://github.com/langchain-ai/open-canvas) code in detail and then build a build a basic chatbot which you have learned in the seven tutorials.
+First understand [Open Canvas](https://github.com/langchain-ai/open-canvas) code in detail and then build a build a basic chatbot which you have learned in the tutorials.
 
 ## Project 1: Sending Messages from LangGraph to Client
 
