@@ -1,4 +1,4 @@
-# Payment Systems for AI Agents: AI Meets Blockchain
+# Payment Systems for AI Agentshttps://github.com/panaversity/learn-applied-generative-ai-fundamentals/blob/main/15_agent_payment_system/readme.md: AI Meets Blockchain
 
 [Skyfire](https://www.skyfire.xyz/)
 
