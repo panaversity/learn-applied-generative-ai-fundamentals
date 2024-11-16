@@ -1,4 +1,12 @@
-# Payment Systems for AI Agentshttps://github.com/panaversity/learn-applied-generative-ai-fundamentals/blob/main/15_agent_payment_system/readme.md: AI Meets Blockchain
+# Payment Systems for AI Agents
+
+## Stipe
+
+Stripe just released an LLM Agent toolkit with AI SDK integration
+
+https://stripe.dev/blog/adding-payments-to-your-agentic-workflows
+
+## Skyfire
 
 [Skyfire](https://www.skyfire.xyz/)
 
