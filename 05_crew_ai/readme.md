@@ -14,6 +14,8 @@
 
 [CrewAI Flows: AI Feedback Loop](https://www.youtube.com/watch?v=HXP3u_D_xSY)
 
+[What is the exact use of using flow from crew ai and building own flow](https://community.crewai.com/t/what-is-the-exact-use-of-using-flow-from-crew-ai-and-building-own-flow/1103)
+
 The introduction of Flows in CrewAI marks a significant enhancement, providing a structured, event-driven framework for building and managing AI workflows. This addition offers several key benefits:
 	•	Simplified Workflow Creation: Flows enable developers to easily chain together multiple Crews and tasks, facilitating the construction of complex AI workflows. ￼
 	•	Efficient State Management: With both unstructured and structured state management options, Flows allow for seamless sharing and updating of state between different tasks within a workflow. ￼
