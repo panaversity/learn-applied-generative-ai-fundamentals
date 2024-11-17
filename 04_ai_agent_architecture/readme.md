@@ -1,5 +1,9 @@
 # **Designing an Advanced AI Architecture with Vertical LLM Agents, Knowledge Graphs, and Orchestration Frameworks**
 
+[Introduction to LLM Agents](https://developer.nvidia.com/blog/introduction-to-llm-agents/)
+
+[Which AI Agent framework should i use?](https://medium.com/@aydinKerem/which-ai-agent-framework-i-should-use-crewai-langgraph-majestic-one-and-pure-code-e16a6e4d9252)
+
 [Why Vertical LLM Agents Are The New $1 Billion SaaS Opportunities](https://www.youtube.com/watch?v=eBVi_sLaYsc)
 
 
