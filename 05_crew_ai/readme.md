@@ -1,18 +1,18 @@
 # Crew AI
 
-[Official Documentation](https://docs.crewai.com/introduction)
-
-[Step-by-Step Langtrace + CrewAI Tutorial - Production Agent Stack](https://www.youtube.com/watch?v=dh9zv8EUwBA)
-
-## Flows
-
-[Flows Documentation](https://docs.crewai.com/concepts/flows)
-
 [Amazing NEW CrewAI Feature for AI Agents...FLOW Explained](https://www.youtube.com/watch?v=EEzpeJqvb_w)
 
 [CrewAI Flows Crash Course](https://www.youtube.com/watch?v=8PtGcNE01yo)
 
 [CrewAI Flows: AI Feedback Loop](https://www.youtube.com/watch?v=HXP3u_D_xSY)
+
+[Official Documentation](https://docs.crewai.com/introduction)
+
+[Step-by-Step Langtrace + CrewAI Tutorial - Production Agent Stack](https://www.youtube.com/watch?v=dh9zv8EUwBA)
+
+[Flows Documentation](https://docs.crewai.com/concepts/flows)
+
+[Amazing NEW CrewAI Feature for AI Agents...FLOW Explained](https://www.youtube.com/watch?v=EEzpeJqvb_w)
 
 [What is the exact use of using flow from crew ai and building own flow](https://community.crewai.com/t/what-is-the-exact-use-of-using-flow-from-crew-ai-and-building-own-flow/1103)
 
