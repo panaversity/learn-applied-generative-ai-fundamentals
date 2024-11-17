@@ -10,6 +10,8 @@
 
 [The RIGHT WAY To Build AI Agents with CrewAI](https://www.youtube.com/watch?v=iJjSjmZnNlI)
 
+[Step-by-Step Langtrace + CrewAI Tutorial - Production Agent Stack](https://www.youtube.com/watch?v=dh9zv8EUwBA)
+
 [Trip Planing Agents](https://www.youtube.com/playlist?list=PLYQsp-tXX9w7O_Dwt712-h5ou1a4FAq9-)
 
 ## AI Agents Pricing
