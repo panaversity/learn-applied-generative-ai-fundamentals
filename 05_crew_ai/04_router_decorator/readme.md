@@ -2,7 +2,7 @@
 
 In CrewAI Flows, the `@router()` decorator enables dynamic routing within your workflow based on the output of preceding tasks. This functionality allows you to direct the flow of execution to different methods or tasks, facilitating complex decision-making processes.
 
-**Implementing the `@router()` Decorator**
+**Implementing the `@router()` [Decorator](https://docs.crewai.com/concepts/flows#router)**
 
 To utilize the `@router()` decorator, follow these steps:
 

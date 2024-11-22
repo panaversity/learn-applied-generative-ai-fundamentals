@@ -1,6 +1,8 @@
+# Decorators
+
 CrewAI's introduction of Flows provides a structured, event-driven framework for building and managing AI workflows. Within this framework, decorators play a crucial role in defining the behavior and execution flow of tasks. The primary decorators used in CrewAI Flows are `@start()` and `@listen()`.
 
-**1. `@start()` Decorator**
+**1. [`@start()` Decorator](https://docs.crewai.com/concepts/flows#start)**
 
 The `@start()` decorator designates a method as the entry point of a Flow. When a Flow is initiated, all methods marked with `@start()` are executed in parallel. This allows for multiple starting tasks within a single Flow.
 
@@ -18,7 +20,7 @@ class ExampleFlow(Flow):
 
 In this example, `initial_task` is marked as the starting point of the Flow. When the Flow is initiated, `initial_task` will execute.
 
-**2. `@listen()` Decorator**
+**2. [`@listen()` Decorator](https://docs.crewai.com/concepts/flows#listen)**
 
 The `@listen()` decorator specifies that a method should execute in response to the completion of another task within the Flow. It effectively sets up an event-driven relationship between tasks, where the decorated method listens for the output of a specified task and executes upon its completion.
 

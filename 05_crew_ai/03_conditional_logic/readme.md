@@ -4,7 +4,7 @@ In CrewAI Flows, implementing conditional logic is facilitated
 through the `or_` and `and_` functions, which allow methods to 
 respond to multiple events or combinations of events.
 
-**Using `or_` for Conditional Execution**
+**[Using `or_` for Conditional Execution](https://docs.crewai.com/concepts/flows#conditional-logic-or)**
 
 The `or_` function enables a method to execute when any one of the
 specified events occurs. This is useful when you want a task to
@@ -37,7 +37,7 @@ In this example, `task_c` will execute when either `task_a` or
 `task_b` completes, receiving the result from whichever task
 finishes first.
 
-**Using `and_` for Conditional Execution**
+**[Using `and_` for Conditional Execution](https://docs.crewai.com/concepts/flows#conditional-logic-and)**
 
 The `and_` function allows a method to execute only after 
 all specified events have occurred. This is beneficial when a

@@ -1,3 +1,5 @@
+# [Flows Final Output](https://docs.crewai.com/concepts/flows#flow-output)
+
 In CrewAI Flows, obtaining the final output of a workflow is straightforward and involves the following steps:
 
 1. **Define the Flow Class**: Create a class that inherits from `Flow`, encapsulating the workflow's logic.
@@ -57,4 +59,4 @@ print("Final Output:", final_output)
 
 By structuring your Flow with these decorators and understanding the execution sequence, you can effectively manage and retrieve the final output of your workflows in CrewAI.
 
-For more detailed information, refer to the [CrewAI Flows documentation](https://docs.crewai.com/concepts/flows). 
+For more detailed information, refer to the [CrewAI Flows output documentation](https://docs.crewai.com/concepts/flows#flow-output). 
