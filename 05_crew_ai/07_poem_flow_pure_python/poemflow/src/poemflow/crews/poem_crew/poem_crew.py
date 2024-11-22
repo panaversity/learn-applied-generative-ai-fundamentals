@@ -1,31 +1,31 @@
-from crewai import Agent, Crew, Process, Task
-from crewai.project import CrewBase, agent, crew, task
+from crewai import Agent, Task, Crew, Process
 
-@CrewBase
-class PoemCrew():
-	"""Poem Crew"""
+def createPoemCrew()->Crew:
 
-	agents_config = 'config/agents.yaml'
-	tasks_config = 'config/tasks.yaml'
+    #https://docs.crewai.com/concepts/agents#creating-an-agent
+    poem_writer: Agent = Agent(
+    role='CrewAI Poem Writer',
+    goal="""Generate a funny, light heartedpoem about how CrewAI is
+            awesome with a sentence count of {sentence_count}""",
+    backstory="""You're a creative poet with a talent for capturing the essence of any topic
+        in a beautiful and engaging way. Known for your ability to craft poems that
+        resonate with readers, you bring a unique perspective and artistic flair to
+        every piece you write."""
+    )
 
-	@agent
-	def poem_writer(self) -> Agent:
-		return Agent(
-			config=self.agents_config['poem_writer'],
-		)
+    #https://docs.crewai.com/concepts/tasks#creating-a-task
+    write_poem: Task = Task(
+        description="""Write a poem about how CrewAI is awesome.
+        Ensure the poem is engaging and adheres to the specified 
+        sentence count of {sentence_count}.""",
+        agent=poem_writer,
+        expected_output='A beautifully crafted poem about CrewAI, with exactly {sentence_count} sentences.',
+    )
 
-	@task
-	def write_poem(self) -> Task:
-		return Task(
-			config=self.tasks_config['write_poem'],
-		)
-
-	@crew
-	def crew(self) -> Crew:
-		"""Creates the Research Crew"""
-		return Crew(
-			agents=self.agents, # Automatically created by the @agent decorator
-			tasks=self.tasks, # Automatically created by the @task decorator
-			process=Process.sequential,
-			verbose=True,
-		)
+    #https://docs.crewai.com/concepts/crews
+    return Crew(
+                agents=[poem_writer], # Automatically created by the @agent decorator
+                tasks=[write_poem], # Automatically created by the @task decorator
+                process=Process.sequential,
+                verbose=True,
+            )

@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 from crewai.flow.flow import Flow, listen, start
 
-from .crews.poem_crew.poem_crew import PoemCrew
+from .crews.poem_crew.poem_crew import createPoemCrew
 
 
 class PoemState(BaseModel):
@@ -24,8 +24,7 @@ class PoemFlow(Flow[PoemState]):
     def generate_poem(self):
         print("Generating poem")
         result = (
-            PoemCrew()
-            .crew()
+            createPoemCrew()
             .kickoff(inputs={"sentence_count": self.state.sentence_count})
         )
 
