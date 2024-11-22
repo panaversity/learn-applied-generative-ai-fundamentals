@@ -34,14 +34,14 @@ pip freeze | grep crewai
 [Read Flows Documentation](https://docs.crewai.com/concepts/flows)
 
 ```bash
-crewai create flow helloworld
+crewai create flow poemflow
 ```
 Note the name should be only text
 
 Next, navigate to your project directory and install the dependencies:
 
 ```bash
-cd helloworld
+cd poemflow
 ```
 
 Lock the dependencies and install them by using the CLI command:
@@ -56,10 +56,10 @@ crewai install
 
 ## Customizing
 
-- Modify `src/helloworld/config/agents.yaml` to define your agents
-- Modify `src/helloworld/config/tasks.yaml` to define your tasks
-- Modify `src/helloworld/crew.py` to add your own logic, tools and specific args
-- Modify `src/helloworld/main.py` to add custom inputs for your agents and tasks. Also define the flow.
+- Modify `src/poemflow/config/agents.yaml` to define your agents
+- Modify `src/poemflow/config/tasks.yaml` to define your tasks
+- Modify `src/poemflow/crew.py` to add your own logic, tools and specific args
+- Modify `src/poemflow/main.py` to add custom inputs for your agents and tasks. Also define the flow.
 
 ## Running the Project
 
@@ -68,14 +68,19 @@ To kickstart your crew of AI agents and begin task execution, run this from the 
 ```bash
 crewai flow kickoff
 ```
+or 
 
-This command initializes the helloworld Crew, assembling the agents and assigning them tasks as defined in your configuration.
+```bash
+uv run kickoff
+```
+
+This command initializes the poemflow Crew, assembling the agents and assigning them tasks as defined in your configuration.
 
 This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
 
 ## Understanding Your Crew
 
-The helloworld Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+The poemflow Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
 
 ## Support
 
