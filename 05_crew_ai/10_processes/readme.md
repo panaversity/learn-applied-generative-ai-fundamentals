@@ -1,4 +1,4 @@
-# Processes 
+# [Processes](https://docs.crewai.com/concepts/processes)
 
 In CrewAI, processes define the strategy by which tasks are managed and executed by agents. Currently, CrewAI supports two primary process types: Sequential and Hierarchical. A third process type, Consensual, is planned for future development. This tutorial provides an in-depth look at each process type, including their characteristics, implementation, and use cases.
 
