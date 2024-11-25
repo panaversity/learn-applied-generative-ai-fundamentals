@@ -1,6 +1,6 @@
 # Tools
 
-In CrewAI, **tools** are specialized functions or capabilities that agents utilize to perform various tasks, such as web searching, data analysis, content generation, and agent collaboration. These tools enhance agents' abilities by integrating specific functionalities into their workflows. 
+In CrewAI, [tools](https://docs.crewai.com/concepts/tools) are specialized functions or capabilities that agents utilize to perform various tasks, such as web searching, data analysis, content generation, and agent collaboration. These tools enhance agents' abilities by integrating specific functionalities into their workflows. 
 
 **Creating Custom Tools in CrewAI**
 
@@ -174,7 +174,7 @@ By following these steps, you can create a custom calculator tool and integrate 
 
 ## Pre-Built Tools
 
-CrewAI offers a comprehensive suite of pre-built tools designed to enhance the capabilities of AI agents across various tasks. Below is a categorized list of these tools:
+CrewAI offers a comprehensive suite of [pre-built tools](https://docs.crewai.com/concepts/tools#available-crewai-tools) designed to enhance the capabilities of AI agents across various tasks. Below is a categorized list of these tools:
 
 **File Operations:**
 - **FileWriterTool:** Enables agents to write data to files.
@@ -229,4 +229,4 @@ CrewAI offers a comprehensive suite of pre-built tools designed to enhance the c
 
 These tools are designed to be easily integrated into your AI workflows, enhancing the functionality and efficiency of your CrewAI agents. For detailed documentation and
 
-CrewAI provides a variety of prebuilt tools that empower AI agents to handle tasks such as file operations, web scraping, database interactions, API integration, document search, and media analysis. For a detailed and official list, checking CrewAI's documentation or resources directly would be ideal. Let me know if you’d like help with integrating or experimenting with these tools!
+CrewAI provides a variety of prebuilt tools that empower AI agents to handle tasks such as file operations, web scraping, database interactions, API integration, document search, and media analysis. For a detailed and official list, checking CrewAI's documentation or resources directly would be ideal. 
