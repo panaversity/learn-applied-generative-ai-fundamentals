@@ -1,8 +1,11 @@
-# Prompt Engineering
+# Prompt Engineering for AI Agents
+
+[What is prompt engineering and why it matters for AI Agents](https://medium.com/@alvaro_72265/what-is-prompt-engineering-and-why-it-matters-for-ai-agents-0c1537d64b14)
 
 [Prompt Engineering Guide Website](https://www.promptingguide.ai/)
 
 [Prompt Engineering Guide Repository](https://github.com/dair-ai/Prompt-Engineering-Guide)
+
 
 
 ## Additional Reading
