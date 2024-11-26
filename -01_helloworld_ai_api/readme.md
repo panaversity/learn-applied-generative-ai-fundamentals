@@ -2,11 +2,18 @@
 
 ## OpenAI ChatGPT API
 
+[Get API Key](https://platform.openai.com/docs/quickstart/create-and-export-an-api-key)
+
+[Colab Notebook](https://colab.research.google.com/github/tonykipkemboi/GPT-4o-mini-demo/blob/main/gpt_4o_mini_demo.ipynb)
+
+This file gpt_4o_mini_demo.ipynb is also included in this directory, you may open it in the colab directly from git.
+
 [OpenAI developer platform](https://platform.openai.com/docs/overview)
 
 [Making Requests](https://platform.openai.com/docs/api-reference/making-requests)
 
 [Pricing](https://openai.com/api/pricing/)
+
 
 ## Google API Free for Developers
 
