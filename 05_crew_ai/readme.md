@@ -48,14 +48,6 @@ If you’re learning or planning projects with CrewAI, it’s wise to start focu
 
 [What is the exact use of using flow from crew ai and building own flow](https://community.crewai.com/t/what-is-the-exact-use-of-using-flow-from-crew-ai-and-building-own-flow/1103)
 
-Advanced References:
-
-[CrewAI Flows Crash Course](https://www.youtube.com/watch?v=8PtGcNE01yo)
-
-[CrewAI Flows: AI Feedback Loop](https://www.youtube.com/watch?v=HXP3u_D_xSY)
-
-
-[Step-by-Step Langtrace + CrewAI Tutorial - Production Agent Stack](https://www.youtube.com/watch?v=dh9zv8EUwBA)
 
 
 
