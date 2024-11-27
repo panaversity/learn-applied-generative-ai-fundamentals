@@ -1,4 +1,4 @@
-# Statement Managements in Flows
+# State Managements in Flows
 
 In CrewAI Flows, effective state management is crucial for building robust AI workflows. Flows support two primary approaches to state management: unstructured and structured. Both methods allow you to initialize or update the flow's state by passing inputs to the `kickoff` function.
 
