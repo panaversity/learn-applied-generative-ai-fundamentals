@@ -90,3 +90,4 @@ When selecting an observability tool for CrewAI, both **AgentOps** and **Langtra
 - **Language Model Tracing:** If your focus is specifically on tracing and understanding language model interactions, **Langtrace** offers specialized capabilities.
 
 In summary, for a more extensive observability framework that integrates seamlessly with CrewAI and provides a wide range of monitoring features, **AgentOps** is the preferable option. However, if your needs are centered around detailed tracing of language model operations, **Langtrace** may be more suitable. 
+However, Langfuse's transparent pricing structure and feature-rich plans may offer a more economical solution for projects needing extensive LLM engineering tools. 
