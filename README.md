@@ -4,11 +4,11 @@ This repo is part of the [Panaversity Certified Agentic and Robotic AI Engineer]
 
 ### AI-201: Fundamentals of Agentic AI
 
-Covers Chapters from -01 to 08
+Covers Chapters from -01 to 11
 
 ### AI-202: Advanced Agentic AI Engineering
 
-Covers Chapters 09 and onwards
+Covers Chapters 12 and onwards
 
 ## Additional Certification Program Material
 
