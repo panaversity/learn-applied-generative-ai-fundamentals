@@ -10,6 +10,8 @@ Covers Chapters from -01 to 11
 
 Covers Chapters 12 and onwards
 
+![Agentic AI Top Trend](toptrend.webp)
+
 ## Additional Certification Program Material
 
 [Program Podcast](https://youtu.be/ViRWA4wLI8k)
