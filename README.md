@@ -6,7 +6,7 @@ This repo is part of the [Panaversity Certified Agentic and Robotic AI Engineer]
 
 Covers Chapters from -01 to 11
 
-[AI-101 Video Playlist](https://www.youtube.com/playlist?list=PL0vKVrkG4hWpDokw004ujFI6U_58WChPl)
+**[AI-101 Video Playlist](https://www.youtube.com/playlist?list=PL0vKVrkG4hWpDokw004ujFI6U_58WChPl)**
 
 Note: These videos are for additional learning, and do not cover all the material taught in the onsite classes.
 
@@ -16,7 +16,7 @@ Covers Chapters 12 and onwards
 
 ![Agentic AI Top Trend](toptrend.webp)
 
-[AI-202 Video Playlist](https://www.youtube.com/playlist?list=PL0vKVrkG4hWoHDg46N85-9NDhmOaPWEwA)
+**[AI-202 Video Playlist](https://www.youtube.com/playlist?list=PL0vKVrkG4hWoHDg46N85-9NDhmOaPWEwA)**
 
 Note: These videos are for additional learning, and do not cover all the material taught in the onsite classes.
 
