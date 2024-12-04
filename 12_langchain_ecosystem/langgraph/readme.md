@@ -1,5 +1,7 @@
 # AI Agents and LangGraph
 
+[Watch Our Recorded Videos for LangGraph Development](https://www.youtube.com/playlist?list=PL0vKVrkG4hWoHDg46N85-9NDhmOaPWEwA)
+
 [Report: What Are AI Agents?](https://www.oreilly.com/library/view/what-are-ai/9781098159726/)
 
 [Watch: What is AI Agent? | Simple Explanation of an AI Agent](https://www.youtube.com/watch?v=2-JV8UxegWE)Thi
