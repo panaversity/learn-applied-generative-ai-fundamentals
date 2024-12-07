@@ -1,6 +1,6 @@
-# Define AI Agents
+# Define AI Agents (Software, Robots, and [Humanoids](https://en.wikipedia.org/wiki/Humanoid))
 
-In the context of artificial intelligence, *AI agents* are software entities (or, in some specialized cases, embodied systems like robots) designed to perceive their environment, reason about what they observe, and execute actions to achieve specific goals. They typically operate autonomously, continually processing incoming information, updating their internal models of the world, and selecting behaviors in a goal-directed manner.
+In the context of artificial intelligence, *AI agents* are software entities (or, in some specialized cases, embodied systems like robots and Humanoids) designed to perceive their environment, reason about what they observe, and execute actions to achieve specific goals. They typically operate autonomously, continually processing incoming information, updating their internal models of the world, and selecting behaviors in a goal-directed manner.
 
 Key characteristics of AI agents often include:
 
