@@ -23,72 +23,12 @@ In essence, an AI agent can be thought of as an intelligent “problem-solver”
 
 ** Example of a Autonomous Agent Working on the Behalf of a User**
 
-```  
-   ┌────────────────────────────────┐
-   │              User               │
-   │                                │
-   │ "Filter my emails by importance│
-   │  and notify me of the top 5    │
-   │  most important emails."       │
-   └───────────────┬────────────────┘
-                   │
-                   v
-         ┌─────────────────────────┐
-         │       LLM (ChatGPT)      │
-         │  Analyzes the request    │
-         │  and determines actions. │
-         └───────────┬─────────────┘
-                     │
-                     v
-       ┌────────────────────────────────┐
-       │       External Email Service    │
-       │    (via function/API call)      │
-       └─────────────────┬──────────────┘
-                          │
-        LLM identifies external email
-        service parameters and decides
-        to connect autonomously.
-                          │
-                          v
-               ┌─────────────────┐
-               │  Decision Step   │
-               │ (Autonomous LLM) │
-               └───────┬─────────┘
-                       │
-                       v
-       ┌────────────────────────────────┐
-       │  LLM retrieves emails from the  │
-       │  user’s email account through   │
-       │  the connected API.             │
-       └───────────────────┬────────────┘
-                           │
-                           v
-        ┌─────────────────────────────────┐
-        │  LLM processes and sorts emails  │
-        │  by “importance” using defined   │
-        │  criteria (e.g. sender priority, │
-        │  keywords, or ML-based ranking). │
-        └──────────────────┬──────────────┘
-                           │
-                           v
-     ┌─────────────────────────────────────┐
-     │ LLM selects the top 5 most important │
-     │ emails and formulates a concise      │
-     │ summary notification for the user.   │
-     └───────────────────┬─────────────────┘
-                          │
-                          v
-                ┌────────────────────┐
-                │  User is notified   │
-                │ of top 5 important  │
-                │     emails.         │
-                └────────────────────┘
-```
+![ai_agent](ai_agent.jpg)
 
 **Detailed Explanation:**
 
 1. **User Initiation:**  
-   The process starts when the user issues a request: *“Filter my emails by importance and notify me of the top 5 most important emails.”* This is a command the user wants the system to carry out without requiring them to manually check their mailbox.
+   The process starts when the user issues a request: *“Filter my emails by importance and notify me of the top 3 most important emails.”* This is a command the user wants the system to carry out without requiring them to manually check their mailbox.
 
 2. **LLM Interpretation:**  
    The Large Language Model (e.g., ChatGPT) receives the user’s request. It understands that the user wants their emails to be prioritized, filtered, and the most critical messages surfaced. The LLM’s role here is both to comprehend the request and plan the necessary steps to fulfill it.
@@ -120,7 +60,7 @@ In essence, an AI agent can be thought of as an intelligent “problem-solver”
    This is then presented to the user in a friendly, easily digestible format.
 
 8. **User Notification:**  
-   Finally, the user receives the LLM’s notification containing their top 5 important emails. The user has effectively delegated the decision-making and triage process entirely to the AI agent, which acted autonomously to handle the user’s request, connect to services, apply logic, and deliver a result.
+   Finally, the user receives the LLM’s notification containing their top 3 important emails. The user has effectively delegated the decision-making and triage process entirely to the AI agent, which acted autonomously to handle the user’s request, connect to services, apply logic, and deliver a result.
 
 ---
 
