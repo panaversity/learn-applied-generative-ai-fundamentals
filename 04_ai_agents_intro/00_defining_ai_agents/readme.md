@@ -66,7 +66,7 @@ In essence, an AI agent can be thought of as an intelligent “problem-solver”
 
 In summary, this scenario depicts an autonomous agent operating inside or via an LLM that not only understands a user’s instruction but also independently executes a multi-step process—connecting to external APIs, making decisions, filtering, and reporting results—without needing continuous user intervention.
 
-## Are Humanoid machines, Autonomous Cars, and Robots also AI Agents
+## Are Humanoid machines, Autonomous Cars, and Robots also AI Agents?
 
 Whether humanoid machines, autonomous cars, and robots are considered AI agents depends on how they are defined and the capabilities they possess.
 
