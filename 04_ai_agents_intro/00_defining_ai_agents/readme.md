@@ -21,7 +21,7 @@ Key characteristics of AI agents often include:
 In essence, an AI agent can be thought of as an intelligent “problem-solver” that interacts with its environment to make beneficial changes or gather necessary information. Such agents are fundamental building blocks in fields like robotics, virtual assistants, autonomous vehicles, recommendation systems, and complex simulation environments.
 
 
-** Example of a Autonomous Agent Working on the Behalf of a User**
+**Example of a Autonomous Agent Working on the Behalf of a User**
 
 ![ai_agent](ai_agent.jpg)
 
