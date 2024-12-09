@@ -2,7 +2,7 @@
 
 This is a comprehensive tutorial on multi-agent systems as applied to modern AI agent architectures. This tutorial will explore the concepts behind multi-agent approaches, break down the architecture, and illustrate how multiple specialized agents can collaborate to solve complex problems. We’ll also provide practical examples and strategies for orchestrating these agents effectively.
 
-## Understand Multi-Agent System using a Diagram
+## Understand Multi-Agent Systems using a Example/Diagram
 
 ![multi agents](multi.png)
 
