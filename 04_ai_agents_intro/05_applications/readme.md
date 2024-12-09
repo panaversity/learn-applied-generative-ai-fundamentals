@@ -1,8 +1,11 @@
 # Agentic AI Applications and Impact
 
-[Agentic AI in Banking: Applications and Impact](https://www.linkedin.com/pulse/agentic-ai-banking-applications-impact-jerome-george-h0hcc/?trackingId=DDN4pt4PSKqLFwG496dxyA%3D%3D)
+[Dynamic Agentic Teacher's Aides - The future of supervised K12 instruction](https://www.linkedin.com/pulse/dynamic-agenic-teachers-aides-future-supervised-k12-lawton-smith-2fwaf/)
 
 [The Rise of Agentic AI and its Benefits for Healthcare Organisations](https://www.linkedin.com/pulse/rise-agentic-ai-its-benefits-healthcare-xn7jf/?trackingId=YA2p2hnTR4mnSPkhGagprA%3D%3D)
+
+[Agentic AI in Banking: Applications and Impact](https://www.linkedin.com/pulse/agentic-ai-banking-applications-impact-jerome-george-h0hcc/?trackingId=DDN4pt4PSKqLFwG496dxyA%3D%3D)
+
 
 Agentic AI refers to autonomous systems capable of understanding goals, making independent decisions, and executing tasks with minimal human intervention. Unlike traditional AI, which operates within predefined parameters, agentic AI can adapt to changing environments and pursue complex objectives. This capability is transforming various sectors by enhancing efficiency, personalizing experiences, and enabling proactive decision-making.
 
