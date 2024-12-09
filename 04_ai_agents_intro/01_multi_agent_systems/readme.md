@@ -10,18 +10,31 @@ This diagram represents a multi-agent architecture designed to automate and stre
 
 Key Components and Their Roles
 	1.	User:
+
 	•	The starting point of the entire process. The user provides a prompt or a feature request, for example: “Add a user login function to the web application.”
+
 	•	The user does not need to interact with each agent directly. Instead, they communicate with the system as a whole, expecting a final working solution.
+
 	2.	Controller Agent:
+
 	•	At the center of the diagram, this agent acts as a manager or supervisor of the coding process. It’s connected to a Python execution environment, which means it can run code on behalf of the user.
+
 	•	The user provides a request (prompt) to the controller agent. The controller agent then uses that input to guide the coding and testing workflow.
+
 	•	The controller agent integrates code from the Coder Worker Agent and test instructions/results from the Tester Worker Agent. It repeatedly runs the code, checks test results, and orchestrates improvements until the code works as intended.
+
 	3.	Coder Worker Agent (LLM):
+
 	•	This specialized agent is responsible for generating or updating the code.
+
 	•	After receiving the user’s feature request (via the controller agent), the controller relays this request to the coder agent. The coder agent leverages a Large Language Model (LLM) to produce Python code snippets that should implement the requested feature.
+
 	•	The coder agent returns the newly generated or modified code back to the controller agent.
+
 	4.	Tester Worker Agent (LLM):
+
 	•	This agent’s main role is to test the code produced by the coder agent. It also uses an LLM, but its purpose is different: it generates and/or runs unit tests to validate whether the code meets the specified requirements and works as intended.
+    
 	•	Upon receiving code from the controller agent, the tester worker agent provides a set of test scenarios or even fully written test cases. These tests are then executed by the controller agent against the code.
 	•	If any test fails, the tester helps in identifying what went wrong, so that the controller can prompt the coder agent to fix the issues.
 	5.	Python Execution Environment:
