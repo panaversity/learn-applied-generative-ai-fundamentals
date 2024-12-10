@@ -2,6 +2,8 @@
 
 [Watch: Moore's Law is Dead — Welcome to Light Speed Computers](https://www.youtube.com/watch?v=wBqfzj6CEzI)
 
+[Photonic startup Lightmatter raises $400 million amid AI datacenter boom, eyes IPO next](https://www.reuters.com/technology/photonic-startup-lightmatter-raises-400-million-amid-ai-datacenter-boom-eyes-ipo-2024-10-16/)
+
 The relentless pursuit of Artificial General Intelligence (AGI) has driven the exploration of innovative computing paradigms. Traditional electronic processors are approaching their physical and performance limits, prompting researchers to turn to **photonic computing**—leveraging light for data processing—as a promising avenue to achieve AGI.
 
 **The Limitations of Electronic Computing**
