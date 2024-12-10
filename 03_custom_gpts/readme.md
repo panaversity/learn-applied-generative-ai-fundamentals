@@ -1,4 +1,4 @@
-# OpenAI's Custom GPTs with Zapier
+# OpenAI's Custom GPTs with Zapier and Google Sheets
 
 Our main objective in this chapter is to learn how to build OpenAI's Custom GPTs with Google Sheets and Zapier.
 
@@ -75,7 +75,5 @@ By following this guide, you can effectively integrate OpenAI's Custom GPT with 
 [Automate Chatgpt with google sheet using zapier actions](https://www.tiktok.com/@prestonrho/video/7436814088212172074)
 
 [Zapier and ChatGPT For Google Sheets: OpenAI For Creating Excel Sheets | Tutorial](https://www.youtube.com/watch?v=a3cRQbQzl_s)
-
-
 
 By following this tutorial, you can effectively create a Custom GPT integrated with Zapier, automating tasks across various applications to enhance productivity. 
