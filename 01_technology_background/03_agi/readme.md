@@ -19,8 +19,7 @@ As of December 2024, AGI remains a theoretical concept, with no AI systems fully
 In summary, while AGI has not yet been achieved, ongoing research and technological advancements continue to push the boundaries of AI capabilities. The path to AGI involves not only technical progress but also careful consideration of ethical, societal, and regulatory factors to ensure that the development of such powerful technologies aligns with human values and well-being.
 
  
-
-# OpenAI's Five Levels of AGI
+## OpenAI's Five Levels of AGI
 
 ![alt OpenAI outlines plan for AGI](five.png "5 steps to reach superintelligence").
 
