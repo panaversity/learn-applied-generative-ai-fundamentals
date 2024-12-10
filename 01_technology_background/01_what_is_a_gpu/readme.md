@@ -1,7 +1,5 @@
 # What is a GPU?
 
-[Watch: GPUs are perfect for Algorithms which are conducive to Parallel Processing](https://www.facebook.com/share/r/CoGRFnMdUZyYNK1h/)
-
 ### CPU (Central Processing Unit)
 
 **Definition:**
@@ -26,6 +24,8 @@
 - Executing applications such as word processors, web browsers, and spreadsheets.
 
 ### GPU (Graphics Processing Unit)
+
+[Watch: GPUs are perfect for Algorithms which are conducive to Parallel Processing](https://www.facebook.com/share/r/CoGRFnMdUZyYNK1h/)
 
 **Definition:**
 - The GPU, or Graphics Processing Unit, is a specialized processor designed to accelerate graphics rendering.
@@ -62,6 +62,28 @@
 
 - **CPU**: Best for general-purpose computing tasks requiring high performance for individual threads and sequential processing.
 - **GPU**: Best for tasks that can be parallelized, such as graphics rendering, scientific simulations, and machine learning training.
+
+## The Role of GPUs in the Rise of Agentic AI
+
+Graphics Processing Units (GPUs) have been instrumental in the advancement of artificial intelligence (AI), particularly in the development of agentic AI systems. Originally designed for rendering graphics, GPUs possess a parallel processing architecture that enables them to handle multiple operations simultaneously, making them well-suited for the computational demands of AI workloads.
+
+**Accelerating AI Training and Inference:**
+
+The parallel processing capabilities of GPUs allow for the efficient training of complex AI models, including deep neural networks. This efficiency significantly reduces the time required to train models, facilitating rapid experimentation and iteration. For instance, in 2009, the Google Brain team utilized Nvidia GPUs to create deep neural networks capable of machine learning, achieving a 100-fold increase in speed for deep learning systems. 
+
+**Enabling Agentic AI Systems:**
+
+Agentic AI refers to systems composed of specialized agents that operate independently, each handling specific tasks. These agents interact with data, systems, and people to complete multistep workflows, enabling more autonomous and dynamic AI applications.  The computational power provided by GPUs is essential for processing the complex operations and large datasets that agentic AI systems require, allowing them to function effectively and efficiently.
+
+**Facilitating Real-Time Processing:**
+
+The high throughput of GPUs enables real-time data processing, which is crucial for agentic AI applications that demand immediate responses, such as autonomous vehicles and real-time language translation services. This capability ensures that AI agents can make timely decisions and actions based on current data inputs.
+
+**Supporting Large-Scale AI Deployments:**
+
+The scalability of GPU infrastructure allows for the deployment of extensive AI models across various platforms, from data centers to edge devices. This scalability is vital for agentic AI systems that need to operate across diverse environments and handle varying workloads.
+
+In summary, GPUs have played a pivotal role in the rise of agentic AI by providing the necessary computational power to train and deploy sophisticated AI models. Their parallel processing capabilities, efficiency in handling complex computations, and scalability have been fundamental in advancing AI technologies and applications. 
 
 
 
