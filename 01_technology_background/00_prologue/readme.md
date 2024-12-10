@@ -25,10 +25,10 @@ Nvidia CEO Jensen Huang has signaled that his company aims to introduce a [new v
 Abstract:
 As the field of Artificial Intelligence (AI) continues to evolve, a new profile of AI developer is emerging: the “agentic” AI developer—one who not only crafts intelligent systems but also imbues them with autonomy, adaptability, and a human-centric ethos. This new breed of developer must possess a blend of technical prowess, multidisciplinary knowledge, ethical awareness, creative problem-solving skills, and forward-looking vision. The essential skills and qualities that define an agentic AI developer, detailing the interplay between algorithmic acuity, domain specialization, interpersonal competencies, ethics and governance, and an unwavering commitment to human well-being. Ultimately, agentic AI developers hold the key to ensuring that intelligent agents become valuable collaborators to humanity, rather than opaque and uncontrollable entities.
 
-1. Introduction
+### Introduction
 Artificial Intelligence is no longer confined to theoretical discussions or limited laboratory experiments. Intelligent agents today influence decisions in finance, healthcare, education, logistics, entertainment, and countless other fields. This rapid adoption has fueled a demand for a new kind of AI professional—an “agentic” AI developer who transcends traditional software engineering boundaries to create systems endowed with agency, autonomy, and a holistic understanding of their operating environment.
 
-An agentic AI developer is not only a skilled coder or machine learning expert. They must also be adept at understanding user needs, navigating complex ethical landscapes, anticipating unintended consequences, and collaborating with diverse stakeholders. As AI moves from reactive tools to proactive, self-directed problem-solvers, these developers must architect systems that are trustworthy, adaptable, and aligned with human values.
+An agentic AI developer is not only a skilled coder or agentic AI expert. They must also be adept at understanding user needs, navigating complex ethical landscapes, anticipating unintended consequences, and collaborating with diverse stakeholders. As AI moves from reactive tools to proactive, self-directed problem-solvers, these developers must architect systems that are trustworthy, adaptable, and aligned with human values.
 
 Our program explores the unique blend of technical, ethical, interpersonal, and forward-thinking qualities that agentic AI developers must possess, highlighting the importance of holistic skill sets in ensuring that the AI revolution serves the greater good.
 
@@ -82,8 +82,16 @@ As new algorithms and architectures emerge, developers must maintain a growth mi
 ### Systems Thinking:
 Rather than focusing on isolated components, agentic developers reason about entire systems. They consider feedback loops, emergent behaviors, and unintended side effects. This holistic view often reveals hidden opportunities and pitfalls.
 
-### Design Thinking:
-Empathizing with end-users, defining the right problems, brainstorming multiple solutions, and prototyping rapidly are staples of design thinking. Agentic developers who embrace these principles consistently produce more human-centric and innovative solutions.
+### Design Thinking, Agile, and Lean Startup Methodologies:
+An **agentic AI developer** should integrate **design thinking**, **agile**, and **lean startup methodologies** to create AI agents that are user-centered, adaptive, and impactful:
+
+1. **Design Thinking**: Focus on empathizing with users to understand their needs, defining problems clearly, ideating innovative solutions, prototyping AI agents, and testing them iteratively. This ensures that the AI agents are intuitive and solve real-world problems effectively.
+
+2. **Agile Methodology**: Develop AI agents in iterative cycles (sprints), delivering incremental improvements based on user feedback. This adaptability allows for quick adjustments to changing requirements or insights, ensuring the agents stay relevant and functional.
+
+3. **Lean Startup**: Emphasize building a minimal viable product (MVP) for AI agents, validating hypotheses with real users, and pivoting based on data-driven learnings. This minimizes wasted resources and accelerates the development of impactful, scalable AI solutions.
+
+By combining these approaches, an agentic AI developer ensures that the AI agents are not only technically robust but also aligned with user needs, business goals, and dynamic market demands.
 
 ### Interpersonal and Communication Skills
 Agentic AI developers seldom work alone. They must be effective collaborators and communicators, bridging the gap between technical complexity and stakeholder understanding:
