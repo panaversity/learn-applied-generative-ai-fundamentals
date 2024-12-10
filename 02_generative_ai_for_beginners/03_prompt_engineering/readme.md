@@ -1,5 +1,9 @@
 # Prompt Engineering
 
+[Watch: Prompt Engineering Fundamentals](https://learn.microsoft.com/en-gb/shows/generative-ai-for-beginners/understanding-prompt-engineering-fundamentals-generative-ai-for-beginners)
+
+[Watch: Creating Advanced Prompts](https://learn.microsoft.com/en-gb/shows/generative-ai-for-beginners/creating-advanced-prompts-generative-ai-for-beginners)
+
 **Prompt engineering** is the process of designing and refining inputs—known as prompts—to guide generative AI models in producing desired outputs. This practice involves crafting specific instructions or questions that effectively communicate the user's intent to the AI system, thereby enhancing the relevance and accuracy of the generated responses. 
 
 In the context of **generative AI**, which includes models capable of creating text, images, or other content, prompt engineering is crucial for several reasons:
