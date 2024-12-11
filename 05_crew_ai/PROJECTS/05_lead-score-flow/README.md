@@ -1,4 +1,4 @@
-# Lead Score Flow
+# Project 5: Lead Score Flow with CrewAI
 
 Welcome to the Lead Score Flow project, powered by [crewAI](https://crewai.com). This example demonstrates how you can leverage Flows from crewAI to automate the process of scoring leads, including data collection, analysis, and scoring. By utilizing Flows, the process becomes much simpler and more efficient.
 

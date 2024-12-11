@@ -1,4 +1,4 @@
-# Meeting Assistant Flow
+# Project 7: Meeting Assistant Flow with CrewAI
 
 Welcome to the Meeting Assistant Flow project, powered by [crewAI](https://crewai.com). This example demonstrates how you can leverage Flows from crewAI to automate the process of managing meetings, including scheduling, note-taking, and follow-up actions. By utilizing Flows, the process becomes much simpler and more efficient.
 

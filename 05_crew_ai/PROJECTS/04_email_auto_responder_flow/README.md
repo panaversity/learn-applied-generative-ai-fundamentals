@@ -1,4 +1,4 @@
-# Email Auto Responder Flow
+# Project 4: Email Auto Responder Flow with CrewAI
 
 Welcome to the Email Auto Responder Flow project, powered by [crewAI](https://crewai.com). This example demonstrates how you can leverage Flows from crewAI to automate the process of checking emails and creating draft responses. By utilizing Flows, the process becomes much simpler and more efficient.
 

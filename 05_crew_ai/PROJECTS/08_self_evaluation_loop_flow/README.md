@@ -1,4 +1,4 @@
-# Self Evaluation Loop Flow
+# Project 8: Self Evaluation Loop Flow with CrewAI
 
 Welcome to the Self Evaluation Loop Flow project, powered by [crewAI](https://crewai.com). This project showcases a powerful pattern in AI workflows: automatic self-evaluation. By leveraging crewAI's multi-agent system, this flow demonstrates how to set up a Crew that evaluates the responses of other Crews, iterating with feedback to improve results.
 
