@@ -8,7 +8,9 @@ https://forms.gle/b5Npy6eg4wKWro6m6
 
 Due Date: December 23, 2024
 
-Checking: Your Instructors will check your project in the first class after December 23, 2024. You will be removed from the class until you sucessfully complete your project. 
+Checking: Your Instructors will check your project in the 
+first class after December 23, 2024. You will be removed from
+the class until you sucessfully complete your project. 
 
 ---
 
