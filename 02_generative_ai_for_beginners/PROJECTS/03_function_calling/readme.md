@@ -6,9 +6,9 @@ Project Submission Form:
 
 https://forms.gle/b5Npy6eg4wKWro6m6
 
-Due Date: January 6, 2025
+Due Date: January 13, 2025
 
-Checking: Your Instructors will check your project in the first class after January 6, 2025. You will be removed from the class until you sucessfully complete your project. 
+Checking: Your Instructors will check your project in the first class after January 13, 2025. You will be removed from the class until you sucessfully complete your project. 
 
 ---
 
