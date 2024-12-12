@@ -14,9 +14,13 @@ the class until you successfully complete your project.
 
 Learning Material:
 
+[Google intros Gemini 2.0 with a focus on AI agents](https://readwrite.com/google-intros-gemini-2-0-with-a-focus-on-ai-agents/)
+
 [LangChain Tutorials](https://python.langchain.com/docs/tutorials/)
 
 [LangChain Google Documentation](https://python.langchain.com/docs/integrations/providers/google/)
+
+[ChatGoogleGenerativeAI](https://python.langchain.com/docs/integrations/chat/google_generative_ai/)
 
 ---
 
