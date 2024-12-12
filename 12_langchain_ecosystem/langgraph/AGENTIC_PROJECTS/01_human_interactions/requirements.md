@@ -7,6 +7,7 @@ Make your chat-agent developed in 00_chat_agent smarter by allowing it to:
 1. Get help from a human assistant when needed.
 2. Pause and ask the user for extra information if something is unclear.
 3. Personalize its answers using long-term memory.
+4. Offloading conversation to Human
 
 **Note:** This project builds on the skills learned in Project 00 and prepares you for advanced Agentic AI features like dynamic workflows and user personalization.
 
@@ -57,6 +58,13 @@ Make your chat-agent developed in 00_chat_agent smarter by allowing it to:
   1. Human assistant interrupts.
   2. Dynamic user clarifications.
   3. Long-term memory for personalization (Optional).
+
+---
+
+## **Submission Form**
+
+Submit your projects here:  
+[**Project Submission Form**](https://forms.gle/yB6X4TzE2dCVThCj8)
 
 ---
 

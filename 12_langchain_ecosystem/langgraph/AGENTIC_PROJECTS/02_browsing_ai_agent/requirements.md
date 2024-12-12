@@ -8,7 +8,7 @@ Saving time we spend daily on Online Search with an AI agent that transforms how
 ---
 
 #### **Why This Project Rocks:**  
-Imagine building the next evolution of search engines! Inspired by **Perplexity Pro Search** and ideas from **Microsoft AI CEO Mustafa Suleyman**, this project helps you create an AI agent that redefines how people interact with information. As Suleyman said, *“This is the next browser, the next search engine!”*  
+Inspired by **Perplexity Pro Search** and ideas from **Microsoft AI CEO Mustafa Suleyman**, this project helps you create an AI agent that redefines how people interact with information. As Suleyman said, *“This is the next browser, the next search engine!”*  
 
 **References:**  
 - [Mustafa Suleyman Interview: The Verge](https://www.theverge.com/24314821/microsoft-ai-ceo-mustafa-suleyman-google-deepmind-openai-inflection-agi-decoder-podcast)  
@@ -61,7 +61,14 @@ Imagine building the next evolution of search engines! Inspired by **Perplexity 
 
 ---
 
-#### **Exciting Example Scenarios:**  
+## **Submission Form**
+
+Submit your projects here:  
+[**Project Submission Form**](https://forms.gle/yB6X4TzE2dCVThCj8)
+
+---
+
+#### **Example Scenarios:**  
 
 1. **Travel Guru:**  
    - User: *"What are the top family vacation spots in Europe, and the best hotels under $200?"*  

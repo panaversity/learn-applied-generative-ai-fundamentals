@@ -26,6 +26,13 @@ Create a chatbot prototype that talks to users, remembers what they say during c
 
 ---
 
+## **Submission Form**
+
+Submit your projects here:  
+[**Project Submission Form**](https://forms.gle/yB6X4TzE2dCVThCj8)
+
+---
+
 #### **User Stories:**
 - **As a student,** I want the chatbot to help me research & plan my study schedule, so I can prepare well for exams.
 - **As a customer,** I want the chatbot to help me file a complaint, so I can get my problem fixed quickly.
