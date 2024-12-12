@@ -47,6 +47,8 @@ This file gpt_4o_mini_demo.ipynb is also included in this directory, you may ope
 
 We will use Google Colab to Call Google API:
 
+[Gemini 2.0 API](https://ai.google.dev/gemini-api/docs/models/gemini-v2)
+
 [Gemini API: Prompting Quickstart Colab](https://colab.research.google.com/github/google-gemini/cookbook/blob/main/quickstarts/Prompting.ipynb)
 
 This file Prompting.ipynb is also included in this directory, you may open it in the colab directly from git.

@@ -1,6 +1,6 @@
 # Project 1: LangChain Hello World Project 
 
-In this Project, we will create a simple LangChain Colab Notebook that uses the **Google Gemini Flash model** to answer user questions. This example below is provided to help you get started assumes you have access to the Gemini API and a basic Python environment. However, you are required to develop and submit your project using Google Colab.
+In this Project, we will create a simple LangChain Colab Notebook that uses the **[Google Gemini Flash 2.0 model](https://ai.google.dev/gemini-api/docs/models/gemini-v2)** to answer user questions. This example below is provided to help you get started assumes you have access to the Gemini API and a basic Python environment. However, you are required to develop and submit your project using Google Colab.
 
 Project Submission Form:
 
@@ -11,6 +11,12 @@ Due Date: December 30, 2024
 Checking: Your Instructors will check your project in the 
 first class after December 30, 2024. You will be removed from
 the class until you successfully complete your project. 
+
+Learning Material:
+
+[LangChain Tutorials](https://python.langchain.com/docs/tutorials/)
+
+[LangChain Google Documentation](https://python.langchain.com/docs/integrations/providers/google/)
 
 ---
 
