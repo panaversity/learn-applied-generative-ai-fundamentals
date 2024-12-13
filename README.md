@@ -39,7 +39,7 @@ Covers Chapters 12 and onwards
 
 Note: These videos are for additional learning, and do not cover all the material taught in the onsite classes.
 
-Projects for AI-202 Students
+### Projects for AI-202 Students
 
 All AI-202 students will complete these projects (links included in form) and submit them in this form:
 https://forms.gle/Zfp2CWSmp9e91Wkk9
@@ -47,16 +47,6 @@ https://forms.gle/Zfp2CWSmp9e91Wkk9
 
 Project Checking: Your Instructors will check your project on the due date in class. You will be removed from
 the class until you successfully complete your project and submit it.
-
-## Additional Certification Program Material
-
-[Program Podcast](https://youtu.be/ViRWA4wLI8k)
-
-[Agentic AI Detailed Intro Presentation](https://bit.ly/4hTqT4G)
-
-[Program Review by ChatGPT](https://chatgpt.com/share/6732a6f1-a3c4-8001-99cb-1b272c3b3881)
-
-Read this article to understand [The AI agents stack](https://www.letta.com/blog/ai-agents-stack)
 
 
 ## Must Read and Watch: Material to Understand the Coming Agentic AI Age
