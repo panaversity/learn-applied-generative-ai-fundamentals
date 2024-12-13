@@ -48,30 +48,3 @@ https://forms.gle/Zfp2CWSmp9e91Wkk9
 Project Checking: Your Instructors will check your project on the due date in class. You will be removed from
 the class until you successfully complete your project and submit it.
 
-
-## Must Read and Watch: Material to Understand the Coming Agentic AI Age
-
-[Agentic AI Explained](https://www.facebook.com/ziakhan/posts/pfbid0ee2csS99taRRps5YVYRFPBYvM6mw1mWpX21zXZz1XdMKAwTdF4Nq4TR97XrFWQktl)
-
-[AI Agents Explained Like You're 5](https://www.youtube.com/watch?v=wazHMMaiDEA)
-
-[The Future Is Agentic](https://www.youtube.com/watch?v=ZYf9V2fSFwU&t=1s)
-
-[Why Vertical LLM Agents Are The New $1 Billion SaaS Opportunities](https://www.youtube.com/watch?v=eBVi_sLaYsc&t=2s)
-
-[Vertical AI Agents Could Be 10X Bigger Than SaaS](https://www.youtube.com/watch?v=ASABxNenD_U)
-
-[OpenAI's Path to AGI | Five Levels of Intelligence](https://www.youtube.com/watch?v=8b26p6dl2hs)
-
-[AI Agents: Are We Ready For Machines That Make Decisions?](https://www.forbes.com/sites/charlestowersclark/2024/10/25/ai-agents-are-we-ready-for-machines-that-make-decisions/)
-
-[Function Calling](https://chatgpt.com/c/6747f6a8-8764-8001-9997-70efb983235d)
-
-[Generative AI’s Act o1](https://www.sequoiacap.com/article/generative-ais-act-o1/)
-
-[Watch AGI could Double GDP](https://www.facebook.com/reel/1660606758033503)
-
-[The INSANE Race for AI Humanoid Robots](https://www.youtube.com/watch?v=90TMZ2fq9Gs&t=3s)
-
-
-
