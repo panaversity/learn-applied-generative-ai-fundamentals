@@ -1,5 +1,7 @@
 # Sora Video Generation
 
+[ArtificialAnalysis/Video-Generation-Arena-Leaderboard](https://huggingface.co/spaces/ArtificialAnalysis/Video-Generation-Arena-Leaderboard)
+
 [OpenAI launches Sora: the future of video creation with artificial intelligence (AI)](https://en.cryptonomist.ch/2024/12/10/openai-launches-sora-the-future-of-video-creation-with-artificial-intelligence-ai/)
 
 [OpenAI Sora First Impression - 40+ Examples | Will This Change Video Forever?](https://www.youtube.com/watch?v=CxrxWoPzE9I)
