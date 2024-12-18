@@ -30,7 +30,7 @@ CrewAI is designed to facilitate the collaboration of role-based AI agents, enab
 
 **3. LangGraph: Graph-Based Workflow Orchestration**
 
-LangGraph adopts a graph architecture to define and orchestrate agentic workflows, treating each task or function as a node within a directed acyclic graph (DAG). This approach provides fine-grained control over the flow and state of applications, making it particularly suitable for complex workflows that require advanced memory features, error recovery, and human-in-the-loop interactions. 
+LangGraph adopts a graph architecture to define and orchestrate agentic workflows, treating each task or function as a node within langgraph in a cyclic workflow. This approach provides fine-grained control over the flow and state of applications, making it particularly suitable for complex workflows that require advanced memory features, error recovery, and human-in-the-loop interactions. 
 
 **Key Features of LangGraph**:
 
