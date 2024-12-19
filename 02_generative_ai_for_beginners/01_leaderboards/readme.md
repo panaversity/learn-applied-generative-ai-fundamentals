@@ -1,5 +1,15 @@
 # LLM Leaderboards
 
+**[Chatbot Arena Leaderboard](https://lmarena.ai/?leaderboard)**
+
+**[Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/)**
+
+**[Berkeley Function-Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html)**
+
+**[Berkeley Function-Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html)**
+
+**[ArtificialAnalysis/Video-Generation-Arena-Leaderboard](https://huggingface.co/spaces/ArtificialAnalysis/Video-Generation-Arena-Leaderboard)**
+
 **LLM leaderboards** are platforms that evaluate and rank Large Language Models (LLMs) based on their performance across various benchmarks and tasks. These leaderboards provide insights into the capabilities of different models, assisting researchers and practitioners in selecting the most suitable models for their specific applications.
 
 
